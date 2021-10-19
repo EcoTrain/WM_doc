@@ -6,34 +6,17 @@ sidebar_label: Intro
 slug: /documentation
 ---
 
-# Documentation Intro
+# Введение
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Это документация предназначена для разработчиков. В ней описаны внутренние механизмы и конструкции кода. Документация написана для дальнейшего сопровождения кода.
 
-## Getting Started
+Система состоит из 2 частей, это **клиент** и **сервер**
 
-Get started by **creating a new site**.
+## Клиент
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**[Исходный код](https://github.com/EcoTrain/newmed_client_rn)** приложения клиента описан в разделе `Client`.
 
-## Generate a new site
+## Сервер
 
-Generate a new Docusaurus site using the **classic template**:
+**[Исходный код](https://github.com/EcoTrain/newmed_server)** приложения клиента описан в разделе `Server`.
 
-```shell
-npm init docusaurus@latest my-website classic
-```
-
-## Start your site
-
-Run the development server:
-
-```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.

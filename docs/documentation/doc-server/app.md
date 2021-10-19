@@ -4,52 +4,33 @@ sidebar_position: 1
 
 # App
 
-Docusaurus can manage multiple versions of your docs.
+Приложение сервера написано на `Node JS` и `Express JS` и выполняет функцию API. Оно общается с БД и эндпоинтами. Это тонкий сервер.
 
-## Create a docs version
+```js title="app.js"
+const express = require('express');
 
-Release a version 1.0 of your project:
+var app = express();
+app.use(express.urlencoded({ limit: '10mb', extended: true }));
+app.use(express.json({limit: '10mb', extended: true}));
+```
+
+## Запуск
+
+Приложение имеет ряд конфигурационных команд.  
+Они описаны в файле package.json в разделе scripts.  
+
+### Релиз
+Запуск в режиме релиза:
 
 ```bash
-npm run docusaurus docs:version 1.0
+npm run start
 ```
+В режиме релиза приложение не реагирует на какие-либо изменения в коде.
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+### Дебаг
+Запуск в режиме дебага:
 
-Your docs now have 2 versions:
-
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
-
-## Add a Version Dropdown
-
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
+```bash
+npm run debug
 ```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+В режиме дебага приложение перезапускается при сохранении изменений в исходном коде.  
