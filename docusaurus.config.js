@@ -38,7 +38,10 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    "remark-snackplayer"
+  ],
+  scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
