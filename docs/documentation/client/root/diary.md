@@ -8,3 +8,7 @@ slug: /views/diary
 
 > Исходный код: `ui/root/diary/diary.js`  
 
+* Конструктор дневников описан [здесь](http://localhost:3001/docs/views/constructors#конструктор-дневников)
+
+!["Дневники"](../../../../static/img/client/views/diary/diary.png)
+

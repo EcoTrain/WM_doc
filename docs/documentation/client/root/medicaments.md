@@ -8,6 +8,12 @@ slug: /views/medicaments
 
 > Исходный код: `ui/root/medicaments/MedicamentList.js`  
 
+
+* Конструктор медикаментов описан [здесь](http://localhost:3001/docs/views/constructors#конструктор-медикаментов)
+
+!["Медикаменты"](../../../../static/img/client/views/med/med.png)
+
+
 ```SnackPlayer name=Example description=Description platform="web"
 import React from 'react';
 import { Text, View } from 'react-native';

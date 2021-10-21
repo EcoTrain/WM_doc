@@ -5,3 +5,5 @@ title: 'Scheme'
 
 # Схема клиентского приложения
 
+
+!["Главное окно"](../../../static/img/client/views/homePage/homePage.png)

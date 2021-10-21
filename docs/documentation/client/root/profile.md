@@ -8,3 +8,4 @@ slug: /views/profile
 
 > Исходный код: `ui/root/profile/profile.js`  
 
+!["Профиль"](../../../../static/img/client/views/profile/profile.png)

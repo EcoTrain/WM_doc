@@ -9,7 +9,7 @@ slug: /views/chat
 
 Включает в себя окна `список друзей`, `окно переписки`
 
-!["Планировщик задач"](../../../../static/img/client/chat/chat.png)
+!["Планировщик задач"](../../../../static/img/client/views/chat/chat.png)
 
 
 ## Список друзей
