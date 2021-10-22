@@ -64,5 +64,3 @@ slug: /views/intro
 > Исходный код:`ui/root/medicaments/MedicamentList.js`
 
 
-
-
