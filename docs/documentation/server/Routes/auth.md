@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: "auth"
+title: "Auth"
 ---
 
 # Авторизация и регистрация
