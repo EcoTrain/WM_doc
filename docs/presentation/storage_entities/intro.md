@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
-id: presentation_intro
-sidebar_label: Описание
-slug: /presentation/concept/intro
+sidebar_label: Введение
+slug: /presentation/storage_entities/intro
 ---
 
 # Введение

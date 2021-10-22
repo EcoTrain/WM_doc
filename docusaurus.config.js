@@ -25,6 +25,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          remarkPlugins: [require('mdx-mermaid')],
         },
         blog: {
           showReadingTime: true,
@@ -38,9 +39,10 @@ const config = {
       }),
     ],
   ],
-  // plugins: [
-  //   "remark-snackplayer"
-  // ],
+  plugins: [
+    // "remark-snackplayer",
+    "remark-mermaid"
+  ],
   scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
