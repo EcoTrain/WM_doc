@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: 'description'
+title: 'Views'
 ---
 
 # Views
@@ -37,7 +37,5 @@ title: 'description'
 Окно чатов состоит из двух частей: список пользователей и список сообщений.  
 
 Исходный код окна чатов находится в `ui/root/chats/chats.js`
-
-
 
 
