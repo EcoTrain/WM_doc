@@ -38,9 +38,9 @@ const config = {
       }),
     ],
   ],
-  plugins: [
-    "remark-snackplayer"
-  ],
+  // plugins: [
+  //   "remark-snackplayer"
+  // ],
   scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -57,6 +57,12 @@ const config = {
             docId: 'documentation/documentation_intro',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            type: 'doc',
+            docId: 'presentation/presentation_intro',
+            position: 'left',
+            label: 'Presentation',
           },
           {
             type: 'doc',
