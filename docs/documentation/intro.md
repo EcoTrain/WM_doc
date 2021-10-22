@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 id: documentation_intro
 title: Documentation
 sidebar_label: Intro
