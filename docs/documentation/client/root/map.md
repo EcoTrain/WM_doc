@@ -1,6 +1,6 @@
 ---
 sidebar_position: 6
-title: 'map'
+title: 'Map'
 slug: /views/map
 ---
 

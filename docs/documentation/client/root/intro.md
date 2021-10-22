@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-title: 'description'
+title: 'Description'
+slug: /views/intro
 ---
 
 # Views

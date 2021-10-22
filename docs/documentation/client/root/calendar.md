@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: 'calendar'
+title: 'Calendar'
 slug: /views/todo
 ---
 
