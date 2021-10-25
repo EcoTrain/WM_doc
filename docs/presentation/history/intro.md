@@ -29,6 +29,8 @@ slug: /presentation/history/intro
  
 !["Полный просмотр"](../../../static/img/client/views/diary/diary_full.png)
 
+### Просмотр графика дневника <span class="pin web"></span>
+
 ### Добавление значения
 
 Добавить новое значение в дневник можно при 
