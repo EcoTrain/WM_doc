@@ -13,33 +13,13 @@ slug: /presentation/history/intro
 
 ## Дневники
 
-### Назначение дневников
- 
 Дневники предназначены для мониторинга состояния каких-либо показателей, называемых `переменные`  (variables).  
-График может быть в виде:  
+
+Типы графиков:  
 `0` - линейный  
 `1` - линия прогресса  
 `2` - круг прогресса  
 `3` - число
 
-<!-- ![imgscreen](../../../static/img/client/views/diary/diary_phone.png) -->
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary.png"/></div>
-
-### Просмотр дневника
- 
-<!-- !["Полный просмотр"](../../../static/img/client/views/diary/diary_full.png) -->
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary_full.png"/></div>
-
-### Добавление значения
-
-Добавить новое значение в дневник можно при 
-
-!["Добавление значения"](../../../static/img/client/views/diary/diary_add.png)
-
-## Функционал дневников
-
-
-
-## Редактирование дневников
 
 
