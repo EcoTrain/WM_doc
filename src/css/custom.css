@@ -68,22 +68,26 @@ a.table-of-contents__link span.pin.web{
   background-color: blue;
 }
 
-h2 span.pin.android::before{
+h2 span.pin.android::before,
+h3 span.pin.android::before{
   content: '# Android only';
   color: gainsboro;
   font-size: 0.8em;
 }
-h2 span.pin.ios::before{
+h2 span.pin.ios::before,
+h3 span.pin.ios::before{
   content: '# iOS only';
   color: gainsboro;
   font-size: 0.8em;
 }
-h2 span.pin.mobile::before{
+h2 span.pin.mobile::before,
+h3 span.pin.mobile::before{
   content: '# Mobile only';
   color: gainsboro;
   font-size: 0.8em;
 }
-h2 span.pin.web::before{
+h2 span.pin.web::before,
+h3 span.pin.web::before{
   content: '# Web only';
   color: gainsboro;
   font-size: 0.8em;
