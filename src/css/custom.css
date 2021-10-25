@@ -134,3 +134,15 @@ i.fa.d {
   padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
   vertical-align: middle;
 }
+
+.storeBtns{
+  max-width: 50%;
+  display: flex;
+  flex-flow: wrap;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.storeBtns > div:first-child{
+  /* transform: scale(0.67); */
+}
