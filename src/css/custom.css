@@ -28,6 +28,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .expo {
+  height: 80vh;
   box-shadow: 0 0 10px #00000030;
   border-radius: 8px;
   border: 1px solid lightgray;
