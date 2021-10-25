@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
 id: presentation_intro
-title: 'Введение' 
-sidebar_label: Введение
-slug: /presentation
+title: 'Описание' 
+sidebar_label: Описание
+slug: /presentation/intro
 ---
 
 ## Документация

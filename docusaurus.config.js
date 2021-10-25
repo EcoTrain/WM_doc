@@ -63,7 +63,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'presentation/presentation_intro',
+            docId: 'presentation/intro/presentation_intro',
             position: 'left',
             label: 'Presentation',
           },
