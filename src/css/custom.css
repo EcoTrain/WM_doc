@@ -92,3 +92,8 @@ h3 span.pin.web::before{
   color: gainsboro;
   font-size: 0.8em;
 }
+
+.primary-color{
+  color: hsl(194, 22%, 26%);
+  font-weight: bold;
+}
