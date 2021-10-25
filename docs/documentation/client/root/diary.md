@@ -42,19 +42,19 @@ slug: /views/diary
 
 ### Панель дневников
 
-!["Дневники"](../../../../static/img/client/views/diary/diary.png)
+!["Дневники"](../../../../static/img/presentation/diary/web/diary.png)
 
 <!-- <h4 align="center">Панель дневников</h4> -->
 
 ### Просмотр дневника
  
 
-!["Полный просмотр"](../../../../static/img/client/views/diary/diary_full.png)
+!["Полный просмотр"](../../../../static/img/presentation/diary/web/diaryFull.png)
 
 <!-- <h4 align="center">Просмотр дневника</h4> -->
 
 ### Добавление значения
 
-!["Добавление значения"](../../../../static/img/client/views/diary/diary_add.png)
+!["Добавление значения"](../../../../static/img/presentation/diary/web/diaryAdd.png)
 
 <!-- <h4 align="center">Добавление нового значения</h4> -->

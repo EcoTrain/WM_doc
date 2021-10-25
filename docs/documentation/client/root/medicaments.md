@@ -21,7 +21,7 @@ slug: /views/medicaments
 При добавлении нового медикамента, можно выбрать готовую карточку из словаря, или же создать свою. 
 При поиске карточек, сначала выдаются имеющиеся у пользователя, затем те, что есть в словаре.
 
-!["Медикаменты"](../../../../static/img/client/views/med/med.png)
+!["Медикаменты"](../../../../static/img/presentation/med/med.png)
 
 
 <!-- ```SnackPlayer name=Example description=Description platform="web" title="test title"

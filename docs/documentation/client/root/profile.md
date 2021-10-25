@@ -18,4 +18,4 @@ slug: /views/profile
 
 В верхнем углу окна есть кнопка перехода в настройки профиля, где можно изменить личную информацию.
 
-!["Профиль"](../../../../static/img/client/views/profile/profile.png)
+!["Профиль"](../../../../static/img/presentation/profile/profile.png)

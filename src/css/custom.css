@@ -37,6 +37,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 img[alt="imgscreen"] { 
   max-height: calc(100vh - 70px); 
   display: block;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 10px #00000030;
 }
 
 a.table-of-contents__link{

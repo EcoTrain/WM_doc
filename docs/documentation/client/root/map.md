@@ -16,4 +16,4 @@ slug: /views/map
 - [ ] Создание метки
 - [ ] Построение машрутов (нужны таргет поинты) 
 
-!["Карта"](../../../../static/img/client/views/map/map.png)
+!["Карта"](../../../../static/img/presentation/map/map.png)
