@@ -70,4 +70,3 @@ slug: /presentation/architecture
 - [ ] Рекурсивный поиск новых данных на сервере
 - [ ] Подключение [`FCM`](https://firebase.google.com/products/cloud-messaging?hl=ru) для оповещения синхронизируемых устройств
 - [ ] Подключение ([Redux](https://redux.js.org/) | [MobX](https://mobx.js.org/)) для обработки данных
-
