@@ -7,9 +7,13 @@ slug: /presentation/history/intro
 # Введение
 
 В данном разделе описано ведение дневников, рассмотрены следующие темы:
-- [x] Назначение дневников
-- [x] Функционал дневников
-- [x] Редактирование дневников
+* [Общее описание](http://localhost:3002/docs/presentation/history/intro)
+    * Назначение дневников  
+    * Функционал дневников
+    * Редактирование дневников
+* [Просмотр](http://localhost:3002/docs/presentation/history/show)
+* [Редактирование истории](http://localhost:3002/docs/presentation/history/edit_history)
+* [Настройки дневников](http://localhost:3002/docs/presentation/history/edit_diary)
 
 > Создание нового дневника описано в разделе [конструктора](http://localhost:3002/docs/views/constructors#конструктор-дневников)  
 
@@ -34,11 +38,13 @@ slug: /presentation/history/intro
 
 Также пользователь может добавить новые виджеты, или удалить существующие.
 
-**Настройки** виджета описаны в соответствующем [разделе](http://localhost:3002/docs/presentation/history/%20%20%20%20_diary)  
+**Настройки** виджета описаны в соответствующем [разделе](http://localhost:3002/docs/presentation/history/edit_diary)  
 Более подробно устройство виджета дневника описано в его [конструкторе](http://localhost:3002/docs/views/constructors#конструктор-дневников)
 
 <div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diary.png"/></div>
 
 ## Patch notes
 
-- [ ] Удаление значения
+- [ ] Опрятный вид графика в окне просмотра дневника
+- [ ] Интервал времени, чтобы даты по оси не налазили друг на друга
+- [ ] Удаление значения из лога
