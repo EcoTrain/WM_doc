@@ -14,20 +14,20 @@ slug: /views/auth
 
 > Исходный код: `ui/root/authflow/loginPage.js`  
 
-!["Страница авторизации"](../../../../static/img/presentation/auth/login.png)
+<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/auth/login.png"/></div>
 
 
 ## Регистрация
 
 > Исходный код: `ui/root/authflow/signUpPage.js`  
 
-!["Страница регистрации"](../../../../static/img/presentation/auth/signup.png)
+<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/auth/signup.png"/></div>
 
 ## Пин-код
 
 > Исходный код: `ui/root/authflow/PinScreen.js`  
 
-!["Страница пин-кода"](../../../../static/img/presentation/auth/pin.png)
+<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/auth/pin.png"/></div>
 
 
 

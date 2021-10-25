@@ -14,7 +14,7 @@ slug: /views/todo
  
 > Исходный код: `ui/root/authflow/RenderItemDay.js`  
 
-!["Планировщик задач"](../../../../static/img/presentation/calendar/calendar.png)
+<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/calendar/calendar.png"/></div>
 
 
 
