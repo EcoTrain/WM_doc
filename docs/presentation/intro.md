@@ -1,15 +1,20 @@
 ---
 sidebar_position: 1
 id: presentation_intro
-title: Presentation
-sidebar_label: Intro
+title: 'Введение' 
+sidebar_label: Введение
 slug: /presentation
 ---
 
-# Введение
+# Введение 
+
+В данном разделе описана концептуальная часть системы
+Представлены такие разделы как: 
+- [x] Что сейчас сделано
+- [x] Как это сделано (стек, реализация)
+- [x] Что планируется сделать
 
 В навигации могут встречаться пины разных цветов. Наличие пина говорит о поддержке какоого-либо модуля только одной или двумя платформами.
-
 - ![#f03c15](https://via.placeholder.com/15/000000/000000?text=+) ` iOS`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ` Android`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ` Web`
