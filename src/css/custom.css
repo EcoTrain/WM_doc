@@ -38,6 +38,7 @@ img[alt="imgscreen"] {
   max-height: calc(100vh - 70px); 
   display: block;
 }
+
 a.table-of-contents__link{
   display: flex;
   align-items: center;

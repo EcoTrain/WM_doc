@@ -23,11 +23,12 @@ slug: /presentation/history/intro
 `3` - число
 
 <!-- ![imgscreen](../../../static/img/client/views/diary/diary_phone.png) -->
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/diary_phone.png"/></div>
+<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary.png"/></div>
 
 ### Просмотр дневника
  
-!["Полный просмотр"](../../../static/img/client/views/diary/diary_full.png)
+<!-- !["Полный просмотр"](../../../static/img/client/views/diary/diary_full.png) -->
+<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary_full.png"/></div>
 
 ### Просмотр графика дневника <span class="pin web"></span>
 
