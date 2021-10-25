@@ -9,5 +9,5 @@ title: 'Scheme'
 Представления переключаются при помощи навигационного меню и по событиям на главных окнах.
 
 
-!["Главное окно"](../../../static/img/client/views/homePage/homePage.png)
+!["Главное окно"](../../../static/img/presentation/homePage/homePage.png)
 

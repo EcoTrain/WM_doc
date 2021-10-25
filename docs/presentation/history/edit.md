@@ -10,15 +10,18 @@ slug: /presentation/history/edit
 
 ## Добавление значения
 
-Добавить новое значение в дневник можно при помощи кнопки 'добавить' на экране просмотра дневника.
+В окне просмотра дневника, есть возможность добавить данные в историю. При этом, от Вас потребуется ввести те данные, которые прописаны в конфигурации дневника. Добавленные данные будут применены и к другим дневникам, если вышеуказанные имеют пересечения в переменных. То есть, если Вы в разное время укажете свой вес и рост в разных дневниках, в дневнике ИМТ (индекс массы тела) появится значение, основанное на указанных Вами ранее значениях.
+
+<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diaryAdd.png"/></div>
+
 
 ### Мобильная версия
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary_add.png"/></div>
+<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diaryAdd.png"/></div>
 
 ### Веб-версия
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/diary_add.png"/></div>
+<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/web/diaryAdd.png"/></div>
 
 ## Удаление значения
 

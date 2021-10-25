@@ -17,7 +17,7 @@ slug: /views/constructors
 
 > Исходный код: `ui/root/diary/AddDiaryItem.js` 
 
-!["Конструктор медикаментов"](../../../../static/img/client/views/constructors/med/med_constructor.png)
+!["Конструктор медикаментов"](../../../../static/img/presentation/constructors/med/med_constructor.png)
 
 
 
@@ -25,7 +25,7 @@ slug: /views/constructors
 
 > Исходный код: `ui/root/diary/AddDiaryItem.js` 
 
-!["Конструктор медикаментов"](../../../../static/img/client/views/constructors/variable/variable_constructor.png)
+!["Конструктор медикаментов"](../../../../static/img/presentation/constructors/variable/variable_constructor.png)
 
 
 
@@ -37,14 +37,14 @@ slug: /views/constructors
 
 * ### Выбор типа событий
 
-!["Выбор типа событий"](../../../../static/img/client/views/constructors/calendar/calendar_contructor_mode.png)  
+!["Выбор типа событий"](../../../../static/img/presentation/constructors/calendar/calendar_contructor_mode.png)  
 
 
 <!-- <h3 align="center">Конструктор событий</h3>   -->
 
 * ### Конструктор событий
 
-!["Конструктор событий"](../../../../static/img/client/views/constructors/calendar/calendar_contructor.png)
+!["Конструктор событий"](../../../../static/img/presentation/constructors/calendar/calendar_contructor.png)
 
 ### Выбор времени
 
@@ -64,7 +64,7 @@ slug: /views/constructors
 
 > Исходный код: `ui/root/diary/AddDiaryItem.js` 
 
-!["Конструктор медикаментов"](../../../../static/img/client/views/constructors/diary/diary_constructor.png)
+!["Конструктор медикаментов"](../../../../static/img/presentation/constructors/diary/diary_constructor.png)
 
 
 

@@ -9,15 +9,17 @@ slug: /presentation/history/show
 Просмотреть полную информацию о дневнике можно кликнув по нужному виджету на панели дневников.  
 После этого будет осуществлен переход на окно просмотра дневника.  
 
-## Мобильное приложение
+### Просмотр дневника
+ 
+<!-- !["Полный просмотр"](../../../static/img/presentation/diary/diary_full.png) -->
+<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diaryItem.png"/></div>
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/phone/diary_full.png"/></div>
+### Просмотр графика дневника <span class="pin web"></span>
 
-## Веб приложение
+График отображает значения переменных, участвующих в конфигурации дневника. Данные не аггрегируются
 
-Функционал веб-версии аналогичен мобильной, отличается лишь компоновка блоков на экране.   
-Веб-версия позволяет отобразить больше информации на одном экране, поэтому график здесь отображается рядом с логом.
+<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/web/diaryFull.png"/></div>
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/client/views/diary/diary_full.png"/></div>
+> В дальнейшем возможно приведение графиков к более опрятному виду и портирование на мобильные версии.
 
 
