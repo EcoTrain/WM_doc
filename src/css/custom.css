@@ -102,3 +102,22 @@ h3 span.pin.web::before{
   color: hsl(194, 22%, 26%);
   font-weight: bold;
 }
+
+div[display="flex"]{
+  display: flex;
+  width: 100%;
+}
+div[display="flex"] > *{
+  flex: auto;
+  padding: 4px;
+}
+
+
+i.fa.d {
+  background-color: var(--ifm-code-background);
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  border-radius: var(--ifm-code-border-radius);
+  font-size: var(--ifm-code-font-size);
+  padding: var(--ifm-code-padding-vertical) var(--ifm-code-padding-horizontal);
+  vertical-align: middle;
+}

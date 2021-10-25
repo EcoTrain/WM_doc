@@ -34,7 +34,7 @@ const config = {
             'https://github.com/facebook/docusaurus/edit/main/website/blog/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css'),  require.resolve("./src/css/font-awesome.min.css")],
           // customCss1: require.resolve('./src/css/custom.css'),
         },
       }),
@@ -44,7 +44,7 @@ const config = {
     // "remark-snackplayer",
     "remark-mermaid"
   ],
-  scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}],
+  scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}, {src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js"}],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
