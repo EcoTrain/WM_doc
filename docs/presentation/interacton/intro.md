@@ -56,6 +56,8 @@ slug: /presentation/history/interaction
 - [ ] Firebase messaging
 - [ ] Реализация обмена оставшимися `типами информации`
 - [ ] Разработка карты
+- [ ] Построение маршрутов (GraphHopper)
+
 ### Secondly
 
 - [ ] Прикрепление нескольких вложений

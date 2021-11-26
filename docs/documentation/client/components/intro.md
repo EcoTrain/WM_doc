@@ -6,3 +6,16 @@ slug: /components/intro
 
 # Компоненты
 
+## Animated
+
+## Calendar
+
+## ColoredMedicament
+
+## DateTimePicker
+
+## Modal
+
+## TouchableOpacity
+
+##
