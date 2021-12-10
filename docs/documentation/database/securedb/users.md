@@ -1,7 +1,6 @@
 ---
-sidebar_position: 3
-sidebar_label: securedb
-title: securedb
+sidebar_position: 1
+title: users
 ---
 
 # Закрытая БД пользователей
@@ -19,5 +18,4 @@ title: securedb
 4. **role** - роль пользователя  
 `0` - админ  
 `1` - пользователь  
-5. **fb_token** - словарь, где ключ - идентификатор устройства, значение - привязанный токен Firebase Messaging
 
