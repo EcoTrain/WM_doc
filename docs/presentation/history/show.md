@@ -12,13 +12,13 @@ slug: /presentation/history/show
 ### Просмотр дневника
  
 <!-- !["Полный просмотр"](../../../static/img/presentation/diary/diary_full.png) -->
-<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diaryItem.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../static/img/presentation/diary/phone/diaryItem.png"/></div>
 
 ### Просмотр графика дневника <span class="pin web"></span>
 
-График отображает значения переменных, участвующих в конфигурации дневника. Данные не аггрегируются
+График отображает значения переменных, участвующих в конфигурации дневника. Данные аггрегируются
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/web/diaryFull.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../static/img/presentation/diary/web/diaryFull.png"/></div>
 
 > В дальнейшем возможно приведение графиков к более опрятному виду и портирование на мобильные версии.
 

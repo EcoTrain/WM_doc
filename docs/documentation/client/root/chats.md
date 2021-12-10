@@ -9,7 +9,7 @@ slug: /views/chat
 
 Включает в себя окна `список друзей`, `окно переписки`
 
-<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/chat/chat.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/chat/chat.png"/></div>
 
 
 ## Список друзей

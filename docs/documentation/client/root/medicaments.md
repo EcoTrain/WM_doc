@@ -21,5 +21,5 @@ slug: /views/medicaments
 При добавлении нового медикамента, можно выбрать готовую карточку из словаря, или же создать свою. 
 При поиске карточек, сначала выдаются имеющиеся у пользователя, затем те, что есть в словаре.
 
-<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/med/med.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/med/med.png"/></div>
 

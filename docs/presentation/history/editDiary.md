@@ -18,4 +18,4 @@ slug: /presentation/history/edit_diary
 2.3. Месяц  
 3. Удалить виджет
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/web/diary.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../static/img/presentation/diary/web/diary.png"/></div>

@@ -14,7 +14,7 @@ slug: /views/todo
  
 > Исходный код: `ui/root/authflow/RenderItemDay.js`  
 
-<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/calendar/calendar.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/calendar/calendar.png"/></div>
 
 
 

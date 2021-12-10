@@ -14,8 +14,8 @@ slug: /presentation/history/edit_history
 
 ### Мобильная версия <span class="pin mobile"></span>
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/phone/diaryAdd.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../static/img/presentation/diary/phone/diaryAdd.png"/></div>
 
 ### Веб-версия <span class="pin web"></span>
 
-<div align="center"><img alt="imgscreen" src="../../../static/img/presentation/diary/web/diaryAdd.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../static/img/presentation/diary/web/diaryAdd.png"/></div>

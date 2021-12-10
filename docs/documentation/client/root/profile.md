@@ -18,4 +18,4 @@ slug: /views/profile
 
 В верхнем углу окна есть кнопка перехода в настройки профиля, где можно изменить личную информацию.
 
-<div align="center"><img alt="imgscreen" src="../../../../static/img/presentation/profile/profile.png"/></div>
+<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/profile/profile.png"/></div>

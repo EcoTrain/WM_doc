@@ -49,7 +49,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   margin-top: 50px;
 }
 
-img[alt="imgscreen"] { 
+img[type="imgscreen"] { 
   max-height: calc(100vh - 70px); 
   display: block;
   border-radius: 10px;
