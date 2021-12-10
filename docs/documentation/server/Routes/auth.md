@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: "Auth"
+title: "auth"
 ---
 
 # Авторизация и регистрация
@@ -15,16 +15,21 @@ URL: `/api/auth/login`
 
 ```json title="[POST] request body"
 {
-  "email": "<string>",
-  "password": "<string>"
+  "email": "<string>", // email || username
+  "password": "<string>" // raw string
 }
 ```
 
 **SUCCESS:** В случае успешной валидации учётных данных сервер отправит ответ с кодом `200`:
 
 ```json title="[POST] response body"
-200 { "token": "<JWT token string>" }
-``` 
+200 {
+  "token": "<JWT token string>",
+  "email": "<sring || null>",
+  "username": "<sring || null>",
+  "personal": "<dict || null>",
+  }
+```
 
 **ERROR:** В случае ошибки валидации учётных данных сервер отправит ответ с кодом `401`:
 
@@ -32,10 +37,9 @@ URL: `/api/auth/login`
 401 { "token": "Не верный логин или пароль!" }
 ```
 
-
 ## Logout
 
-URL: `/api/auth/logout` 
+URL: `/api/auth/logout`
 
 Маршрут для выхода их учётной записи. Не принимает никаких данных в теле запроса.
 
@@ -45,32 +49,32 @@ URL: `/api/auth/logout`
 
 ## Signup
 
-URL: `/api/auth/signup` 
+URL: `/api/auth/signup`
 
-Машрут для регистрации новых пользователей 
-
-
+Машрут для регистрации новых пользователей
 
 ```json title="[POST] request body "
 {
-  "email": "<string>",
-  "password": "<string>"
+  "username": "<string>", // УНИКАЛЬНО
+  "email": "<string>", // УНИКАЛЬНО. По формату почты *@*.*
+  "password": "<string>" // Минимум 6 символов
 }
 ```
-
 
 **SUCCESS:** В случае успешной валидации учётных данных сервер отправит ответ с кодом `200`:
 
 ```json title="[POST] response body"
 200
 {
-    "user_id": "<user id string>",
-    "token": "<JWT token string>"
+    "token": "<JWT token string>",
+    "email": "<sring>",
+    "username": "<sring>",
+    "personal": "<null>",
 }
 ```
 
 **ERROR:** В случае ошибки валидации учётных данных сервер отправит ответ с кодом `400`:
 
 ```json title="[POST] response body"
-400 { "token": "Пользователь с такой почтой уже существует!" }
+400 { "token": "<error message>" }
 ```
