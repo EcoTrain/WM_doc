@@ -25,7 +25,7 @@ slug: /views/auth
 
 ## Пин-код
 
-> Исходный код: `ui/root/authflow/PinScreen.js`  
+> Исходный код: `ui/root/authflow/PinScreen`  
 
 <div align="center"><img type="imgscreen" src="../../../../static/img/presentation/auth/pin.png"/></div>
 

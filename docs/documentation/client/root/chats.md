@@ -9,6 +9,8 @@ slug: /views/chat
 
 Включает в себя окна `список друзей`, `окно переписки`
 
+Шапка чата отображает информацию о собеседнике (ФИО или username), кнопки навигации.
+
 <div align="center"><img type="imgscreen" src="../../../../static/img/presentation/chat/chat.png"/></div>
 
 
