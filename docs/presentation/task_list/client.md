@@ -167,3 +167,5 @@ slug: /presentation/todo_list/client
 - [x] Карусель на веб мобилках
 - [x] navigator.serviceWorker на мобилках
 - [ ] детектирование мобильных браузеров
+- [ ] Локализация
+- [ ] Тёмная тема
