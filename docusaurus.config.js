@@ -43,9 +43,9 @@ const config = {
   ],
   i18n: {
     defaultLocale: "en",
-    locales: ["ru", "en", "fr"],
+    locales: ["en", "ru"],
   },
-  // themes: ["@docusaurus/theme-search-algolia"],
+  themes: ["@docusaurus/theme-search-algolia"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -131,9 +131,9 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      // algolia: {
-      //   contextualSearch: true,
-      // },
+      algolia: {
+        contextualSearch: true,
+      },
     }),
 };
 
