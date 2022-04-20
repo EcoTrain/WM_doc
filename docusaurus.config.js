@@ -9,10 +9,10 @@ const config = {
   title: "Wellness Assistant",
   tagline: "Documentation",
 
-  url: "https://wellness.github.io", // Your website URL
+  url: "https://coprocoder.github.io", // Your website URL
   baseUrl: "/",
-  organizationName: "coprocoder", // Usually your GitHub org/user name.
-  projectName: "wellness-doc", // Usually your repo name.
+  organizationName: "EcoTrain", // Usually your GitHub org/user name.
+  projectName: "newmed_docs", // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
