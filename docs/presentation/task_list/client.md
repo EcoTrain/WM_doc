@@ -6,11 +6,11 @@ slug: /presentation/todo_list/client
 
 # Задачи на клиенте
 
-## [Сущности](http://localhost:3002/docs/presentation/storage_entities/intro)
+## [Сущности](/docs/presentation/storage_entities/intro)
 
-### [Дневники](http://localhost:3002/docs/presentation/storage_entities/intro#дневники)
+### [Дневники](/docs/presentation/storage_entities/intro#дневники)
 
-[`Конструктор`](http://localhost:3002/docs/views/constructors#конструктор-дневников)
+[`Конструктор`](/docs/views/constructors#конструктор-дневников)
 
 Реализованные `типы` дневников:
 
@@ -25,7 +25,7 @@ slug: /presentation/todo_list/client
 
 Для добавления дневников в профиль, есть 2 способа:
 
-- [x] [`конструктор дневников`](http://localhost:3002/docs/views/constructors#конструктор-дневников)
+- [x] [`конструктор дневников`](/docs/views/constructors#конструктор-дневников)
 - [ ] Поиск в базе каталога
 
 Редактирование добавленных дневников доступно через контекстное меню плитки дневника (long press | right mouse click):
@@ -48,14 +48,14 @@ slug: /presentation/todo_list/client
 
 - [ ] Изменение размера 0.125 | 0.25 | 0.625 | 0.75
 
-### [Переменные](http://localhost:3002/docs/presentation/storage_entities/intro#переменные)
+### [Переменные](/docs/presentation/storage_entities/intro#переменные)
 
 - [ ] Дополнительные пределы (пороги предупреждений) для переменных
 - [ ] Персональные иконки для переменных
 
-### [Медикаменты](http://localhost:3002/docs/presentation/storage_entities/intro#медикаменты)
+### [Медикаменты](/docs/presentation/storage_entities/intro#медикаменты)
 
-[`Конструктор`](http://localhost:3002/docs/views/constructors#конструктор-медикаментов)
+[`Конструктор`](/docs/views/constructors#конструктор-медикаментов)
 
 - [x] Добавление
 - [x] Просмотр
@@ -64,7 +64,7 @@ slug: /presentation/todo_list/client
 - [ ] Сбор данных по ссылке
 - [ ] Отправка в чате
 
-### [Документы](http://localhost:3002/docs/presentation/storage_entities/intro#документы)
+### [Документы](/docs/presentation/storage_entities/intro#документы)
 
 Документы должны включать в себя такие поля как:
 
@@ -72,7 +72,7 @@ slug: /presentation/todo_list/client
 - [ ] Служебные поля (серия, номер, ...)
 - [ ] Набор изображений (опционально)
 
-### [Анализы](http://localhost:3002/docs/presentation/storage_entities/intro#документы)
+### [Анализы](/docs/presentation/storage_entities/intro#документы)
 
 Анализы должны включать в себя такие поля как:
 
@@ -80,7 +80,7 @@ slug: /presentation/todo_list/client
 - [ ] Служебные поля (свой набор для каждого типа ...)
 - [ ] Набор изображений (опционально)
 
-## [Авторизация](http://localhost:3002/docs/presentation/security/intro)
+## [Авторизация](/docs/presentation/security/intro)
 
 - [ ] Вход через Google сервисы
 - [ ] Вход через VK
@@ -89,7 +89,7 @@ slug: /presentation/todo_list/client
 
 ## Активности
 
-### [Планировщик](http://localhost:3002/docs/presentation/schedule/intro)
+### [Планировщик](/docs/presentation/schedule/intro)
 
 - [ ] Группировка событий (на одно время и дату)
 - [ ] Уведомления о событиях (через Firebase)
@@ -118,7 +118,7 @@ slug: /presentation/todo_list/client
   - - [ ] Редактирование
 - [ ] Больше личной информации (опционально)
 
-### [Чат](http://localhost:3002/docs/presentation/history/interaction#чаты)
+### [Чат](/docs/presentation/history/interaction#чаты)
 
 - [x] Firebase messaging
 - [x] Ссылки на данные пользователей вместо копирования
@@ -167,7 +167,7 @@ slug: /presentation/todo_list/client
   - - [ ] Сбор всех данных в один объект
   - - [ ] Получение информации о медикаменте по ссылке
   - - [ ] Отправка данных в чате
-- [ ] Реализация обмена оставшимися [`типами информации`](http://localhost:3002/docs/presentation/history/interaction#чаты)
+- [ ] Реализация обмена оставшимися [`типами информации`](/docs/presentation/history/interaction#чаты)
 - [ ] Другие медиа вложения (аудио, видео)
 - [ ] Поиск по сообщениям
 - [ ] Улучшенный поиск по пользователям (больше параметров поиска)
@@ -195,7 +195,7 @@ slug: /presentation/todo_list/client
 - [ ] Просмотр меток (клик по маркеру)
 - [ ] Построение маршрутов до точек
 
-### [Дневники](http://localhost:3002/docs/presentation/history/intro)
+### [Дневники](/docs/presentation/history/intro)
 
 - [x] Добавлениие дневника через конструктор
 - [x] Просмотр дневника, графика и логов
@@ -226,9 +226,9 @@ slug: /presentation/todo_list/client
   - - [ ] График = прогресс (лимит по калориям)
   - - [ ] Лог = за день
 
-## [Архитектура](http://localhost:3002/docs/presentation/architecture)
+## [Архитектура](/docs/presentation/architecture)
 
-### [Оффлайн](http://localhost:3002/docs/presentation/architecture#оффлайн)
+### [Оффлайн](/docs/presentation/architecture#оффлайн)
 
 **Связь с сервером**
 
@@ -247,7 +247,7 @@ slug: /presentation/todo_list/client
 - [x] При отсутствии сети добавлять транзакции в очередь синхронизации
 - [x] Синхронизация при появлении сети
 
-### [Механизм синхронизации](http://localhost:3002/docs/presentation/architecture#реализация-механизма-синхронизации)
+### [Механизм синхронизации](/docs/presentation/architecture#реализация-механизма-синхронизации)
 
 - [x] Структура БД и API, позволяющая понять актуальность данных
 - [x] Смещение разницы во времени на клиенте и сервере

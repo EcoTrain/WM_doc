@@ -11,16 +11,16 @@ title: "profile"
 
 URL: `/api/profile/get`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#get)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#get)
 
 ## Редактирование
 
 URL: `/api/profile/update`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#update)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#update)
 
 ## Удаление
 
 URL: `/api/profile/remove`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#remove)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#remove)

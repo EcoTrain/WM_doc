@@ -14,8 +14,6 @@ slug: /presentation/architecture
 
 ## Архитектура
 
-> Техническая документация проекта описана в разделе **[Documentation](http://localhost:3002/docs/documentation)**
-
 Приложение является кроссплатформенным и доступно на платформах: Web, iOS, Android
 
 Приложение имеет 2 режима верстки:

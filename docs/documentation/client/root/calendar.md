@@ -16,7 +16,7 @@ slug: /views/todo
 
 Отрисовывает панедь дня с расписанием по часам и расстановкой паненей задач.
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/calendar/calendar.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/calendar/calendar.png"/></div>
 
 
 

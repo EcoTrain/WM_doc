@@ -11,16 +11,16 @@ title: "schedule"
 
 URL: `/api/medicaments/get`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#get)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#get)
 
 ## Редактирование
 
 URL: `/api/medicaments/update`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#update)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#update)
 
 ## Удаление
 
 URL: `/api/medicaments/remove`
 
-Функция получения описана в [репозитории](http://localhost:3002/docs/documentation/server/routes/user/repository#remove)
+Функция получения описана в [репозитории](/docs/documentation/server/routes/user/repository#remove)

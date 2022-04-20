@@ -31,10 +31,10 @@ slug: /presentation/schedule/intro
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="../../../static/img/presentation/calendar/calendar.png"/>
+        <img type="imgscreen" src="/img/presentation/calendar/calendar.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="../../../static/img/presentation/calendar/calendarExpanded.png"/>
+        <img type="imgscreen" src="/img/presentation/calendar/calendarExpanded.png"/>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ slug: /presentation/schedule/intro
 - `Напоминание`
 - `Прием медикаментов`
 
-<div align="center"><img type="imgscreen" src="../../../static/img/presentation/calendar/eventTypes.png"/></div>
+<div align="center"><img type="imgscreen" src="/img/presentation/calendar/eventTypes.png"/></div>
 
 ### Конструктор событий
 
@@ -57,10 +57,10 @@ slug: /presentation/schedule/intro
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="../../../static/img/presentation/calendar/addEvent1.png"/>
+        <img type="imgscreen" src="/img/presentation/calendar/addEvent1.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="../../../static/img/presentation/calendar/addEvent2.png"/>
+        <img type="imgscreen" src="/img/presentation/calendar/addEvent2.png"/>
     </div>
 </div>
 
@@ -73,8 +73,8 @@ slug: /presentation/schedule/intro
 
 В первом случае, вам необходимо выбрать конкретную дату. Тогда `событие` появится в `календаре` только один раз.
 
-Если же Вы решили выбрать дни недели, то `событие` в `календаре` будет появляться постоянно согласно выбранным дням недели. Если в [`конструкторе`](http://localhost:3002/docs/views/constructors#%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9) выбран хотя бы один день недели, то виджет `выбор даты` будет неактивен.
+Если же Вы решили выбрать дни недели, то `событие` в `календаре` будет появляться постоянно согласно выбранным дням недели. Если в [`конструкторе`](/docs/views/constructors#%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9) выбран хотя бы один день недели, то виджет `выбор даты` будет неактивен.
 
 После выбора дней, вы можете задать время для появления `события` в `расписании на день`. Для этого на панели с часами Вы можете кликнуть по уже добавленному времени, чтобы его удалить, или по кнопке `+`, чтобы добавить новое время.
 
-<div align="center"><img type="imgscreen" src="../../../static/img/presentation/calendar/schedule.png"/></div>
+<div align="center"><img type="imgscreen" src="/img/presentation/calendar/schedule.png"/></div>

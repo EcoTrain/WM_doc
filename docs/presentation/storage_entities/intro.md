@@ -10,7 +10,7 @@ slug: /presentation/storage_entities/intro
 
 `Переменные` используются для идентификации объектов истории. Конфигурация переменных хранит в себе локализованное имя и верхний и нижний предел. Создание переменных пользователю нужно в крайне редких случаях, однако такую возможность предоставляет `конструктор переменных`.
 
-<div align="center"><img type="imgscreen" src="../../../static/img/presentation/constructors/variable/variable_constructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/img/presentation/constructors/variable/variable_constructor.png"/></div>
 
 ## Дневники
 
@@ -42,7 +42,7 @@ slug: /presentation/storage_entities/intro
 
 Для добавления дневников в профиль, есть 2 способа:
 
-- [x] [`конструктор дневников`](http://localhost:3002/docs/views/constructors#конструктор-дневников)
+- [x] [`конструктор дневников`](/docs/views/constructors#конструктор-дневников)
 - [ ] Поиск в базе
 
 Редактирование добавленных дневников доступно через контекстное меню плитки дневника (long press | right mouse click):
@@ -57,7 +57,7 @@ slug: /presentation/storage_entities/intro
   - Цвета ноборов данных
   - Тип дневника
 
-<div align="center"><img type="imgscreen" src="../../../static/img/presentation/constructors/diary/diaryTiles.png"/></div>
+<div align="center"><img type="imgscreen" src="/img/presentation/constructors/diary/diaryTiles.png"/></div>
 
 ## Медикаменты
 
@@ -69,7 +69,7 @@ slug: /presentation/storage_entities/intro
 - Наименование
 - Примечания
 
-<div align="center"><img type="imgscreen" src="../../../static/img/presentation/constructors/med/med.png"/></div>
+<div align="center"><img type="imgscreen" src="/img/presentation/constructors/med/med.png"/></div>
 
 ## Документы
 

@@ -11,7 +11,7 @@ slug: /views/chat
 
 Шапка чата отображает информацию о собеседнике (ФИО или username), кнопки навигации.
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/chat/chat.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/chat/chat.png"/></div>
 
 
 ## Список друзей

@@ -25,7 +25,7 @@ slug: /views/constructors
 5. Примечания
    
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/constructors/med/med_constructor.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/constructors/med/med_constructor.png"/></div>
 
 
 
@@ -38,7 +38,7 @@ slug: /views/constructors
 2. Цвет иконки
 3. Допустимые пределы (мин/макс)  
    
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/constructors/variable/variable_constructor.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/constructors/variable/variable_constructor.png"/></div>
 
 
 
@@ -56,12 +56,12 @@ slug: /views/constructors
 
 ### Выбор типа события
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/constructors/calendar/calendar_contructor_mode.png"/></div>  
+<div align="center"><img type="imgscreen" src="..//img/presentation/constructors/calendar/calendar_contructor_mode.png"/></div>  
 
 
 ### Параметры события
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/constructors/calendar/calendar_contructor.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/constructors/calendar/calendar_contructor.png"/></div>
 
 #### Выбор времени
 
@@ -108,4 +108,4 @@ slug: /views/constructors
 3. Круг прогресса: 1
 4. Число: 1
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/constructors/diary/diary_constructor.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/constructors/diary/diary_constructor.png"/></div>

@@ -21,4 +21,4 @@ slug: /views/profile
 2. Удалить аккаунт
 3. Выйти из аккаунта
 
-<div align="center"><img type="imgscreen" src="../../../../static/img/presentation/profile/profile.png"/></div>
+<div align="center"><img type="imgscreen" src="..//img/presentation/profile/profile.png"/></div>
