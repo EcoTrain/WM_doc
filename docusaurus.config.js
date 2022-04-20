@@ -109,7 +109,7 @@ const config = {
           items: [
             {
               label: "Presentation",
-              to: "/wellness_doc/docs/presentation/intro",
+              to: "/docs/presentation/intro",
             },
           ],
         },
