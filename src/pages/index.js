@@ -17,7 +17,7 @@ function HomepageHeader() {
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons} style={{ flexFlow: "wrap" }}>
           <Link style={{ margin: 12 }} className="button button--secondary button--lg" to="https://wellness.a2rd.com">
-            {RDD.isAndroid ? "Android App " : RDD.isIOS ? "iOS App " : "Web App "}💊
+            Web App 💊
           </Link>
           <Link className="button button--primary button--lg" to="/docs/presentation/intro">
             Get started ⏱️
@@ -33,17 +33,15 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
+      <main>{/* <HomepageFeatures /> */}</main>
       <div className="storeBtns">
         {RDD.isAndroid && <MobileStoreButton store="ios" url={""} linkProps={{ title: "iOS Store Button" }} />}
         {RDD.isIOS && <MobileStoreButton store="android" url={""} linkProps={{ title: "Android Store Button" }} />}
-        {RDD.isBrowser && (
+        {/* {RDD.isBrowser && (
           <Link style={{ margin: 12 }} className="button button--secondary button--lg" to="https://wellness.a2rd.com">
             Web App 💊
           </Link>
-        )}
+        )} */}
       </div>
     </Layout>
   );
