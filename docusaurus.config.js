@@ -42,10 +42,10 @@ const config = {
     { src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js" },
   ],
   i18n: {
-    defaultLocale: "en",
+    defaultLocale: "ru",
     locales: ["en", "ru"],
   },
-  themes: ["@docusaurus/preset-classic"],
+  // themes: ["@docusaurus/preset-classic"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
