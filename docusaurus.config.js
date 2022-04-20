@@ -8,13 +8,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Wellness Assistant",
   tagline: "Documentation",
-  url: "https://your-docusaurus-test-site.com",
+
+  url: "https://wellness.github.io", // Your website URL
   baseUrl: "/",
+  organizationName: "coprocoder", // Usually your GitHub org/user name.
+  projectName: "wellness-doc", // Usually your repo name.
+  trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "coprocoder", // Usually your GitHub org/user name.
-  projectName: "wellness-doc", // Usually your repo name.
 
   presets: [
     [
@@ -45,6 +47,7 @@ const config = {
     defaultLocale: "en",
     locales: ["ru", "en", "fr"],
   },
+  themes: ["@docusaurus/theme-search-algolia"],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -129,6 +132,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        contextualSearch: true,
       },
     }),
 };
