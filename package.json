@@ -26,6 +26,7 @@
     "mdx-mermaid": "^1.1.0",
     "mermaid": "^8.13.3",
     "mermaid-cli": "^0.2.4",
+    "npm": "^8.7.0",
     "path": "^0.12.7",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
