@@ -27,6 +27,7 @@
     "mermaid": "^8.13.3",
     "mermaid-cli": "^0.2.4",
     "path": "^0.12.7",
+    "phantomjs-prebuilt": "2.1.13",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
     "react-device-detect": "^2.1.1",
