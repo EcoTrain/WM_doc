@@ -1,130 +1,130 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wellness Assistant',
-  tagline: 'Documentation',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'coprocoder', // Usually your GitHub org/user name.
-  projectName: 'wellness-doc', // Usually your repo name.
+  title: "Wellness Assistant",
+  tagline: "Documentation",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "coprocoder", // Usually your GitHub org/user name.
+  projectName: "wellness-doc", // Usually your repo name.
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-          remarkPlugins: [require('mdx-mermaid')],
+          sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/EcoTrain/newmed_docs/tree/master/docs",
+          remarkPlugins: [require("mdx-mermaid")],
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: "https://github.com/EcoTrain/newmed_docs/tree/master/blog",
         },
         theme: {
-          customCss: [require.resolve('./src/css/custom.css'),  require.resolve("./src/css/font-awesome.min.css")],
-          // customCss1: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/font-awesome.min.css")],
         },
       }),
     ],
   ],
-  plugins: [
-    // "remark-snackplayer",
-    "remark-mermaid"
+  plugins: ["remark-mermaid"],
+  scripts: [
+    { src: "https://snack.expo.dev/embed.js", defer: true, "data-domain": "yourdomain.com" },
+    { src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js" },
   ],
-  scripts: [{src: 'https://snack.expo.dev/embed.js', defer: true, 'data-domain': 'yourdomain.com'}, {src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js"}],
+  i18n: {
+    defaultLocale: "en",
+    locales: ["ru", "en", "fr"],
+  },
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '',
+        title: "",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/logo.svg",
         },
         items: [
+          // {
+          //   type: "doc",
+          //   docId: "documentation/documentation_intro",
+          //   position: "left",
+          //   label: "Documentation",
+          // },
           {
-            type: 'doc',
-            docId: 'documentation/documentation_intro',
-            position: 'left',
-            label: 'Documentation',
+            type: "doc",
+            docId: "presentation/intro/presentation_intro",
+            position: "left",
+            label: "Presentation",
           },
           {
-            type: 'doc',
-            docId: 'presentation/intro/presentation_intro',
-            position: 'left',
-            label: 'Presentation',
+            type: "doc",
+            docId: "tutorials/tutorial_intro",
+            position: "left",
+            label: "Tutorial",
+          },
+          // { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "localeDropdown",
+            position: "right",
           },
           {
-            type: 'doc',
-            docId: 'tutorials/tutorial_intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/EcoTrain/newmed_docs',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/EcoTrain/newmed_docs",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/documentation',
+                label: "Tutorial",
+                to: "/docs/documentation",
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
           {
-            title: 'More',
+            title: "Contacts",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Telegram",
+                href: "https://t.me/a2_development",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/EcoTrain/newmed_docs',
+                label: "Facebook",
+                href: "https://www.facebook.com/aleksey.romanov.7",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              // {
+              //   label: "Blog",
+              //   to: "/blog",
+              // },
+              {
+                label: "GitHub",
+                href: "https://github.com/EcoTrain/newmed_docs",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} a2rd, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
       },
       prism: {
         theme: lightCodeTheme,
