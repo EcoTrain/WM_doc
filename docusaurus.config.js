@@ -21,8 +21,7 @@ const config = {
   presets: [
     [
       "@docusaurus/preset-classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/EcoTrain/newmed_docs/tree/master/docs",
@@ -34,9 +33,10 @@ const config = {
         theme: {
           customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/font-awesome.min.css")],
         },
-      }),
+      },
     ],
   ],
+  plugins: [],
   scripts: [
     // { src: "https://snack.expo.dev/embed.js", defer: true, "data-domain": "yourdomain.com" },
     { src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js" },
@@ -45,118 +45,135 @@ const config = {
     defaultLocale: "ru",
     locales: ["en", "ru"],
   },
-  // themes: ["@docusaurus/preset-classic"],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: "",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        language: ["en", "ru", "fr", "zh"],
+        translations: {
+          search_placeholder: "Search",
+          see_all_results: "See all results",
+          no_results: "No results.",
+          search_results_for: 'Search results for "{{ keyword }}"',
+          search_the_documentation: "Search the documentation",
+          count_documents_found: "{{ count }} document found",
+          count_documents_found_plural: "{{ count }} documents found",
+          no_documents_were_found: "No documents were found",
         },
-        items: [
-          // {
-          //   type: "doc",
-          //   docId: "documentation/documentation_intro",
-          //   position: "left",
-          //   label: "Documentation",
-          // },
-          {
-            type: "doc",
-            docId: "presentation/intro/presentation_intro",
-            position: "left",
-            label: "Presentation",
-          },
-          {
-            type: "doc",
-            docId: "tutorials/tutorial_intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          // { to: "/blog", label: "Blog", position: "left" },
-          {
-            type: "search",
-            position: "right",
-          },
-          {
-            type: "localeDropdown",
-            position: "right",
-          },
-          {
-            href: "https://github.com/EcoTrain/newmed_docs",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/documentation",
-              },
-            ],
-          },
-          {
-            title: "Contacts",
-            items: [
-              {
-                label: "Telegram",
-                href: "https://t.me/a2_development",
-              },
-              {
-                label: "Facebook",
-                href: "https://www.facebook.com/aleksey.romanov.7",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              // {
-              //   label: "Blog",
-              //   to: "/blog",
-              // },
-              {
-                label: "GitHub",
-                href: "https://github.com/EcoTrain/newmed_docs",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
+    ],
+  ],
+  themeConfig: {
+    navbar: {
+      title: "",
+      logo: {
+        alt: "My Site Logo",
+        src: "img/logo.svg",
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-      algolia: {
-        // The application ID provided by Algolia
-        appId: "7UHMLJZFX0",
+      items: [
+        // {
+        //   type: "doc",
+        //   docId: "documentation/documentation_intro",
+        //   position: "left",
+        //   label: "Documentation",
+        // },
+        {
+          type: "doc",
+          docId: "presentation/intro/presentation_intro",
+          position: "left",
+          label: "Presentation",
+        },
+        {
+          type: "doc",
+          docId: "tutorials/tutorial_intro",
+          position: "left",
+          label: "Tutorial",
+        },
+        // { to: "/blog", label: "Blog", position: "left" },
+        {
+          type: "search",
+          position: "right",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
+        },
+        {
+          href: "https://github.com/EcoTrain/newmed_docs",
+          label: "GitHub",
+          position: "right",
+        },
+      ],
+    },
+    footer: {
+      style: "dark",
+      links: [
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Tutorial",
+              to: "/wellness_doc/docs/presentaion/intro",
+            },
+          ],
+        },
+        {
+          title: "Contacts",
+          items: [
+            {
+              label: "Telegram",
+              href: "https://t.me/a2_development",
+            },
+            {
+              label: "Facebook",
+              href: "https://www.facebook.com/aleksey.romanov.7",
+            },
+          ],
+        },
+        {
+          title: "More",
+          items: [
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
+            {
+              label: "GitHub",
+              href: "https://github.com/EcoTrain/newmed_docs",
+            },
+          ],
+        },
+      ],
+      copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme: darkCodeTheme,
+    },
+    // algolia: {
+    //   // The application ID provided by Algolia
+    //   appId: "7UHMLJZFX0",
 
-        // Public API key: it is safe to commit it
-        apiKey: "6f8111b1022991abb051e38dfe5ae27b",
+    //   // Public API key: it is safe to commit it
+    //   apiKey: "6f8111b1022991abb051e38dfe5ae27b",
 
-        indexName: "Wellness_Monitor",
+    //   indexName: "Wellness_Monitor",
 
-        // Optional: see doc section below
-        contextualSearch: true,
+    //   // Optional: see doc section below
+    //   contextualSearch: true,
 
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        externalUrlRegex: "external\\.com|domain\\.com",
+    //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+    //   externalUrlRegex: "external\\.com|domain\\.com",
 
-        // Optional: Algolia search parameters
-        searchParameters: {},
+    //   // Optional: Algolia search parameters
+    //   searchParameters: {},
 
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: "search",
-      },
-    }),
+    //   // Optional: path for search page that enabled by default (`false` to disable it)
+    //   searchPagePath: "search",
+    // },
+  },
 };
 
 module.exports = config;
