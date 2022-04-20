@@ -85,12 +85,6 @@ const config = {
           position: "left",
           label: "Presentation",
         },
-        {
-          type: "doc",
-          docId: "tutorials/tutorial_intro",
-          position: "left",
-          label: "Tutorial",
-        },
         // { to: "/blog", label: "Blog", position: "left" },
         {
           type: "search",
@@ -114,7 +108,7 @@ const config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorial",
+              label: "Presentation",
               to: "/wellness_doc/docs/presentation/intro",
             },
           ],
