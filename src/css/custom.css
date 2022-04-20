@@ -40,15 +40,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   object-fit: cover;
 }
 
-.expo {
-  height: 80vh;
-  box-shadow: 0 0 10px #00000030;
-  border-radius: 8px;
-  border: 1px solid lightgray;
-  overflow: hidden;
-  margin-top: 50px;
-}
-
 img[type="imgscreen"] { 
   max-height: calc(100vh - 70px); 
   display: block;

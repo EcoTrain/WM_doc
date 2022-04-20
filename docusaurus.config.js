@@ -38,7 +38,7 @@ const config = {
     ],
   ],
   scripts: [
-    { src: "https://snack.expo.dev/embed.js", defer: true, "data-domain": "yourdomain.com" },
+    // { src: "https://snack.expo.dev/embed.js", defer: true, "data-domain": "yourdomain.com" },
     { src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js" },
   ],
   i18n: {
