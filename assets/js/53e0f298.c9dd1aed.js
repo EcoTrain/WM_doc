@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc_server=self.webpackChunkdoc_server||[]).push([[6327],{6875:function(e){e.exports=JSON.parse('{"allTagsPath":"/wellness_doc/blog/tags","slug":"/wellness_doc/blog/tags/hello","name":"hello","count":2,"permalink":"/wellness_doc/blog/tags/hello"}')}}]);

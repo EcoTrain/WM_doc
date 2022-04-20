@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdoc_server=self.webpackChunkdoc_server||[]).push([[9690],{9168:function(e){e.exports=JSON.parse('{"allTagsPath":"/wellness_doc/blog/tags","slug":"/wellness_doc/blog/tags/facebook","name":"facebook","count":1,"permalink":"/wellness_doc/blog/tags/facebook"}')}}]);
