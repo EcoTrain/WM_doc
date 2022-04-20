@@ -10,7 +10,9 @@ slug: /presentation/todo_list/client
 
 ### [Дневники](/docs/presentation/storage_entities/intro#дневники)
 
-[`Конструктор`](/docs/views/constructors#конструктор-дневников)
+<!-- [`Конструктор`](/docs/views/constructors#конструктор-дневников) -->
+
+Конструктор
 
 Реализованные `типы` дневников:
 
@@ -25,7 +27,9 @@ slug: /presentation/todo_list/client
 
 Для добавления дневников в профиль, есть 2 способа:
 
-- [x] [`конструктор дневников`](/docs/views/constructors#конструктор-дневников)
+<!-- - [x] [`конструктор дневников`](/docs/views/constructors#конструктор-дневников) -->
+
+- [x] конструктор дневников
 - [ ] Поиск в базе каталога
 
 Редактирование добавленных дневников доступно через контекстное меню плитки дневника (long press | right mouse click):
@@ -55,7 +59,9 @@ slug: /presentation/todo_list/client
 
 ### [Медикаменты](/docs/presentation/storage_entities/intro#медикаменты)
 
-[`Конструктор`](/docs/views/constructors#конструктор-медикаментов)
+<!-- [`Конструктор`](/docs/views/constructors#конструктор-медикаментов) -->
+
+Конструктор
 
 - [x] Добавление
 - [x] Просмотр
