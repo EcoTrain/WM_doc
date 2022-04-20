@@ -10,4 +10,4 @@ title: 'Scheme'
 
 
 <!-- !["Главное окно"](/img/presentation/homePage/homePage.png) -->
-<div align="center"><img type="imgscreen" src="/img/presentation/homePage/homePage.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/homePage/homePage.png"/></div>

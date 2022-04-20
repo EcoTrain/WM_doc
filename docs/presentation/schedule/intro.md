@@ -31,10 +31,10 @@ slug: /presentation/schedule/intro
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/img/presentation/calendar/calendar.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/calendar.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/img/presentation/calendar/calendarExpanded.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/calendarExpanded.png"/>
     </div>
 </div>
 
@@ -49,7 +49,7 @@ slug: /presentation/schedule/intro
 - `Напоминание`
 - `Прием медикаментов`
 
-<div align="center"><img type="imgscreen" src="/img/presentation/calendar/eventTypes.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/eventTypes.png"/></div>
 
 ### Конструктор событий
 
@@ -57,10 +57,10 @@ slug: /presentation/schedule/intro
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/img/presentation/calendar/addEvent1.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent1.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/img/presentation/calendar/addEvent2.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent2.png"/>
     </div>
 </div>
 
@@ -77,4 +77,4 @@ slug: /presentation/schedule/intro
 
 После выбора дней, вы можете задать время для появления `события` в `расписании на день`. Для этого на панели с часами Вы можете кликнуть по уже добавленному времени, чтобы его удалить, или по кнопке `+`, чтобы добавить новое время.
 
-<div align="center"><img type="imgscreen" src="/img/presentation/calendar/schedule.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedule.png"/></div>

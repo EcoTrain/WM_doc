@@ -48,4 +48,4 @@ slug: /presentation/history/intro
 
 - На панели дневников графики отображают 10 последних замеров без агрегации по времени.
 
-<div align="center"><img type="imgscreen" src="/img/presentation/diary/phone/diary.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/phone/diary.png"/></div>
