@@ -6,377 +6,366 @@ slug: /presentation/release_notes/releases
 
 ## v0.1
 
-### Сборка №7
+### Build №7
 
-#### Дневники
+#### Diaries
 
-- [x] Исправление метода представления информации
-  - - [x] Сатурация = последнее значение
-  - - [x] Рост, вес = последнее значение
-  - - [x] Проверить все дневники
-- [x] Ограничение лога по выбраному периоду
-- [x] Валидация формы конструктора
-- [x] На превью графиков убрать агрегацию (не обьединять последние замеры)
-- [x] На окно дневника перенести график с превью
-- [x] Исправлен интервал дат по оси, даты не перекрываются
-- [x] Автозаполнение дневников (имитация активности)
-- [x] Удаление дневника
+- [x] Correction of information presentation method
+- [x] Log limit for the selected period
+- [x] Constructor form validation
+- [x] Remove aggregation on chart preview (don't combine last measurements)
+- [x] Move chart with preview to diary window
+- [x] Fixed date interval along the axis, dates do not overlap
+- [x] Autocomplete diaries (simulated activity)
+- [x] Deleting a diary
 
-#### Медикаменты
+#### Medicines
 
-- [x] Просмотр в отдельном окне
-- [x] Удаление медикамента
+- [x] View in a separate window
+- [x] Removal of medication
 
-### Сборка №9
+### Build №9
 
-#### Медикаменты
+#### Medicines
 
-- [x] Поиск по базе
-- [x] Валидация формы при создании
-- [x] Удаление медикамента
+- [x] Search in the database
+- [x] Form validation on creation
 
-#### Дневники
+#### Diaries
 
-- [x] Автозаполнение (в настройках профиля)
-- [x] Валидация формы при создании
-- [x] Поиск по базе
-- [x] Просмотр в отдельном окне
-- [x] Удаление дневника
+- [x] Autocomplete (in profile settings)
+- [x] Form validation on creation
+- [x] Search in the database
+- [x] View in a separate window
 
-#### Планировщик
+#### Scheduler
 
-- [x] Валидация формы при создании
-- [x] Поиск по базе
-- [x] Просмотр в отдельном окне
+- [x] Form validation on creation
+- [x] Search in the database
+- [x] View in a separate window
 
 #### Переменные
 
-- [x] Валидация формы при создании
-- [x] Поиск по базе
-- [x] Просмотр в отдельном окне
+- [x] Form validation on creation
+- [x] Search in the database
+- [x] View in a separate window
 
-### Сборка №10
+### Build №10
 
-#### Медикаменты
+#### Editing in a separate window
 
-- [x] Редактирование в отдельном окне
-- [x] Исправлен баг с валидацией названия
+- [x] Medicines
+- [x] Diaries
+- [x] Events
+- [x] Variables
 
-#### Дневники
+#### Scheduler
 
-- [x] Редактирование в отдельном окне
+- [x] Deleting events
+- [x] Fixed position of events on the board
 
-#### Планировщик
+#### Variables
 
-- [x] Редактирование в отдельном окне
-- [x] Удаление событий
-- [x] Исправлено положение событий на доске
+- [x] Removing variables
 
-#### Переменные
+### Build №11
 
-- [x] Редактирование в отдельном окне
-- [x] Удаление переменных
+#### Diaries
 
-### Сборка №11
+- [x] Data aggregation on the chart for the selected period (when viewing the diary log)
+- [x] Removed dots on chart preview
+- [x] The preview shows the last 10 values
+- [x] Fixed chart drawing size (now on the entire canvas)
+- [x] Fixed out of range value on mobile devices
 
-#### Дневники
+#### Chats
 
-- [x] Добавлена агрегация данных на графике по выбраному периоду (при просмотра лога дневника)
-- [x] Убраны точки на превью графика
-- [x] На превью выводится последние 10 значений
-- [x] Исправлен размер отрисовки графика (теперь по всему полотну)
-- [x] Исправлен выход значения за допустимые пределы на мобильных устройствах
+- [x] Added header on mobile devices
+- [x] Clearing the input field when submitting from mobile devices
+- [x] Added "Back" button on mobile devices
+- [x] Fixed elapsed time calculation in chart log
 
-#### Чат
+### Build №12
 
-- [x] Добавлена шапка на мобильных устройствах
-- [x] Очистка поля ввода при отправке с мобильных устройств
-- [x] Добавлена кнопка "Назад" на мобильных устройствах
-- [x] Исправлен подсчёт прошедшего времени в логе графиков
+#### Chats
 
-### Сборка №12
+- [x] Implemented attachment selection menu using the iOS keyboard
+- [x] Added the ability to send attachments from iOS
+- [x] Added the ability to edit an attachment
 
-#### Чат
+### Build №13
 
-- [x] Реализовано меню выбора вложения с помощью клавиатуры iOS
-- [x] Добавлена возможность отправлять вложения с iOS
-- [x] Добавлена возможность редактировать вложение
+- [x] Brighter PIN code on mobile devices
+- [x] Adding a city to your profile
+- [x] Auto-update diaries after auto-generation
+- [x] Update chats after adding user from search
+- [x] Smoother Graph Smoothing
+- [x] Taking into account limits when adding a value to the chart. Alert the user if the value is out of range.
+- [x] Update Diary Graph When Value Is Added
+- [x] Added units of measurement in diaries
+- [x] Fixed bug with NaN in diaries
+- [x] Added waiting animation when auto-generating diary entries
 
-### Сборка №13
+### Build №14
 
-- [x] Ярче PIN код на мобильных устройствах
-- [x] Добавление города в профиле
-- [x] Автоообновление дневников после автогенерации
-- [x] Обновление чатов после добавления пользователя из поиска
-- [x] Более плавное сглаживание графиков
-- [x] Учёт пределов при добавлении значения на график. Оповещение пользователя в случае если значение выходит за допустимые пределы.
-- [x] Обновление графика дневника при добавлении значения
-- [x] Добавлены единицы измерения в дневниках
-- [x] Исправлен баг с NaN в дневниках
-- [x] Добавлена анимация ожидания при автогенерации записей дневников
+- [x] Button to show password during authorization
+- [x] Transliteration of file names when saving on the server
+- [x] Fixed bug with keyboard height on iOS
+- [x] Saving chats for both interlocutors
+- [x] Case insensitive search
 
-### Сборка №14
+### Build №15
 
-- [x] Кнопка показа пароля при авторизации
-- [x] Транслитерация имён файлов при сохранении на сервере
-- [x] Исправлен баг с высотой клавиатуры на iOS
-- [x] Сохранение чатов у обоих собеседников
-- [x] Регистронезависимый поиск
+- [x] Restructured database structure for chats
+- [x] Sockets. Auto-update messages in chat
 
-### Сборка №15
+### Build №17
 
-- [x] Реструктурирована структура БД для чатов
-- [x] Сокеты. Автообновление сообщений в чате
+- [x] Email validation during registration
+- [x] Checking for a user with the same name / email during registration
+- [x] Authorization by login or email
+- [x] Changed database structure for chats (chats are separate from users)
 
-### Сборка №17
+### Build №18-19
 
-- [x] Валидация почты при регистрации
-- [x] Проверка наличия юзера с таким именем / почтой при регистрации
-- [x] Авторизация по логину или почте
-- [x] Изменена структура БД для чатов (чаты отдельно от юзеров)
+- [x] Sockets work in chat over https
 
-### Сборка №18-19
+### Build №20
 
-- [x] Работа сокетов в чате по https
+- [x] Limit on the size of uploaded images 2mb
+- [x] Hashing the names of uploaded images (unique names)
+- [x] Create thumbnails when uploading images
+- [x] Decomposition of the database, reduction to normal form
+- [x] Allow \_ in email when registering
+- [x] Fixed a bug with freezing after switching to the scheduler
 
-### Сборка №20
+### Build №22
 
-- [x] Лимит на размер загружаемых картинок 2мб
-- [x] Хеширование имён загружаемых картинок (уникальные имена)
-- [x] Создание миниатюр при загрузке изображений
-- [x] Декомпозиция БД, приведение к нормальной форме
-- [x] Разрешение на \_ в email при регистрации
-- [x] Исправлен баг с зависанием после перехода в планировщик
+- [x] Checking for the existence of a chat when creating a new one, even without refreshing the page / application (preventing duplicate chats)
+- [x] Reference data to users in chat (dynamic update)
 
-### Сборка №22
+### Build №23
 
-- [x] Проверка на существование чата при создании нового даже без обновления страницы/приложения (предотвращение дубликатов чатов)
-- [x] Ссылочные данные на пользователей в чате (динамическое обновление)
-
-### Сборка №23
-
-- [x] Шапка в дневниках на мобильных устройствах
+- [x] Header in diaries on mobile devices
 - [x] Firebase messaging
-  - [x] Уведомления о новых чатах
-  - [x] Уведомления о новых сообщениях в чате
+  - [x] New chat notifications
+  - [x] Notifications for new chat messages
 
-### Сборка №24
+### Build №24
 
-- [x] Сворачивание уведомлений по категориям. (Показывается только последнее из категории)
-- [x] Выход из аккаунта на всех утройствах при удалении данных учётной записи из БД
-- [x] Добавлено удаление профиля
-- [x] Переписаны модальные окна на более стабильной и кроссплатформенной библиотеке.
-- [x] Добавлена проверка на наличие переменных в выражении конструктора дневника. (Выражение не может состоять из констант)
+- [x] Collapse notifications by category. (Only the last of the category is shown)
+- [x] Logging out of the account on all devices when deleting account data from the database
+- [x] Deleting a profile
+- [x] Rewritten modal windows on a more stable and cross-platform library.
+- [x] Added a check for the presence of variables in the diary constructor expression. (Expression cannot consist of constants)
 
-### Сборка №25
+### Build №25
 
 **Исправлено:**
 
-- [x] Ошибка при пустом логине
-- [x] Ошибка при отсутствии аватара в чате
+- [x] Error with empty login
+- [x] Error when there is no avatar in the chat
 
 **Добавлено:**
 
-- [x] Мониторинг системы при помощи Sentry
+- [x] System monitoring with Sentry
 
-### Сборка №27
+### Build №27
 
-- [x] Исправлено кол-во допустимых выражений для каждого типа графика дневника
-- [x] Исправлен баг с пропаданием цвета в конструкторе дневников после перехода в другие меню
+- [x] Fixed number of allowed expressions for each diary chart type
+- [x] Fixed a bug with color disappearing in the diary designer after switching to other menus
 
-### Сборка №28
+### Build №28
 
-- [x] Настроена система сбора метрик Prometheus (пока только для метрик машины)
-- [x] Настроен сервис мониторинга метрик Grafana (пока только для метрик машины)
-- [x] Отключен Sentry на клиенте qдля уменьшения нагрузки на прод (будет использоваться только при разработке)
-- [x] Разделение dev / prod режимов
-- [x] Сжатие передаваемых данных на Nginx
-- [x] Сжатие JS/CSS кода перед при сборке приложения на сервере (теперь сайт грузится менее чем за 900мс)
-- [x] Обфускация кода (сокрытие исходников, меньше обьём передаваемого кода)
-- [x] Отображение миниатюр картинок в чате до подгрузки полноразмерных
-- [x] Сжатие картинок при сохранении ()
+- [x] Prometheus metric collection system set up
+- [x] Grafana metrics monitoring service set up
+- [x] Compressing transmitted data on Nginx
+- [x] Compressing JS / CSS code before building the application on the server
+- [x] Code obfuscation (hiding sources, less code transfer)
+- [x] Display thumbnails of pictures in chat before loading full-size ones
+- [x] Image compression on save
 
-### Сборка №29
+### Build №29
 
-- [x] Исправлена валидация данных в диалоговом окне (prompt)
+- [x] Fixed data validation in the dialog
 
-### Сборка №30
+### Build №30
 
-**Общее**
+**General**
 
-- [x] Убрано инвертирование скролла в чате
-- [x] Исправлен выход сообщения об ошибке в диалогах за пределы окна
-- [x] Анимация на время загрузки данных
-- [x] Разрешены дробные значения в диалоговых окнах
-- [x] Поднятие контента при появлении клавиатуры (не перекрывает)
-- [x] Интернационализация приложения для ru/en сегментов
-- [x] Исправлены анимация ожидания при заполнении дневников
+- [x] Removed scroll invert in chat
+- [x] Animation while loading data
+- [x] Allowed fractional values in dialog boxes
+- [x] Raise content when keyboard appears (does not overlap)
+- [x] Internationalization of the application for ru/en segments
+- [x] Fixed waiting animation when filling diaries
+- [x] Fixed error message appearing in dialogs outside the window
 
 **PIN code**
 
-- [x] Блокировка
-  - - [x] Ограничение количества попыток
-  - - [x] Блокировка экрана на время
-  - - [x] Стилизация экрана блокировки
+- [x] Locking
+  - - [x] Limiting the number of attempts
+  - - [x] Screen lock for a while
+  - - [x] Styling the lock screen
 
-**Проверка наличия связи**
+**Checking for connectivity**
 
-При осутствии связи:
+When there is no connection:
 
-- [x] Не отправляются сообщения в чате
-- [x] Все данные кэшируются на устройстве
-- [x] Пользователь уведомляется в профиле
+- [x] Chat messages not sending
+- [x] All data is cached on the device
+- [x] The user is notified in the profile
 
-**Оффлайн режим**
+**Offline mode**
 
-- [x] Отстлеживание подключения к сети
-- [x] Уведомление пользователя об отсутствии подключения к сети
-- [x] Отслеживание ошибок сервера
-- [x] Отслеживание отсутствие связи с сервером
-- [x] Уведомление пользователя об ошибке передачи данных
-- [x] Сохранение данных в очередь синхронизации
-- [x] Синхронизация при появлении связи или перезагрузке приложения
-- [x] Проверка на актуальность данных
+- [x] Network connection tracking
+- [x] Notifying the user that there is no network connection
+- [x] Server error tracking
+- [x] Tracking the lack of communication with the server
+- [x] User Notification of Data Transfer Error
+- [x] Saving Data to the Sync Queue
+- [x] Synchronization on connection or application reload
+- [x] Data Relevance Check
 
-**Чат**
+**Chats**
 
-- [x] Запрет отправки сообщений при отсутствии связи
-- [x] Подсчёт непрочитанных сообщений
-- [x] Синхронизация прочитанных сообщений при выборе чата
-- [x] Автосинхронизация для текущего чата (если какой-либо чат открыт)
-- [x] Уведомление пользователя об отсутствии связи с сервером (realtime)
+- [x] Prohibition of sending messages when there is no connection
+- [x] Count unread messages
+- [x] Sync read messages when chat is selected
+- [x] Auto sync for current chat (if any chat is open)
+- [x] Notifying the user about the lack of connection with the server (realtime)
 
-### Сборка №31
+### Build №31
 
-- [x] Рефакторинг механизма интернационализации для возможности добавления любого языка
-- [x] Исправлен текст сообщений на экране PIN кода
-- [x] Действия с сообщениями:
-  - - [x] Выбор (только из своих)
-  - - [x] Редактирование (только своё)
-  - - [x] Удаление одного (только из своих)
-  - - [x] Удаление выбраных
+- [x] Refactoring the internationalization mechanism to be able to add any language
+- [x] Fixed message text on PIN code screen
+- [x] Actions with messages:
+  - - [x] Choice (only from your own)
+  - - [x] Editing (only from your own)
+  - - [x] Removing one (only from your own)
+  - - [x] Deleting Selected
 
-### Сборка №32
+### Build №32
 
-- [x] Пометка о том, что сообщенение редактировалось
-- [x] Панель действий в шапке чата (в режиме выбора сообщений)
-- [x] Прикрепление нескольких изображений в чате
-- [x] Просмотр изображений в сообщении в виде галереи в диалоговом окне
-- [x] Прикрепление нескольких документов в чате
-- [x] Скачивание документов в чате
-- [x] Редедактирование вложений в чате
+- [x] Flag that the post has been edited
+- [x] Action bar in the chat header (in message selection mode)
+- [x] Attaching multiple images in a chat
+- [x] View images in a message as a gallery in a dialog box
+- [x] Attaching multiple documents in a chat
+- [x] Download documents in chat
+- [x] Edit attachments in chat
 
-### Сборка №33
+### Build №33
 
-- [x] Нажатия на сообщение не триггерят вложения
-- [x] Галерея открывается с изображения на которое нажали (а не с первого)
-- [x] Выбраные сообщения помечаются цветом и checkBox справа
-- [x] Клик по сообщению обрабатывается по всей ширине области чата (и по высоте сообщения)
+- [x] Clicks on a message don't trigger attachments
+- [x] The gallery opens from the clicked image (not the first one)
+- [x] Selected messages are marked with a color and a checkBox on the right
+- [x] A click on a message is processed across the entire width of the chat area (and the height of the message)
 
-### Сборка №34
+### Build №34
 
-- [x] HotFix стилей сообщений в режиме выбора
-- [x] Confirm при удалении сообщений
+- [x] Hotfix message styles in select mode
+- [x] Confirm when deleting messages
 
-### Сборка №37
+### Build №37
 
-- [x] HotFix стилей сообщений
-- [x] Выбор сообщений по клику без контекстного меню
-- [x] Вложения триггерятся вне зависимости от режима работы с сообщением
+- [x] Hotfix message styles
+- [x] Select messages on click without context menu
+- [x] Attachments are triggered regardless of the message mode
 
-### Сборка №38
+### Build №38
 
-- [x] HotFix стилей вложений
-- [x] Ограничение количества вложений до 10
-- [x] Ограничение высоты области вложений на экране
-- [x] Скролл вложений (область не выходит за пределы экрана)
-- [x] Уведомление при загрузке файлов из чата
-- [x] Обработка нажатия на уведомления (файл открывается)
+- [x] HotFix Attachment Styles
+- [x] Limiting the number of attachments to 10
+- [x] Limiting the height of the attachment area on the screen
+- [x] Scroll attachments (area does not go beyond the screen)
+- [x] Notification when downloading files from chat
+- [x] Handle clicking on notifications (file opens)
 
-### Сборка №41
+### Build №41
 
-- [x] HotFix зависаний в связи с новыми зависимостями новой версии React (добавлены недостающие)
-- [x] Сокращено количество переотрисовок чата при выборе сообщений
-- [x] Fix позиции input в чате при смене ориентации телефона (при открытой клавиатуре)
-- [x] Fix позиции всех элементов при появлении клавиатуры на мобилках
-- [x] Обновлены все react-библиотеки, JDK, SDK (поднял актуальность стека еще на 3-4 года)
-- [x] Дополнен словарь переводов (интернационализация)
+- [x] HotFix hangs due to new dependencies of the new version of React (added missing ones)
+- [x] Reduced number of chat redraws when selecting messages
+- [x] Fix input positions in chat when changing phone orientation (when keyboard is open)
+- [x] Fix positions of all elements when the keyboard appears on mobile devices
+- [x] Updated all react-libraries, JDK, SDK (raised the relevance of the stack for another 3-4 years)
+- [x] Added dictionary of translations (internationalization)
 
-### Сборка №43
+### Build №43
 
-- [x] Удаление чата (для создателя)
-- [x] Удаление файлов с сервера при удалении сообщений/чата
-- [x] Fix комбинирования типов вложений в одном сообщении
-- [x] Подтверждение регистрации по почте
-- [x] Создание пресета только после подтверждения (сокращение мусора в БД)
-- [x] Обработка нажатия на уведомления в фоновом режиме
+- [x] Delete chat (for creator)
+- [x] Deleting files from the server when deleting messages/chat
+- [x] Fix combining attachment types in one message
+- [x] Registration confirmation by mail
+- [x] Creating a preset only after confirmation (reducing garbage in the database)
+- [x] Handling clicks on notifications in the background
 
-### Сборка №44-45
+### Build №44-45
 
-- [x] Работа при получении уведомлений в фоновом режиме
-- [x] Уменьшение обьема данных в передаваемом токене между сервером и клиентом для идентификации юзера
-- [x] Смена пароля по почте
-- [x] Короткие ссылки в письмах на почту при помощи передачи html
+- [x] Work when receiving notifications in the background
+- [x] Reducing the amount of data in the transmitted token between the server and the client to identify the user
+- [x] Change password by mail
+- [x] Short links in emails using html transfer
 
-### Сборка №46
+### Build №46
 
-- [x] Повторная отправка письма для верификации аккаунта
-- [x] Fix счётчик непрочитанных сообщений
+- [x] Resending an email to verify your account
+- [x] Fix unread message counter
 
-### Сборка №49
+### Build №49
 
-- [x] Автозаполнение дневников без атаки запросов на сервер (сервер и устроство пишут в свои БД отдельно)
-- [x] Fix размер лога при просмотре дневника на больших экранах
-- [x] Постраничная подгрузка и поиск медикаментов
-- [x] Ограничение истории при заргузке дневников (выдается за последний месяц)
-- [x] Сообщения в чате разделены по датам, в сообщении указывается только время
-- [x] Fix подгрузки медикаментов при скролле
+- [x] Autocomplete diaries with one request to the server
+- [x] Pagination and drug search
+- [x] History limit when downloading diaries (issued for the last month)
+- [x] Chat messages are divided by date, only the time is indicated in the message
+- [x] Fix loading medicines on scroll
+- [x] Fix log size when viewing diary on large screens
 
-### Сборка №50
+### Build №50
 
-- [x] Дополнен словарь интернационализации
-- [x] Уменьшен размер приложения, уменьшена избыточность в объёме библиотек
+- [x] Added internationalization dictionary
+- [x] Reduced application size, reduced redundancy in the amount of libraries
 
-### Сборка №52
+### Build №52
 
-- [x] Добавлена работа с массивами
-- [x] Пагинация данных пользователя (подгрузка данных по частям)
-- [x] Добавлена валидация выражений в конструкторе дневников (уменьшение кол-ва ошибок)
+- [x] Added work with arrays
+- [x] Pagination of user data (loading data in parts)
+- [x] Added validation of expressions in the diary constructor (reducing the number of errors)
 
-### Сборка №53
+### Build №53
 
-- [x] Пагинация чатов (подгрузка данных по частям)
-- [x] Сообщенияи юзеры в виде массивов
-- [x] Создание чата на стороне сервера
-- [x] Добавление чата пользователям после 1 сообщения в нём
-- [x] Выход из чата
-- [x] При выходе последнего юзера чат удаляется
+- [x] Chat pagination (loading data in parts)
+- [x] Messages and users as arrays
+- [x] Creating a server-side chat
+- [x] Adding a chat to users after 1 message in it
+- [x] Exit chat
+- [x] When the last user logs out, the chat is deleted.
 
-### Сборка №54
+### Build №54
 
-- [x] Выход из чата с сохраненем переписки
-- [x] Удаление чата, cтирание переписки (персонально для каждого пользователя в чате)
-- [x] Оповещения и создание чата у пользователя при получении сообщения
+- [x] Exit the chat while saving the correspondence
+- [x] Deleting a chat, erasing correspondence (personally for each user in the chat)
+- [x] Notifications and creating a chat with the user when receiving a message
 
-### Сборка №58
+### Build №58
 
-- [x] Настройки чата
-- [x] Групповые чаты
-  - - [x] Конструктор чатов (выбор участников, название беседы, смена ролей и аватара и т.п.)
-  - - [x] Выход из чата (оба режима, как в личной переписке)
-  - - [x] Роли пользователей в чате (админ/пользователь)
-  - - [x] Назначение нового админа, когда выходит последний админ
+- [x] Chat settings
+- [x] Group chats
+  - - [x] Chat builder (selection of participants, name of the conversation, change of roles and avatar, etc.)
+  - - [x] Exit the chat (both modes, as in personal correspondence)
+  - - [x] Chat user roles (admin/user)
+  - - [x] Assign new admin when last admin exits
 
-### Сборка №59
+### Build №59
 
-- [x] Изменён язык на английский для RU сегмента
+- [x] English by default
 
-### Сборка №60
+### Build №60
 
-- [x] Добавлен копирайт экран авторизации и регистрации в приложении и на сайте
+- [x] Added copyright screen for authorization and registration in the application and on the website
 
-### Сборка №61
+### Build №61
 
-- [x] Исправлены некоторые орфографические ошибки и стиль заголовка в конструкторе чата
+- [x] Fixed some spelling errors and title style in chat builder
 
-### Сборка №62 (future)
+### Build №62 (future)
