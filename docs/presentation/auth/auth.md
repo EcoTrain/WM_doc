@@ -1,9 +1,7 @@
 ---
-sidebar_position: 1
-sidebar_label: Intro
-title: Authentication
 id: auth
-slug: /presentation/security/intro
+title: Authentication
+slug: /presentation/security
 ---
 
 ## Registration {#signup}

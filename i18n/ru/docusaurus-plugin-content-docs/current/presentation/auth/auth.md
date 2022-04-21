@@ -1,9 +1,7 @@
 ---
-sidebar_position: 1
-sidebar_label: Введение
-title: Авторизация
 id: auth
-slug: /presentation/security/intro
+title: Авторизация
+slug: /presentation/security
 ---
 
 ## Регистрация {#signup}

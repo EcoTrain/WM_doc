@@ -86,7 +86,7 @@ slug: /presentation/todo_list/client
 - [ ] Служебные поля (свой набор для каждого типа ...)
 - [ ] Набор изображений (опционально)
 
-## [Авторизация](/docs/presentation/security/intro)
+## [Авторизация](/docs/presentation/security)
 
 - [ ] Вход через Google сервисы
 - [ ] Вход через VK

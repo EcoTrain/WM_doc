@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
 id: chat
-title: Introduction
+title: Chat
 slug: /presentation/chat
 ---
 
