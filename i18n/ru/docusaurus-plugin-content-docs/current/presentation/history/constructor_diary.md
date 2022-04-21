@@ -1,7 +1,8 @@
 ---
 sidebar_position: 5
+id: constructor_diary
 title: 'Конструктор дневников'
-slug: /docs/presentation/history/constructor_diary
+slug: /presentation/history/constructor_diary
 ---
 
 При создании дневника необходимо задать следующие параметры:

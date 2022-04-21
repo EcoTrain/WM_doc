@@ -1,7 +1,8 @@
 ---
 sidebar_position: 5
+id: constructor_diary
 title: 'Diary constructor'
-slug: /docs/presentation/history/constructor_diary
+slug: /presentation/history/constructor_diary
 ---
 
 When creating a diary, you must set the following parameters:

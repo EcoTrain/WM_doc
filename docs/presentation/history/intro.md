@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: Introduction
-title: Introduction
 id: introduction
+title: Introduction
 slug: /presentation/history/intro
 ---
 

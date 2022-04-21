@@ -1,8 +1,7 @@
 ---
 sidebar_position: 3
-sidebar_label: Редактирование истории
-title: Редактирование истории
 id: diary_history_editing
+title: Редактирование истории
 slug: /presentation/history/edit_history
 ---
 

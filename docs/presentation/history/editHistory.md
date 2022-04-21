@@ -1,8 +1,7 @@
 ---
 sidebar_position: 3
-sidebar_label: Editing a story
-title: Editing a story
 id: diary_history_editing
+title: Editing a story
 slug: /presentation/history/edit_history
 ---
 

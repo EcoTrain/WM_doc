@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
-sidebar_label: Введение
-title: Введение
 id: introduction
+title: Введение
 slug: /presentation/history/intro
 ---
 

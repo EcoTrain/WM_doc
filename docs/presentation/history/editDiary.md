@@ -1,8 +1,7 @@
 ---
 sidebar_position: 4
-sidebar_label: Diary settingss
-title: Diary settings
 id: diary_settings
+title: Diary settings
 slug: /presentation/history/edit_diary
 ---
 

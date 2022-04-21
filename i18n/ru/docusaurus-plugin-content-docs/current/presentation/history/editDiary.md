@@ -1,8 +1,7 @@
 ---
 sidebar_position: 4
-sidebar_label: Настройки дневников
-title: Настройки дневников
 id: diary_settings
+title: Настройки дневников
 slug: /presentation/history/edit_diary
 ---
 
