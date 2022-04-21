@@ -1,18 +1,14 @@
 {
-  "version.label": {
-    "message": "Next",
-    "description": "The label for version current"
-  },
   "sidebar.presentation.category.Introduction": {
-    "message": "Introduction",
+    "message": "Введение",
     "description": "The label for category Introduction in sidebar presentation"
   },
   "sidebar.presentation.category.Auth": {
-    "message": "Auth",
+    "message": "Авторизация",
     "description": "The label for category Auth in sidebar presentation"
   },
   "sidebar.presentation.category.Ведение истории": {
-    "message": "Ведение истории",
+    "message": "Ведение дневника",
     "description": "The label for category Ведение истории in sidebar presentation"
   },
   "sidebar.presentation.category.Планирование": {

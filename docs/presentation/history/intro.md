@@ -1,51 +1,51 @@
 ---
 sidebar_position: 1
-sidebar_label: Введение
+sidebar_label: Introduction
+title: Introduction
+id: introduction
 slug: /presentation/history/intro
 ---
 
-# Введение
+This section describes journaling and covers the following topics:
 
-В данном разделе описано ведение дневников, рассмотрены следующие темы:
+- [General description](/docs/presentation/history/intro)
+  - Purpose of diaries
+  - Diary functionality
+  - Editing diaries
+- [Diary creating](/docs/presentation/history/constructor_diary)
+- [View](/docs/presentation/history/show)
+- [Editing history](/docs/presentation/history/edit_history)
+- [Diary settings](/docs/presentation/history/edit_diary)
 
-- [Общее описание](/docs/presentation/history/intro)
-  - Назначение дневников
-  - Функционал дневников
-  - Редактирование дневников
-- [Просмотр](/docs/presentation/history/show)
-- [Редактирование истории](/docs/presentation/history/edit_history)
-- [Настройки дневников](/docs/presentation/history/edit_diary)
+## Diaries
 
-<!-- > Создание нового дневника описано в разделе [конструктора](/docs/views/constructors#конструктор-дневников) -->
+**Diaries are designed to monitor** changes in the totality of any indicators, called `variables`.
+A diary chart can depend on several expressions, each reflecting the relationship of a set of variables.
 
-## Дневники
+> For example, fluid balance = the difference between filled and poured liquid.
+> These parameters can be displayed as two lines or as one line, reflecting their difference.
+> When adding a new value to the widget, the data is written to the profile in the database (history) and the graph is redrawn.
 
-**Дневники предназначены для мониторинга** изменения совокупности каких-либо показателей, называемых `переменные`.  
-График дневника может зависеть от нескольких выражений, каждое из которых отражает отношения совокупности переменных.
+When a user registers, a set of **standard** diaries is created in his profile:
 
-> Например: баланс жидкости = разность залитой и вылитой жидкости.  
-> Эти параметры могут быть отображены в виде двух линий, а могут и в виде одной, отражающей их разность.
-> При добавлении нового значения на виджет, данные записываются в профиль в БД (history) и график перерисовывается.
+1. Heart rate
+2. Saturation (blood oxygen saturation)
+3. Pressure
+4. Steps
+5. Temperature
+6. Sugar
+7. Weight
+8. Growth
+9. BMI (Body Mass Index)
 
-При регистрации пользователя, в его профиле создаётся набор **стандартных** дневников:
+The user can also add new widgets or remove existing ones.
 
-1. ЧСС
-2. Сатурация (насыщенность крови кислородом)
-3. Давление
-4. Шаги
-5. Температура
-6. Сахар
-7. Вес
-8. Рост
-9. ИМТ (Индекс массы тела)
+Widget **settings** are described in the corresponding [section](/docs/presentation/history/edit_diary)
 
-Также пользователь может добавить новые виджеты, или удалить существующие.
+> The device of the diary widget is described in more detail in its [constructor](/docs/presentation/history/constructor_diary)
 
-**Настройки** виджета описаны в соответствующем [разделе](/docs/presentation/history/edit_diary)  
-<!-- Более подробно устройство виджета дневника описано в его [конструкторе](/docs/views/constructors#конструктор-дневников) -->
+**Notes:**
 
-**Примечания:**
+- In the diary panel, graphs display the last 10 measurements without aggregation by time.
 
-- На панели дневников графики отображают 10 последних замеров без агрегации по времени.
-
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/phone/diary.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayout.png"/></div>

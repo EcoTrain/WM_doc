@@ -1,21 +1,15 @@
 ---
 sidebar_position: 3
-sidebar_label: Редактирование истории
+sidebar_label: Editing a story
+title: Editing a story
+id: diary_history_editing
 slug: /presentation/history/edit_history
 ---
 
-# Редактирование истории
+History editing is done from the diary view window, which can be accessed by clicking on the desired widget on the diary window.
 
-Редактирование истории производится из окна просмотра дневника, попасть в которое можно кликнув по нужному виджету на окне дневников.
+## Adding value {#diary_history_adding}
 
-## Добавление значения
+In the diary view window, it is possible to add data to the history. In this case, you will be required to enter the data that is specified in the diary configuration. The added data will be applied to other diaries if the above have overlaps in variables. If you enter weight and height in different diaries at different times, the BMI (body mass index) diary will show a value based on the values you specified earlier.s
 
-В окне просмотра дневника, есть возможность добавить данные в историю. При этом, от Вас потребуется ввести те данные, которые прописаны в конфигурации дневника. Добавленные данные будут применены и к другим дневникам, если вышеуказанные имеют пересечения в переменных. То есть, если Вы в разное время укажете свой вес и рост в разных дневниках, в дневнике ИМТ (индекс массы тела) появится значение, основанное на указанных Вами ранее значениях.
-
-### Мобильная версия <span class="pin mobile"></span>
-
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/phone/diaryAdd.png"/></div>
-
-### Веб-версия <span class="pin web"></span>
-
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/web/diaryAdd.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/historyAddForm.png"/></div>

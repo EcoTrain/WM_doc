@@ -16,7 +16,7 @@ slug: /presentation/security/intro
 
 После регистрации вам будет отправлено письмо на электронную почту для подтверждения регистрации.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signUp.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signup.png"/></div>
 
 # Вход {#login}
 

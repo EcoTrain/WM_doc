@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
 sidebar_label: Введение
+title: Введение
+id: introduction
 slug: /presentation/history/intro
 ---
-
-# Введение
 
 В данном разделе описано ведение дневников, рассмотрены следующие темы:
 
@@ -12,11 +12,10 @@ slug: /presentation/history/intro
   - Назначение дневников
   - Функционал дневников
   - Редактирование дневников
+- [Создание дневника](/docs/presentation/history/constructor_diary)
 - [Просмотр](/docs/presentation/history/show)
 - [Редактирование истории](/docs/presentation/history/edit_history)
 - [Настройки дневников](/docs/presentation/history/edit_diary)
-
-<!-- > Создание нового дневника описано в разделе [конструктора](/docs/views/constructors#конструктор-дневников) -->
 
 ## Дневники
 
@@ -42,10 +41,11 @@ slug: /presentation/history/intro
 Также пользователь может добавить новые виджеты, или удалить существующие.
 
 **Настройки** виджета описаны в соответствующем [разделе](/docs/presentation/history/edit_diary)  
-<!-- Более подробно устройство виджета дневника описано в его [конструкторе](/docs/views/constructors#конструктор-дневников) -->
+
+> Более подробно устройство виджета дневника описано в его [конструкторе](/docs/presentation/history/constructor_diary)
 
 **Примечания:**
 
 - На панели дневников графики отображают 10 последних замеров без агрегации по времени.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/phone/diary.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayout.png"/></div>

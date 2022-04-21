@@ -1,25 +1,21 @@
 ---
 sidebar_position: 2
-sidebar_label: Просмотр
+sidebar_label: Viewing the diary
+title: Viewing the diary
+id: diary_viewing
 slug: /presentation/history/show
 ---
-
-# Просмотр дневника
  
-Просмотреть полную информацию о дневнике можно кликнув по нужному виджету на панели дневников.  
-После этого будет осуществлен переход на окно просмотра дневника.  
-
-### Просмотр дневника
+You can view the complete information about the diary by clicking on the desired widget on the diary panel.
+After that, you will be transferred to the diary view window.
  
-<!-- !["Полный просмотр"](/img/presentation/diary/diary_full.png) -->
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/phone/diaryItem.png"/></div>
 
-### Просмотр графика дневника <span class="pin web"></span>
+## Viewing the Diary Graph {#diary_chart}
 
-График отображает значения переменных, участвующих в конфигурации дневника. Данные аггрегируются
+The graph displays the values of the variables involved in the diary configuration. Data is aggregated
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/web/diaryFull.png"/></div>
 
-> В дальнейшем возможно приведение графиков к более опрятному виду и портирование на мобильные версии.
 
 

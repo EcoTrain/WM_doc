@@ -1,10 +1,10 @@
 ---
 sidebar_position: 4
 sidebar_label: Настройки дневников
+title: Настройки дневников
+id: diary_settings
 slug: /presentation/history/edit_diary
 ---
-
-# Настройки дневников
 
 Для того, чтобы редактировать настройки виджета дневника, **нажмите и удерживайте ЛКМ** на нужном виджете на панели дневников.  
 
@@ -18,4 +18,4 @@ slug: /presentation/history/edit_diary
 2.3. Месяц  
 3. Удалить виджет
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/web/diary.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayoutEdit.png"/></div>
