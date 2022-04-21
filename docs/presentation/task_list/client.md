@@ -6,9 +6,9 @@ slug: /presentation/todo_list/client
 
 # Задачи на клиенте
 
-## [Сущности](/docs/presentation/storage_entities/intro)
+## Сущности
 
-### [Дневники](/docs/presentation/storage_entities/intro#дневники)
+### [Дневники](/docs/presentation/history/intro)
 
 <!-- [`Конструктор`](/docs/views/constructors#конструктор-дневников) -->
 
@@ -52,12 +52,12 @@ slug: /presentation/todo_list/client
 
 - [ ] Изменение размера 0.125 | 0.25 | 0.625 | 0.75
 
-### [Переменные](/docs/presentation/storage_entities/intro#переменные)
+### [Переменные](/docs/presentation/history/constructor_diary)
 
 - [ ] Дополнительные пределы (пороги предупреждений) для переменных
 - [ ] Персональные иконки для переменных
 
-### [Медикаменты](/docs/presentation/storage_entities/intro#медикаменты)
+### [Медикаменты](/docs/presentation/storage_entities/medicaments)
 
 <!-- [`Конструктор`](/docs/views/constructors#конструктор-медикаментов) -->
 
@@ -70,7 +70,7 @@ slug: /presentation/todo_list/client
 - [ ] Сбор данных по ссылке
 - [ ] Отправка в чате
 
-### [Документы](/docs/presentation/storage_entities/intro#документы)
+### Документы
 
 Документы должны включать в себя такие поля как:
 
@@ -78,7 +78,7 @@ slug: /presentation/todo_list/client
 - [ ] Служебные поля (серия, номер, ...)
 - [ ] Набор изображений (опционально)
 
-### [Анализы](/docs/presentation/storage_entities/intro#документы)
+### Анализы
 
 Анализы должны включать в себя такие поля как:
 

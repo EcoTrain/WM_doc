@@ -1,20 +1,18 @@
 ---
 sidebar_position: 1
-sidebar_label: Введение
+title: Planning
+id: scheduler
 slug: /presentation/schedule/intro
 ---
 
-# Планирование
+An important element of the system is task scheduling. In this case, the tasks are divided into
 
-Важным элементом системы является планирование задач. В данном случае задачи подразделяются на
+- `reminders`,
+- `taking medications`,
+- `an appointment with a doctor` and
+- `keeping diaries`
 
-- `напоминания`,
-- `прием медикаментов`,
-- `запись к врачу` и
-- `ведение дневников`
--
-
-## Интерфейс планировщика
+## Scheduler Interface {#schedule_interface}
 
 Планировщик делится на
 
@@ -29,6 +27,19 @@ slug: /presentation/schedule/intro
 
 `Календарь` помечает `pin`-ами те дни, в которые запланирована хотя бы одна задача
 
+The scheduler is divided into
+
+- `title` and
+- a `body` whose layout changes from vertical to horizontal depending on the screen's width.
+
+The `body` contains a hidden `calendar` block (date picker) and a `schedule block for the day`. To open the `calendar` block, you need to click on the name of the month in the `header`.
+
+`Schedule for the day` is a list, where each of the lines is responsible for the `hour`.
+
+If a task is scheduled for the current day, it will be displayed next to the hour in which it is scheduled. If several tasks overlap the execution window, tasks are added to the right of the existing ones.
+
+The calendar `pins` the days on which at least one task is scheduled
+
 <div align="center" display="flex">
     <div>
         <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/calendar.png"/>
@@ -38,22 +49,20 @@ slug: /presentation/schedule/intro
     </div>
 </div>
 
-## Создание событий
+## Creating events {#schedule_event_add}
 
-### Общие
+To add an `Event`, click on the corresponding button at the bottom of the window.
 
-Чтобы добавить `Событие`, необходимо кликнуть по соответствующей `кнопке` внизу окна. При широкой разметке, `кнопка` смещается в правый угол.
+After clicking, you get to the window for selecting the `type of event`. Currently, only two types are available:
 
-После нажатия, Вы попадаете в окно выбора `типа события`. На текущий момент доступно только 2 типа:
-
-- `Напоминание`
-- `Прием медикаментов`
+- `Reminder`
+- `Taking medication`
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/eventTypes.png"/></div>
 
-### Конструктор событий
+### Event constructors
 
-В зависимости от выбранного `типа события`, открытое далее окно `конструктор событий` будет содержать в себе несколько разный набор компонетов, однако в большинстве случаев эти наборы пересекаются.
+Depending on the selected event type, the event designer window that is opened next will contain a slightly different set of components, but in most cases, these sets overlap.
 
 <div align="center" display="flex">
     <div>
@@ -64,7 +73,7 @@ slug: /presentation/schedule/intro
     </div>
 </div>
 
-### Выбор времени события
+### Event Timings
 
 Чтобы выбрать время события, можно воспользоваться 2-мя способами:
 
@@ -73,8 +82,14 @@ slug: /presentation/schedule/intro
 
 В первом случае, вам необходимо выбрать конкретную дату. Тогда `событие` появится в `календаре` только один раз.
 
-<!-- Если же Вы решили выбрать дни недели, то `событие` в `календаре` будет появляться постоянно согласно выбранным дням недели. Если в [`конструкторе`](/docs/views/constructors#%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D0%BE%D1%80-%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D0%B9) выбран хотя бы один день недели, то виджет `выбор даты` будет неактивен. -->
+To select the time of the event, you can use two methods:
+- date selection
+- choice of days of the week
 
-После выбора дней, вы можете задать время для появления `события` в `расписании на день`. Для этого на панели с часами Вы можете кликнуть по уже добавленному времени, чтобы его удалить, или по кнопке `+`, чтобы добавить новое время.
+In the first case, you need to select a specific date. Then the `event` will appear in the `calendar` only once.
+
+If you decide to select the days of the week, then the `event` in the `calendar` will appear constantly according to the selected days of the week. If at least one day of the week is selected, then the `date picker` widget will be disabled.
+
+After selecting the days, you can set the time for the `event` to appear in the `schedule for the day`. To do this, you can click on the already added time to delete it on the panel with the clock or on the + button to add a new time.
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedule.png"/></div>

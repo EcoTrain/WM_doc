@@ -39,6 +39,11 @@ When a user registers, a set of **standard** diaries is created in his profile:
 
 The user can also add new widgets or remove existing ones.
 
+To add diaries to your profile, there are 2 ways:
+
+- [x] diary constructor
+- [ ] Search in template database
+
 Widget **settings** are described in the corresponding [section](/docs/presentation/history/edit_diary)
 
 > The device of the diary widget is described in more detail in its [constructor](/docs/presentation/history/constructor_diary)
@@ -46,5 +51,17 @@ Widget **settings** are described in the corresponding [section](/docs/presentat
 **Notes:**
 
 - In the diary panel, graphs display the last 10 measurements without aggregation by time.
+
+Editing added diaries is available through the context menu of the diary tile (long press | right mouse click):
+
+- [x] Resize 0.5 | one
+- [x] Period change
+- [x] Delete
+- [ ] Other settings:
+  - [ ] Diary color
+  - [ ] Diary Icon
+  - [ ] Serial number
+  - [ ] Data set colors
+  - [ ] Diary type
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayout.png"/></div>

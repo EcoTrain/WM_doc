@@ -1,29 +1,33 @@
 {
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
   "sidebar.presentation.category.Introduction": {
-    "message": "Введение",
+    "message": "Introduction",
     "description": "The label for category Introduction in sidebar presentation"
   },
   "sidebar.presentation.category.Auth": {
-    "message": "Авторизация",
+    "message": "Auth",
     "description": "The label for category Auth in sidebar presentation"
   },
   "sidebar.presentation.category.Keeping a diary": {
-    "message": "Ведение дневника",
-    "description": "The label for category Ведение дневника in sidebar presentation"
+    "message": "Keeping a diary",
+    "description": "The label for category Keeping a diary in sidebar presentation"
   },
   "sidebar.presentation.category.Planning": {
-    "message": "Планирование",
-    "description": "The label for category Планирование in sidebar presentation"
+    "message": "Planning",
+    "description": "The label for category Planning in sidebar presentation"
   },
   "sidebar.presentation.category.Chat": {
-    "message": "Чат",
-    "description": "The label for category Чат in sidebar presentation"
+    "message": "Chat",
+    "description": "The label for category Chat in sidebar presentation"
   },
-  "sidebar.presentation.category.Entity storage": {
+  "sidebar.presentation.category.Хранение сущностей": {
     "message": "Хранение сущностей",
     "description": "The label for category Хранение сущностей in sidebar presentation"
   },
-  "sidebar.presentation.category.Task list": {
+  "sidebar.presentation.category.Список задач": {
     "message": "Список задач",
     "description": "The label for category Список задач in sidebar presentation"
   }
