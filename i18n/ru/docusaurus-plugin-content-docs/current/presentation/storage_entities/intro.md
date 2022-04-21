@@ -4,7 +4,11 @@ title: Медикаменты
 slug: /presentation/storage_entities/medicaments
 ---
 
-`Медикаменты` добавляются в профиль теми же способами, что и `Дневники`.  
+`Медикаменты` добавляются в профиль теми же способами, что и дневники.
+
+- Поиск в базе каталога
+- Конструктор медикаментов
+
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/med/medLayout.png"/></div>
 
 ## Создание

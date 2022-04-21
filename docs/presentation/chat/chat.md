@@ -10,6 +10,12 @@ Chat is the main method of interaction between users. Here, users can exchange v
 - `Image`
 - `Document`
 
+Planned:
+- [ ] diaries
+- [ ] medicines
+- [ ] audio
+- [ ] video
+
 ## Chat selection window interface
 
 At the heart of the chat, the selection window is the `SearchPanel` component, as in the Diaries. This allows both local searches for chats by users and global searches for all users.
@@ -29,7 +35,7 @@ Depending on the width of the screen, the chat window appears as a separate wind
     </div>
 </div>
 
-### Investments
+### Attachments
 
 To send non-text data, a menu for selecting attachments is implemented under the text input field. To activate it, you need to click on the button <i class="fa fa-puzzle-piece d"></i>
 

@@ -4,7 +4,10 @@ title: Medicines
 slug: /presentation/storage_entities/medicaments
 ---
 
-`Medicines` are added to the profile in the same way as Diaries.
+`Medicines` are added to the profile in the same way as diaries.
+
+- Search in the catalog database
+- Medication constructor
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/med/medLayout.png"/></div>
 

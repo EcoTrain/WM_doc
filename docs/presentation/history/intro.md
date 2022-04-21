@@ -41,7 +41,7 @@ The user can also add new widgets or remove existing ones.
 
 To add diaries to your profile, there are 2 ways:
 
-- [x] diary constructor
+- [x] [diary constructor](/docs/presentation/history/constructor_diary)
 - [ ] Search in template database
 
 Widget **settings** are described in the corresponding [section](/docs/presentation/history/edit_diary)

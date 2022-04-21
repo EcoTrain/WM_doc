@@ -41,10 +41,10 @@ slug: /presentation/history
 
 Для добавления дневников в профиль, есть 2 способа:
 
-- [x] конструктор дневников
+- [x] [конструктор дневников](/docs/presentation/history/constructor_diary)
 - [ ] Поиск в базе шаблонов
 
-**Настройки** виджета описаны в соответствующем [разделе](/docs/presentation/history/edit_diary)  
+**Настройки** виджета описаны в соответствующем [разделе](/docs/presentation/history/edit_diary)
 
 > Более подробно устройство виджета дневника описано в его [конструкторе](/docs/presentation/history/constructor_diary)
 

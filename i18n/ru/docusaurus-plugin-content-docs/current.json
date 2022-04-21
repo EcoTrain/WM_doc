@@ -23,8 +23,8 @@
     "message": "Хранение сущностей",
     "description": "The label for category Хранение сущностей in sidebar presentation"
   },
-  "sidebar.presentation.category.Task list": {
-    "message": "Список задач",
+  "sidebar.presentation.category.Release notes": {
+    "message": "Заметки релизов",
     "description": "The label for category Список задач in sidebar presentation"
   }
 }
