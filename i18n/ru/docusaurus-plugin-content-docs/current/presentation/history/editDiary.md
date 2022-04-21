@@ -9,12 +9,12 @@ slug: /presentation/history/edit_diary
 
 Доступные настройки:
 1. Размер:  
-1.1. Узкий (половина строки)  
-1.2. Широкий (вся строка)  
+    1.1. Узкий (половина строки)  
+    1.2. Широкий (вся строка)  
 2. Период агрегации  
-2.1. День  
-2.2. Неделя  
-2.3. Месяц  
+    2.1. День  
+    2.2. Неделя  
+    2.3. Месяц  
 3. Удалить виджет
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayoutEdit.png"/></div>

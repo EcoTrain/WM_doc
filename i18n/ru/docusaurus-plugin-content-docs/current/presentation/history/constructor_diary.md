@@ -24,7 +24,7 @@ slug: /presentation/history/constructor_diary
 
 Справа от выражения находится кнопка **настроек выражения**, где можно задать такие параметры как:
 * Цвет элемента на графике
-* Включение выражения в статистику по виджету
+* Включение выражения в статистику по виджету (итоговое значение на панели виджетов)
 * Префикс и суфикс при подсчете статистики
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryTiles.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryConstructors.png"/></div>

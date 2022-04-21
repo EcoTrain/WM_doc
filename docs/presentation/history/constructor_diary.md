@@ -24,7 +24,7 @@ Expressions are **assembled** from blocks of the form `[var][?]`.
 
 To the right of the expression is the **expression settings** button, where you can set such parameters as:
 * The color of the element on the chart
-* Inclusion of expression in widget statistics
+* Inclusion of expression in widget statistics (total value in the widget panel)
 * Prefix and suffix when counting statistics
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryTiles.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryConstructors.png"/></div>

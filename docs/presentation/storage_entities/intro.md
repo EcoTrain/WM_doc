@@ -59,7 +59,7 @@ slug: /presentation/storage_entities/intro
   - Цвета ноборов данных
   - Тип дневника
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryTiles.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/constructors/diary/diaryLayout.png"/></div>
 
 ## Медикаменты
 
