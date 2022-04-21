@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.presentation.category.Introduction": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar presentation"
+  },
+  "sidebar.presentation.category.Auth": {
+    "message": "Auth",
+    "description": "The label for category Auth in sidebar presentation"
+  },
+  "sidebar.presentation.category.Ведение истории": {
+    "message": "Ведение истории",
+    "description": "The label for category Ведение истории in sidebar presentation"
+  },
+  "sidebar.presentation.category.Планирование": {
+    "message": "Планирование",
+    "description": "The label for category Планирование in sidebar presentation"
+  },
+  "sidebar.presentation.category.Взаимодействие": {
+    "message": "Взаимодействие",
+    "description": "The label for category Взаимодействие in sidebar presentation"
+  },
+  "sidebar.presentation.category.Хранение сущностей": {
+    "message": "Хранение сущностей",
+    "description": "The label for category Хранение сущностей in sidebar presentation"
+  },
+  "sidebar.presentation.category.Список задач": {
+    "message": "Список задач",
+    "description": "The label for category Список задач in sidebar presentation"
+  }
+}

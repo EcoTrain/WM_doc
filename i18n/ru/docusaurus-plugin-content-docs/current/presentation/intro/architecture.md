@@ -6,7 +6,7 @@ id: architecture
 slug: /presentation/architecture
 ---
 
-## Стек технологий {tech_stack}
+## Стек технологий {#tech_stack}
 
 - База данных: MongoDB
 - Сервер: NodeJS
