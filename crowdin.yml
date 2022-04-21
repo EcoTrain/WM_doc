@@ -1,5 +1,5 @@
 project_id: "511408"
-api_token: ${{ secrets.CROWDIN_TOKEN }}
+api_token: bf187d331ecf3983ca99d7ddd8a99bb3e1c2e5b9f26af949395429b0e69908eb3e9953a65858feef
 preserve_hierarchy: true
 files:
   # JSON translation files
