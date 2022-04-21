@@ -60,13 +60,6 @@ Depending on the selected event type, the event designer window that is opened n
 
 ### Event Timings
 
-Чтобы выбрать время события, можно воспользоваться 2-мя способами:
-
-- выбор даты
-- выбор дней недели
-
-В первом случае, вам необходимо выбрать конкретную дату. Тогда `событие` появится в `календаре` только один раз.
-
 To select the time of the event, you can use two methods:
 
 - date selection
