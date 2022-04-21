@@ -16,7 +16,7 @@ Registration requires:
 
 After registration, you will be sent an email to confirm your registration.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signUp.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signup.png"/></div>
 
 ## Login {#login}
 
