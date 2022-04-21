@@ -36,3 +36,24 @@ To send non-text data, a menu for selecting attachments is implemented under the
 In this menu, you can select attachments to send to your interlocutor.
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsReady.png"/></div>
+
+## Настройки чата
+
+In the chat header there is a button to go to the settings window.
+In the chat settings you can do:
+
+- Hide chat (all messages are available when you return to the chat)
+- Clear chat (deletes all old messages)
+- Delete chat (the chat is hidden and all old messages are deleted)
+
+Various actions are available to you depending on your role (rights) in the chat.
+
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatSettings.png"/></div>
+
+## Создание группового чата
+
+Also in the user search window there is a button for creating a group chat. To create a group chat, you only need to add users and specify a name for the chat.
+
+> Group chats are not unique and can be created with the same settings.
+
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatCreate.png"/></div>
