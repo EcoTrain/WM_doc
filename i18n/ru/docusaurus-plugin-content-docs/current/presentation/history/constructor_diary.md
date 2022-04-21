@@ -34,7 +34,7 @@ slug: /presentation/history/constructor_diary
 - Включение выражения в статистику по виджету (итоговое значение на панели виджетов)
 - Префикс и суфикс при подсчете статистики
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructors.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
 
 ## Графики
 
@@ -53,4 +53,4 @@ slug: /presentation/history/constructor_diary
 
 `Переменные` используются для идентификации объектов истории. Переменная содержит в себе имя и пределы. Создание переменных осуществляется через `конструктор переменных`.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/variableConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/variableConstructor.png"/></div>

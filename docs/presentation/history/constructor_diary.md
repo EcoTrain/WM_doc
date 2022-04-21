@@ -34,7 +34,7 @@ To the right of the expression is the **expression settings** button, where you 
 - Inclusion of expression in widget statistics (total value in the widget panel)
 - Prefix and suffix when counting statistics
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructors.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
 
 ## Charts
 
@@ -53,4 +53,4 @@ To the right of the expression is the **expression settings** button, where you 
 
 `Variables` are used to identify history objects. A variable contains a name and limits. Variables are created via the `variable constructor`.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/variableConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/variableConstructor.png"/></div>
