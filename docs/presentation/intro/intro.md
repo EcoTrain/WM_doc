@@ -2,7 +2,6 @@
 sidebar_position: 1
 id: presentation_intro
 title: 'Description' 
-sidebar_label: Description
 slug: /presentation/intro
 ---
 

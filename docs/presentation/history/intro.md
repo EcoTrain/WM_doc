@@ -2,12 +2,12 @@
 sidebar_position: 1
 id: introduction
 title: Introduction
-slug: /presentation/history/intro
+slug: /presentation/history
 ---
 
 This section describes journaling and covers the following topics:
 
-- [General description](/docs/presentation/history/intro)
+- [General description](/docs/presentation/history)
   - Purpose of diaries
   - Diary functionality
   - Editing diaries

@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Planning
 id: scheduler
+title: Planning
 slug: /presentation/schedule/intro
 ---
 

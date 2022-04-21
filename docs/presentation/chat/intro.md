@@ -1,10 +1,12 @@
 ---
 sidebar_position: 1
+id: chat
 title: Introduction
-slug: /presentation/history/interaction
+slug: /presentation/chat
 ---
 
 Chat is the main method of interaction between users. Here, users can exchange various types of information. Currently, among the `types of information` available:
+
 - `Text`
 - `Image`
 - `Document`

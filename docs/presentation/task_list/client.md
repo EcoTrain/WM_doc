@@ -8,7 +8,7 @@ slug: /presentation/todo_list/client
 
 ## Сущности
 
-### [Дневники](/docs/presentation/history/intro)
+### [Дневники](/docs/presentation/history)
 
 <!-- [`Конструктор`](/docs/views/constructors#конструктор-дневников) -->
 
@@ -124,7 +124,7 @@ slug: /presentation/todo_list/client
   - - [ ] Редактирование
 - [ ] Больше личной информации (опционально)
 
-### [Чат](/docs/presentation/history/interaction#чаты)
+### [Чат](/docs/presentation/chat)
 
 - [x] Firebase messaging
 - [x] Ссылки на данные пользователей вместо копирования
@@ -173,7 +173,7 @@ slug: /presentation/todo_list/client
   - - [ ] Сбор всех данных в один объект
   - - [ ] Получение информации о медикаменте по ссылке
   - - [ ] Отправка данных в чате
-- [ ] Реализация обмена оставшимися [`типами информации`](/docs/presentation/history/interaction#чаты)
+- [ ] Реализация обмена оставшимися [`типами информации`](/docs/presentation/chat)
 - [ ] Другие медиа вложения (аудио, видео)
 - [ ] Поиск по сообщениям
 - [ ] Улучшенный поиск по пользователям (больше параметров поиска)
@@ -201,7 +201,7 @@ slug: /presentation/todo_list/client
 - [ ] Просмотр меток (клик по маркеру)
 - [ ] Построение маршрутов до точек
 
-### [Дневники](/docs/presentation/history/intro)
+### [Дневники](/docs/presentation/history)
 
 - [x] Добавлениие дневника через конструктор
 - [x] Просмотр дневника, графика и логов

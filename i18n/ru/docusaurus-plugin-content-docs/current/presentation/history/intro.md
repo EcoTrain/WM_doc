@@ -2,12 +2,12 @@
 sidebar_position: 1
 id: introduction
 title: Введение
-slug: /presentation/history/intro
+slug: /presentation/history
 ---
 
 В данном разделе описано ведение дневников, рассмотрены следующие темы:
 
-- [Общее описание](/docs/presentation/history/intro)
+- [Общее описание](/docs/presentation/history)
   - Назначение дневников
   - Функционал дневников
   - Редактирование дневников
