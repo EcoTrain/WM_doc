@@ -1,16 +1,17 @@
 ---
 sidebar_position: 1
 id: presentation_intro
-title: 'Описание' 
-sidebar_label: Описание
+title: 'Description' 
+sidebar_label: Description
 slug: /presentation/intro
 ---
 
-## Документация
+## Documentation
 
-В данном разделе описана концептуальная часть системы  
+This section describes the conceptual part of the system
 
-В навигации могут встречаться пины разных цветов. Наличие пина говорит о поддержке какоого-либо модуля только одной или двумя платформами.
+Navigation may contain pins of different colours. The presence of a pin indicates that only one or two platforms support a module.
+
 - ![#f03c15](https://via.placeholder.com/15/000000/000000?text=+) ` iOS`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ` Android`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ` Web`

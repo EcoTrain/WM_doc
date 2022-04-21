@@ -1,46 +1,42 @@
 ---
 sidebar_position: 1
-sidebar_label: Введение
+sidebar_label: Intro
+title: Authentication
+id: auth
 slug: /presentation/security/intro
 ---
 
-# Аутентификация
+## Registration {#signup}
 
-## Вход
+Registration requires:
 
-Первый вход в приложение осуществляется через страницу Login.
+- Username (unique)
+- Mail (unique)
+- Password
 
-Для авторизации требуется:
+After registration, you will be sent an email to confirm your registration.
 
-- Имя пользователя / Почта
-- Пароль
-
-<!-- !["Страница авторизации"](/img/presentation/auth/login.png) -->
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/login.png"/></div>
-
-## Регистрация
-
-В текущей версии, регистрация требует только ввода уникального логина и пароля. После регистрации, Вы сразу попадаете в приложение
-
-Для регистрации требуется:
-
-- Имя пользователя
-- Почта
-- Пароль
-
-<!-- !["Страница регистрации"](/img/presentation/auth/signUp.png) -->
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signUp.png"/></div>
 
-## Пинкод <span class="pin mobile"></span>
+## Login {#login}
 
-В мобильных версиях после авторизвации требуется добавить пинкод. Далее, при каждом входе в приложение, необходимо вводить созданный ранее код. Если Вы забыли пинкод, вы можете сбросить данные и зайти заново, нажав на кнопку "Забыли пинкод"
+The first login to the application is through the authorization page.
 
-<!-- !["Страница пинкода"](/img/presentation/auth/pin.png) -->
+Login requires:
+
+- Username / Email
+- Password
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/login.png"/></div>
+
+## Pincode <span class="pin mobile"></span> {#pincode}
+
+In mobile versions, after authorization, you need to add a pincode. Further, each time you enter the application, you must enter the previously created code. If you have forgotten your PIN, you can reset your data and log in again by clicking on the "Forgot PIN" button.
+
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/pin.png"/></div>
 
-> - Возможно добавление в Web версию в следующих релизах
-> - Возможно отключение через настройки в следующих релизах
+> - May be added to the Web version in future releases
+> - Possible to disable via settings in future releases
 
-## Защита
+## Protection
 
-Данные пользователя передаются через протокол HTTPS с SSL шифрованием.
+User data is transmitted via the HTTPS protocol.

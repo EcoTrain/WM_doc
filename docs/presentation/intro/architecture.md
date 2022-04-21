@@ -1,66 +1,64 @@
 ---
 sidebar_position: 2
-sidebar_label: Архитектура
-title: 'Архитектура' 
+sidebar_label: Architecture
+title: "Architecture"
+id: architecture
 slug: /presentation/architecture
 ---
 
-# Стек
+## Technology stack {#tech_stack}
 
-- База данных: MongoDB
-- Сервер: NodeJS
-- Клиент: ReactNative
+- Database: MongoDB
+- Server: NodeJS
+- Client: ReactNative
 
-# Архитектура
+## Architecture {#architecture}
 
-Приложение является кроссплатформенным и доступно на платформах: Web, iOS, Android
+The application is cross-platform and available on platforms: Web, iOS, Android
+The application has two layout modes:
 
-Приложение имеет 2 режима верстки:
+- phone
+- Wide (web, tablet)
 
-- Узкая (телефон)
-- Широкая (веб, планшет)  
-  Обе разметки также можно применять на всех устройствах.
+Both markups can also be applied across all devices.
+The application is based on a single code for all platforms with rare exceptions when:
 
-Приложение основано на едином коде для всех платформ за редким исключением, когда:
+- The library is not adapted to all platforms (several are used)
+- Features of the perception of the interface require the implementation of different functionality / look for different platforms
 
-- Библиотека не адаптирована под все платформы (используются несколько)
-- Особенности восприятия интерфейса требуют реализовать разный функционал/вид для разных платформ
+## Local storage {#local_storage}
 
-# Локальное хранилище
+The server uses a shared MongoDB database, but mobile devices use an **additional local** MongoDB.
 
-Сервер использует общую БД MongoDB, но мобильные устройства используют **дополнительную локальную** MongoDB.
+This allows the user to perform the following tasks:
 
-Это позволяет решить следующие задачи:
+### Data relevance {#data_relevance}
 
-## Актуальность данных
+Thanks to synchronization, only relevant information is exchanged.
 
-Благодаря синхронизации присходит обмен только актуальной информацеий.
+When communicating with the server, the application sends the following data:
 
-При общении с сервером приложение отправляет следуюшие данные:
+- Reading
+  - url (path to the required data area in the database)
+  - devicetime (device time at the time the request was sent to the server)
+- Recording
+  - url (path to the required data area in the database)
+  - data (data to write)
+  - time (time to read data on the device)
+  - devicetime (device time at the time the request was sent to the server)
 
-- Чтение
-  - url (путь до области нужных данных в БД)
-  - devicetime (время устройства на момент отправки запроса к серверу)
-- Запись
-  - url (путь до области нужных данных в БД)
-  - data (данные для записи)
-  - time (время считывания данных на устройстве)
-  - devicetime (время устройства на момент отправки запроса к серверу)
+How the server understands that the information is up-to-date is described in the **synchronization mechanism** section of this chapter.
 
-Как сервер понимает, что информация актуальна, описано в разделе **механизм синхронизации** этой главы
+### Offline {#offline}
 
-## Оффлайн
+Local database on devices allows continuous filling of logs even without network access thanks to **synchronization mechanism**
 
-Локальная БД на устройствах позволяет вести непрерывное заполнение журналов даже без доступа к сети благодаря **механизму синхронизации**
+### Synchronization mechanism {#synchronization_mechanism}
 
-## Механизм синхронизации
+When acting with the database, the data is sent to the server (if there is a network). Otherwise, the transaction is added to the synchronization queue. When a request is received, the server compares the last data modification time in the database and the time specified in the request data.
 
-При действии с БД данные отправляются на сервер (при наличии сети), иначе транзакция добавляется в очередь синхронизации
-При получении запроса сервер сравнивает последнее время изменения данных в БД и время, указанное в данных запроса.
+Data is considered relevant if:
+**Read**: if the time per request is less than the last time the data was changed in the database.
+**Write**: if the time at the time of writing the data is less than the last time the data was changed in the database. This means that newer data has already been recorded. If the data is up to date, the server overwrites it in the database and returns the current time when writing to the database. (Actual time = req.devicetime - servertime + req.time)
 
-Данные считаются актуальными, если:  
-**Чтение:** если время на запроса меньше последнего времени изменения данных в БД.  
-**Запись:** если время на момент записи данных меньше последнего времени изменения данных в БД. Это значит, что уже записаны более новые данные.
-В случае актуальности данных, сервер перезаписывает их в БД и возвращает актуальное время на момент записи в БД. (Actual time = req.devicetime - servertime + req.time)
-
-После выгрузки всех данных из очереди на сервер запрашиваются актуальные данные из БД сервера.
+After unloading all the data from the queue, the actual data from the server database is requested to the server.
