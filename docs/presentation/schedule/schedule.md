@@ -14,19 +14,6 @@ An important element of the system is task scheduling. In this case, the tasks a
 
 ## Scheduler Interface {#schedule_interface}
 
-Планировщик делится на
-
-- `заголовок` и
-- `тело`, разметка которого, в зависимости от ширины экрана, меняется с вертикальной на горизонтальную.
-
-В `теле` содержатся скрываемый блок `календарь` (выбора даты) и блок `расписания на день`. Чтобы раскрыть блок `календарь`, нужно кликнуть по названию месяца в `заголовке`
-
-`Расписание на день` представляет собой некоторого рода дневник, где каждая из 24-х линий отвечает за `час`. Текущее время помечено <span class="primary-color">`primary`</span> цветом и не центрировано по `часу`.
-
-Если на текущий день запланирована какая-либо `задача`, она будет отображена рядом с часом, в который она запланирована. Если у нескольких задач пересекается промежуток выполнения, `задачи` добавляются справа, а поле `Расписание на день` допускает горизонтальный скролл
-
-`Календарь` помечает `pin`-ами те дни, в которые запланирована хотя бы одна задача
-
 The scheduler is divided into
 
 - `title` and
@@ -42,10 +29,10 @@ The calendar `pins` the days on which at least one task is scheduled
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/calendar.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerView.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/calendarExpanded.png"/>
+        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerCalendar.png"/>
     </div>
 </div>
 
@@ -58,9 +45,7 @@ After clicking, you get to the window for selecting the `type of event`. Current
 - `Reminder`
 - `Taking medication`
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/eventTypes.png"/></div>
-
-### Event constructors
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerEventTypes.png"/></div>
 
 Depending on the selected event type, the event designer window that is opened next will contain a slightly different set of components, but in most cases, these sets overlap.
 
@@ -83,6 +68,7 @@ Depending on the selected event type, the event designer window that is opened n
 В первом случае, вам необходимо выбрать конкретную дату. Тогда `событие` появится в `календаре` только один раз.
 
 To select the time of the event, you can use two methods:
+
 - date selection
 - choice of days of the week
 
@@ -92,4 +78,4 @@ If you decide to select the days of the week, then the `event` in the `calendar`
 
 After selecting the days, you can set the time for the `event` to appear in the `schedule for the day`. To do this, you can click on the already added time to delete it on the panel with the clock or on the + button to add a new time.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedule.png"/></div>
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerTimeSelector.png"/></div>

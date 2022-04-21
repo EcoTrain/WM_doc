@@ -369,3 +369,7 @@ When there is no connection:
 - [x] Fixed some spelling errors and title style in chat builder
 
 ### Build №62 (future)
+
+- [ ] Multiline message entry in chat
+- [ ] Line wrap message via ctrl+enter or shift+enter
+- [ ] Selecting a group of messages (by holding down the shift key)
