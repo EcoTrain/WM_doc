@@ -123,6 +123,10 @@ const config = {
           title: "Contacts",
           items: [
             {
+              label: "A2RD site",
+              href: "https://www.a2rd.com",
+            },
+            {
               label: "Telegram",
               href: "https://t.me/a2_development",
             },
@@ -135,10 +139,6 @@ const config = {
         {
           title: "More",
           items: [
-            // {
-            //   label: "Blog",
-            //   to: "/blog",
-            // },
             {
               label: "GitHub",
               href: "https://github.com/EcoTrain/newmed_docs",
