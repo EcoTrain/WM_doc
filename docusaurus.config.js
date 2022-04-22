@@ -55,7 +55,23 @@ const config = {
     ],
   ],
   themeConfig: {
-    metadata: [{ name: "google-site-verification", content: "0CfiMkgVo_PlTRe2cJ0TP_RunVVfUpXpu7NEk-xNl-U" }],
+    metadata: [
+      { name: "description", content: "Description of implemented functionality and plans for future releases" },
+      { name: "google-site-verification", content: "0CfiMkgVo_PlTRe2cJ0TP_RunVVfUpXpu7NEk-xNl-U" },
+      { name: "robots", content: "all" },
+      { name: "yandex", content: "all" },
+      { name: "googlebot", content: "all" },
+      { name: "googlebot-news", content: "all" },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://ecotrain.github.io/wellness_doc/" },
+      { property: "og:title", content: "Wellness Monitor" },
+      { property: "og:site_name", content: "User manual" },
+      { property: "og:description", content: "Description of implemented functionality and plans for future releases" },
+      { property: "og:image", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
+      { property: "og:image:width", content: "1200" },
+      { property: "og:image:height", content: "600" },
+      { property: "og:image:alt", content: "Wellness Montor: user manual" },
+    ],
     navbar: {
       title: "",
       logo: {
