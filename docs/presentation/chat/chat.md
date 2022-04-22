@@ -37,7 +37,7 @@ In this menu, you can select attachments to send to your interlocutor.
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsReady.png"/></div>
 
-## Настройки чата
+## Chat settings
 
 In the chat header there is a button to go to the settings window.
 In the chat settings you can do:
@@ -50,7 +50,7 @@ Various actions are available to you depending on your role (rights) in the chat
 
 <div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatSettings.png"/></div>
 
-## Создание группового чата
+## Create a group chat
 
 Also in the user search window there is a button for creating a group chat. To create a group chat, you only need to add users and specify a name for the chat.
 
