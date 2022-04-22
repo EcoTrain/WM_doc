@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ecotrain.github.io/wellness_doc/ru/blog</id>
-    <title>Wellness Assistant Blog</title>
+    <title>Wellness Monitor Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ecotrain.github.io/wellness_doc/ru/blog"/>
-    <subtitle>Wellness Assistant Blog</subtitle>
+    <subtitle>Wellness Monitor Blog</subtitle>
     <icon>https://ecotrain.github.io/wellness_doc/ru/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
