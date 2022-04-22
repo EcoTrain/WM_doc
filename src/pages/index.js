@@ -33,7 +33,9 @@ export default function Home() {
   return (
     <Layout title={`${siteConfig.title}`} description="Description will go into a meta tag in <head />">
       <HomepageHeader />
-      <main>{/* <HomepageFeatures /> */}</main>
+      <main>
+        <HomepageFeatures />
+      </main>
       <div className="storeBtns">
         {RDD.isAndroid && <MobileStoreButton store="ios" url={""} linkProps={{ title: "iOS Store Button" }} />}
         {RDD.isIOS && <MobileStoreButton store="android" url={""} linkProps={{ title: "Android Store Button" }} />}
