@@ -368,8 +368,12 @@ When there is no connection:
 
 - [x] Fixed some spelling errors and title style in chat builder
 
-### Build №62 (future)
+### Build №62
 
-- [ ] Multiline message entry in chat
-- [ ] Line wrap message via ctrl+enter or shift+enter
-- [ ] Selecting a group of messages (by holding down the shift key)
+- [x] Multiline message entry in chat
+- [x] Line wrap message via ctrl+enter or shift+enter
+- [x] Selecting a group of messages (by holding down the shift key)
+- [x] Fixed a bug with the absence of a diary chart with a small dataset
+- [x] Fixed prefixes and suffixes in diary datasets
+
+### Build №63 (future)
