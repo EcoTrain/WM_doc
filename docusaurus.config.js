@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Wellness Assistant",
-  tagline: "Documentation",
+  title: "Wellness Monitor",
+  tagline: "User manual",
 
   url: "https://ecotrain.github.io", // Your website URL
   baseUrl: "/wellness_doc/",
