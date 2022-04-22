@@ -5,7 +5,7 @@ title: "Diary constructor"
 slug: /presentation/history/constructor_diary
 ---
 
-## Main
+## General {#diary_costructor_general}
 
 When creating a diary, you must set the following parameters:
 
@@ -15,7 +15,24 @@ When creating a diary, you must set the following parameters:
 4. Dataset
 5. Unit of measurement
 
-**Data set** represents a list of expressions, each of which reflects the relationship of a set of variables.
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
+
+## Charts {#diary_costructor_charts}
+
+`Diaries` are configurations that collect a set of variables in one place and style them for a convenient presentation. Implemented `diary types`:
+
+- [x] Line graphs
+- [x] Progress bar (circle)
+- [x] Progress bar (line)
+- [x] Prime number
+- [ ] WaterFall
+- [ ] Bar Chart
+- [ ] Pie Chart
+- [ ] Combine Chart
+
+## Data sets {#diary_costructor_datasets}
+
+**Data set** represents a list of expressions, each of which reflects the relationship of a set of [variables](/docs/presentation/history/constructor_diary)..
 
 > For example: liquid balance = difference between filled and poured liquid.
 > These options can be displayed as:
@@ -34,22 +51,18 @@ To the right of the expression is the **expression settings** button, where you 
 - Inclusion of expression in widget statistics (total value in the widget panel)
 - Prefix and suffix when counting statistics
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
+**Prefix and suffix** do not affect diary log values. They only change the visual shell of the value, for easier reading.
 
-## Charts
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
+Form for creating a diary
 
-`Diaries` are configurations that collect a set of variables in one place and style them for a convenient presentation. Implemented `diary types`:
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
+Diary view window
 
-- [x] Line graphs
-- [x] Progress bar (circle)
-- [x] Progress bar (line)
-- [x] Prime number
-- [ ] WaterFall
-- [ ] Bar Chart
-- [ ] Pie Chart
-- [ ] Combine Chart
+<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
+Diary widget with prefixes and suffixes
 
-## Variables
+## Variables {#diary_costructor_variables}
 
 `Variables` are used to identify history objects. A variable contains a name and limits. Variables are created via the `variable constructor`.
 
