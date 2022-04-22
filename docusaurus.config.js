@@ -58,10 +58,12 @@ const config = {
     metadata: [
       { name: "description", content: "Description of implemented functionality and plans for future releases" },
       { name: "google-site-verification", content: "0CfiMkgVo_PlTRe2cJ0TP_RunVVfUpXpu7NEk-xNl-U" },
+
       { name: "robots", content: "all" },
       { name: "yandex", content: "all" },
       { name: "googlebot", content: "all" },
       { name: "googlebot-news", content: "all" },
+
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://ecotrain.github.io/wellness_doc/" },
       { property: "og:title", content: "Wellness Monitor" },
@@ -72,6 +74,7 @@ const config = {
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "600" },
       { property: "og:image:alt", content: "Wellness Montor: user manual" },
+      { property: "og:updated_time", content: "1440432930" },
     ],
     navbar: {
       title: "",
@@ -153,6 +156,7 @@ const config = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
+    image: "/img/logo.svg",
   },
 };
 
