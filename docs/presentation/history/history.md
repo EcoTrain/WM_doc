@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
 id: introduction
-title: Introduction
+title: Keeping a diary
 slug: /presentation/history
 ---
 

@@ -7,29 +7,34 @@ const FeatureList = [
     title: "Keep a diary",
     Svg: require("/img/main_diary.svg").default,
     description: <>Monitor health indicators.</>,
+    link: "/wellness_doc/docs/presentation/history",
   },
   {
     title: "Plan your events",
     Svg: require("/img/main_calendar.svg").default,
     description: <>Schedule events and receive notifications. Create a themed or custom reminder</>,
+    link: "/wellness_doc/docs/presentation/schedule",
   },
   {
     title: "Chat",
     Svg: require("/img/main_chat.svg").default,
     description: <>Chat with other users</>,
+    link: "/wellness_doc/docs/presentation/chat",
   },
 ];
 
-function Feature({ Svg, title, description }) {
+function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} alt={title} />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
-      </div>
+      <a href={link} style={{ color: "black", textDecoration: "none" }}>
+        <div className="text--center">
+          <Svg className={styles.featureSvg} alt={title} />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </a>
     </div>
   );
 }

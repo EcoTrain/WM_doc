@@ -2,7 +2,7 @@
 sidebar_position: 1
 id: scheduler
 title: Planning
-slug: /presentation/schedule/intro
+slug: /presentation/schedule
 ---
 
 An important element of the system is task scheduling. In this case, the tasks are divided into

@@ -75,7 +75,7 @@ slug: /presentation/release_notes/tasklist
 
 ## Активности
 
-### [Планировщик](/docs/presentation/schedule/intro)
+### [Планировщик](/docs/presentation/schedule)
 
 - [ ] Группировка событий (на одно время и дату)
 - [ ] Уведомления о событиях (через Firebase)

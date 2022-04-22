@@ -1,7 +1,6 @@
 ---
-sidebar_position: 1
 id: introduction
-title: Введение
+title: Ведение дневника
 slug: /presentation/history
 ---
 

@@ -73,7 +73,7 @@ Analyzes should include fields such as:
 - [ ] Login with TouchID / FaceID
 - [ ] Registration form
 
-## [Scheduler](/docs/presentation/schedule/intro)
+## [Scheduler](/docs/presentation/schedule)
 
 - [ ] Event grouping (for the same time and date)
 - [ ] Event Notifications (via Firebase)

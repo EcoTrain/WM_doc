@@ -1,7 +1,7 @@
 ---
 id: scheduler
 title: Планирование задач
-slug: /presentation/schedule/intro
+slug: /presentation/schedule
 ---
 
 Важным элементом системы является планирование задач. В данном случае задачи подразделяются на
