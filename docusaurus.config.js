@@ -150,6 +150,11 @@ const config = {
           ],
         },
       ],
+      logo: {
+        alt: "A2 Research and Development Lab",
+        src: "https://a2rd.com/static/images/logo_max.svg",
+        href: "https://a2rd.com/",
+      },
       copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
     },
     prism: {
