@@ -55,6 +55,7 @@ const config = {
     ],
   ],
   themeConfig: {
+    metadata: [{ name: "google-site-verification", content: "0CfiMkgVo_PlTRe2cJ0TP_RunVVfUpXpu7NEk-xNl-U" }],
     navbar: {
       title: "",
       logo: {
