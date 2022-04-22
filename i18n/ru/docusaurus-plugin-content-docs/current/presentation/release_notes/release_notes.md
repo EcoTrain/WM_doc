@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 title: Заметки релизов
-slug: /presentation/release_notes/releases
+slug: /presentation/release_notes
 ---
 
 ## v0.1

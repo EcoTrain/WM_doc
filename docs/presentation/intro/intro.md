@@ -1,15 +1,18 @@
 ---
-sidebar_position: 1
 id: presentation_intro
-title: 'Description' 
-slug: /presentation/intro
+title: "General description"
+slug: /presentation
 ---
 
-## Documentation
+This site is a user guide for the [`Wellness Monitor`](https://wellness.a2rd.com) app.
 
-This section describes the conceptual part of the system
+In the navigation menu, you can find the sections that interest you in order to familiarize yourself with the functionality and instructions for use.
 
-Navigation may contain pins of different colours. The presence of a pin indicates that only one or two platforms support a module.
+Also here is the [`logging of releases`](/docs/presentation/release_notes), a description of the released builds of the application and the planned functionality in the future.
+
+## Platform markers
+
+Navigation may contain **pins** of different colours. The presence of a pin indicates that only one or two platforms support a module.
 
 - ![#f03c15](https://via.placeholder.com/15/000000/000000?text=+) ` iOS`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ` Android`

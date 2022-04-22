@@ -57,8 +57,8 @@ Local database on devices allows continuous filling of logs even without network
 
 When acting with the database, the data is sent to the server (if there is a network). Otherwise, the transaction is added to the synchronization queue. When a request is received, the server compares the last data modification time in the database and the time specified in the request data.
 
-Data is considered relevant if:
-**Read**: if the time per request is less than the last time the data was changed in the database.
+Data is considered relevant if:  
+**Read**: if the time per request is less than the last time the data was changed in the database.  
 **Write**: if the time at the time of writing the data is less than the last time the data was changed in the database. This means that newer data has already been recorded. If the data is up to date, the server overwrites it in the database and returns the current time when writing to the database. (Actual time = req.devicetime - servertime + req.time)
 
 After unloading all the data from the queue, the actual data from the server database is requested to the server.
