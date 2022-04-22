@@ -64,7 +64,7 @@ const config = {
       { name: "googlebot-news", content: "all" },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "https://ecotrain.github.io/wellness_doc/" },
-      { property: "og:title", content: "Wellness Monitor" },
+      // { property: "og:title", content: "Wellness Monitor" },
       { property: "og:site_name", content: "User manual" },
       { property: "og:description", content: "Description of implemented functionality and plans for future releases" },
       { property: "og:image:url", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
