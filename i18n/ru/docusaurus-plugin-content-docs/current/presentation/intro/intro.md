@@ -1,6 +1,6 @@
 ---
 id: presentation_intro
-sidebar_label: Общее описание
+title: Общее описание
 slug: /presentation
 ---
 
