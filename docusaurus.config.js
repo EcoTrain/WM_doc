@@ -49,7 +49,6 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         language: ["ru", "en", "fr", "zh"],
       },
@@ -136,27 +135,6 @@ const config = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
-    // algolia: {
-    //   // The application ID provided by Algolia
-    //   appId: "7UHMLJZFX0",
-
-    //   // Public API key: it is safe to commit it
-    //   apiKey: "6f8111b1022991abb051e38dfe5ae27b",
-
-    //   indexName: "Wellness_Monitor",
-
-    //   // Optional: see doc section below
-    //   contextualSearch: true,
-
-    //   // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-    //   externalUrlRegex: "external\\.com|domain\\.com",
-
-    //   // Optional: Algolia search parameters
-    //   searchParameters: {},
-
-    //   // Optional: path for search page that enabled by default (`false` to disable it)
-    //   searchPagePath: "search",
-    // },
   },
 };
 
