@@ -74,6 +74,7 @@ const config = {
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "600" },
       { property: "og:image:alt", content: "Wellness Montor: user manual" },
+      { property: "og:image:type", content: "image/svg+xml" },
       { property: "og:updated_time", content: "1440432930" },
     ],
     navbar: {
