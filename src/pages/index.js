@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
+import Head from "@docusaurus/Head";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
@@ -29,12 +30,12 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
-      description="Description of implemented functionality and plans for future releases"
+    // title={`${siteConfig.title}`}
+    // description="Description of implemented functionality and plans for future releases"
     >
+      <Head prefix="og: http://ogp.me/ns#">{/* <meta property="og:image" content="image.png" /> */}</Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
