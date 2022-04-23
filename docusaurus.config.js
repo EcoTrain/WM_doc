@@ -21,7 +21,8 @@ const config = {
   presets: [
     [
       "@docusaurus/preset-classic",
-      {
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/EcoTrain/newmed_docs/tree/master/docs",
@@ -33,7 +34,8 @@ const config = {
         theme: {
           customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/font-awesome.min.css")],
         },
-      },
+        sitemap: {},
+      }),
     ],
   ],
   plugins: [],
@@ -77,19 +79,23 @@ const config = {
       { property: "og:image:type", content: "image/svg+xml" },
       { property: "og:updated_time", content: "1650710013" },
     ],
+    // announcementBar: {
+    //   id: "myAnnouncementBarId",
+    //   content:
+    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+    //   backgroundColor: "#fafbfc",
+    //   textColor: "#091E42",
+    //   isCloseable: true,
+    // },
     navbar: {
       title: "",
+      hideOnScroll: true,
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
+        srcDark: "img/logo.svg",
       },
       items: [
-        // {
-        //   type: "doc",
-        //   docId: "documentation/documentation_intro",
-        //   position: "left",
-        //   label: "Documentation",
-        // },
         {
           type: "doc",
           docId: "presentation/intro/presentation_intro",
