@@ -69,13 +69,13 @@ const config = {
       { property: "og:title", content: "Wellness Monitor" },
       { property: "og:site_name", content: "User manual" },
       { property: "og:description", content: "Description of implemented functionality and plans for future releases" },
-      { property: "og:image:url", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
+      { property: "og:image", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
       { property: "og:image:secure_url", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "600" },
       { property: "og:image:alt", content: "Wellness Montor: user manual" },
       { property: "og:image:type", content: "image/svg+xml" },
-      { property: "og:updated_time", content: "1440432930" },
+      { property: "og:updated_time", content: "1650710013" },
     ],
     navbar: {
       title: "",
@@ -113,7 +113,7 @@ const config = {
       ],
     },
     footer: {
-      style: "dark",
+      style: "light",
       links: [
         {
           title: "Docs",
@@ -156,7 +156,7 @@ const config = {
         src: "https://a2rd.com/static/images/logo_max.svg",
         href: "https://a2rd.com/",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
+      copyright: `<a target="_blank" href="https://a2rd.com/">Copyright © ${new Date().getFullYear()} A2 Research and Development Lab</a>`,
     },
     prism: {
       theme: lightCodeTheme,
