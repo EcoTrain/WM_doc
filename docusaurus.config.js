@@ -153,10 +153,11 @@ const config = {
       ],
       logo: {
         alt: "A2 Research and Development Lab",
-        src: "https://a2rd.com/static/images/logo_max.svg",
+        src: "/img/logo_min.svg",
         href: "https://a2rd.com/",
+        height: 30,
       },
-      copyright: `<a target="_blank" href="https://a2rd.com/">Copyright © ${new Date().getFullYear()} A2 Research and Development Lab</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} A2 Research and Development Lab`,
     },
     prism: {
       theme: lightCodeTheme,
