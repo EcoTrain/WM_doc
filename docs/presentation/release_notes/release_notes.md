@@ -376,4 +376,31 @@ When there is no connection:
 - [x] Fixed a bug with the absence of a diary chart with a small dataset
 - [x] Fixed prefixes and suffixes in diary datasets
 
-### Build №63 (future)
+### Build №63
+
+- [x] Hidden diary autofill in production mode
+- [x] Dark theme
+  - - [x] Initialize app with device theme
+  - - [x] Switch the theme. Dark/Light
+  - - [x] Save theme
+  - - [x] Dark theme colors
+- [x] Advanced unlock options
+  - - [x] PIN Screen: rewritten, more features, better looking
+  - - [x] PIN Screen: IPhone pin/TouchID/FaceID unlock available
+- [x] Fixed a bug with the last date in the diary in the absence of data
+
+### Build #64
+
+- [x] Changed color palette in themes
+- [x] Delete profile button highlighted
+- [x] Decreased brightness of avatars in dark theme
+
+### Build #65 (future)
+
+- [ ] Editing diaries
+  - - [ ] Diary color
+  - - [ ] Diary icon
+  - - [ ] Serial number
+  - - [ ] Data set colors
+  - - [ ] Diary type
+- [ ] ...
