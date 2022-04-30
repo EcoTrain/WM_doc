@@ -395,7 +395,25 @@ When there is no connection:
 - [x] Delete profile button highlighted
 - [x] Decreased brightness of avatars in dark theme
 
-### Build #65 (future)
+## v1.1
+
+### Build #2
+
+- [x] Changed colors of placeholders in dark theme
+- [x] Calendar redraw on theme change
+- [x] Dark theme just got darker
+- [x] Light theme got even lighter (and in the same color palette)
+- [x] Added stub to chats (for beginners)
+- [x] The application has been renamed, now in the file system it has an identifier and the name "Wellness Monitor"
+- [x] Changed text on permission request dialogs
+- [x] Re-request permissions to the gallery and camera (if previously denied)
+- [x] Using webcam in browser
+- [x] Added tooltip to buttons
+- [x] Reduced total package size of used libraries by 15-20%
+- [x] Calendar localized
+- [x] Autofocus on input field in chat
+
+### Build #3 (future)
 
 - [ ] Editing diaries
   - - [ ] Diary color
