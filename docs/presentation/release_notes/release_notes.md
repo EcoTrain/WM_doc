@@ -413,11 +413,14 @@ When there is no connection:
 - [x] Calendar localized
 - [x] Autofocus on input field in chat
 
-### Build #3 (future)
+### Build #3
 
 - [x] User roles and permissions
 - [x] Administrator cabinet and user management
 - [x] Fixed cascading deletion of user data
+
+### Build #4 (future)
+
 - [ ] Editing diaries
   - - [ ] Diary color
   - - [ ] Diary icon
