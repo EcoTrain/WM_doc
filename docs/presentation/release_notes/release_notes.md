@@ -399,12 +399,12 @@ When there is no connection:
 
 ### Build #2
 
+- [x] The application has been renamed, now in the file system it has an identifier and the name "Wellness Monitor"
 - [x] Changed colors of placeholders in dark theme
 - [x] Calendar redraw on theme change
 - [x] Dark theme just got darker
 - [x] Light theme got even lighter (and in the same color palette)
 - [x] Added stub to chats (for beginners)
-- [x] The application has been renamed, now in the file system it has an identifier and the name "Wellness Monitor"
 - [x] Changed text on permission request dialogs
 - [x] Re-request permissions to the gallery and camera (if previously denied)
 - [x] Using webcam in browser
@@ -415,6 +415,8 @@ When there is no connection:
 
 ### Build #3 (future)
 
+- [x] User roles and permissions
+- [x] Administrator cabinet and user management
 - [ ] Editing diaries
   - - [ ] Diary color
   - - [ ] Diary icon
