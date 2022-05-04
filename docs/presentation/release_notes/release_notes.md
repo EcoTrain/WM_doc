@@ -417,6 +417,7 @@ When there is no connection:
 
 - [x] User roles and permissions
 - [x] Administrator cabinet and user management
+- [x] Fixed cascading deletion of user data
 - [ ] Editing diaries
   - - [ ] Diary color
   - - [ ] Diary icon
