@@ -33,8 +33,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   object-fit: cover;
 }
 
-img[type="imgscreen"] { 
+img {
   max-height: calc(100vh - 70px); 
+  max-width: 100%;
+}
+
+img[type="imgscreen"] { 
   border-radius: 10px;
   border: 1px solid lightgray;
   box-shadow: 0 0 10px #00000030;

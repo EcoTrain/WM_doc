@@ -14,6 +14,14 @@ The assistant is designed to support and accompany users, as well as to maintain
 - **[Offline mode](/docs/presentation/architecture#offline)**: If you do not have access to the Internet, all your data will be saved on the device and added to the queue for sending.
 - **[Synchronization](/docs/presentation/architecture#synchronization_mechanism)**: When access to the Internet appears, data is synchronized with the server and updated on the device.
 
+<!-- <Tabs style={{}}>
+    <TabItem label="Health diaries" value='1'><a href="/docs/presentation/history">Health diaries</a><img align="left" src="/wellness_doc/img/presentation/about/functional/diary_logo.svg" style={{width: "20%",marginRight: 20}}/> allow you to monitor health indicators. The diary chart aggregates your data for the selected period and reflects the dynamics of changes in indicators. You can customize the diary widgets for yourself and change both the visual parameters and the indicators that your diary takes into account.</TabItem>
+    <TabItem label="Event Scheduler" value="/docs/presentation/schedule" style="display: inline-block;">This is an orange 🍊</TabItem>
+    <TabItem label="Chat" value="/docs/presentation/chat" style="display: inline-block;">This is a banana 🍌</TabItem>
+    <TabItem label="Offline mode" value="/docs/presentation/architecture#offline" style="display: inline-block;">This is a banana 🍌</TabItem>
+    <TabItem label="Synchronization" value="/docs/presentation/architecture#synchronization_mechanism" style="display: inline-block;">This is a banana 🍌<TabItem>
+</Tabs> -->
+
 ## Plan
 
 - **Nutriciology**: Monitoring of proteins, fats and carbohydrates. Compliance with the diet. Counting calories.
@@ -43,3 +51,7 @@ Navigation may contain **pins** of different colours. The presence of a pin indi
 - ![#f03c15](https://via.placeholder.com/15/000000/000000?text=+) ` iOS`
 - ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ` Android`
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) ` Web`
+
+import Tabs from '@theme/Tabs';
+
+import TabItem from '@theme/TabItem';
