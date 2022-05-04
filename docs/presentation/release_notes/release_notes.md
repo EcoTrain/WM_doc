@@ -419,7 +419,14 @@ When there is no connection:
 - [x] Administrator cabinet and user management
 - [x] Fixed cascading deletion of user data
 
-### Build #4 (future)
+### Build #4
+
+- [x] Dialog styles changed
+- [x] Changed web calendar style
+- [x] Consolidated styles of components used multiple times (such as input fields)
+- [x] Autocomplete diaries available to admins (for testing and demonstration purposes)
+ 
+### Build #5 (future)
 
 - [ ] Editing diaries
   - - [ ] Diary color
