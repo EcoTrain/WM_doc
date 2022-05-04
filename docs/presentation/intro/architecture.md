@@ -8,16 +8,17 @@ slug: /presentation/architecture
 
 ## Technology stack {#tech_stack}
 
-- Database: MongoDB
-- Server: NodeJS
-- Client: ReactNative
+- **NodeJS + Express**: Fast processing of a large number of requests
+- **React Native**: Cross-platform user interface (Web, iOS, Android)
+- **MongoDB**: Database schema flexibility and scalability
+- **Firebase**: PUSH-notifications, synchronization, real-time information updates
 
 ## Architecture {#architecture}
 
 The application is cross-platform and available on platforms: Web, iOS, Android
 The application has two layout modes:
 
-- phone
+- Phone
 - Wide (web, tablet)
 
 Both markups can also be applied across all devices.

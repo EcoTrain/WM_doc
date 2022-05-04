@@ -8,9 +8,10 @@ slug: /presentation/architecture
 
 ## Стек технологий {#tech_stack}
 
-- База данных: MongoDB
-- Сервер: NodeJS
-- Клиент: ReactNative
+- **NodeJS + Express**: Быстрая обработка большого количества запросов
+- **React Native**: Кроссплатформенный интерфейс пользователя (Web, iOS, Android)
+- **MongoDB**: Гибкость и масштабирование схемы базы данных
+- **Firebase**: PUSH-уведомления, синхронизация, обновление информации в реальном времени
 
 ## Архитектура {#architecture}
 
