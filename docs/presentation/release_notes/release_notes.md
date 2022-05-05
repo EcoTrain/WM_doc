@@ -425,8 +425,20 @@ When there is no connection:
 - [x] Changed web calendar style
 - [x] Consolidated styles of components used multiple times (such as input fields)
 - [x] Autocomplete diaries available to admins (for testing and demonstration purposes)
- 
-### Build #5 (future)
+
+### Build #7
+
+- [x] Stub on medicines about disclaiming responsibility from developers
+- [x] Medication dosage added to the scheduler (in the task creation window)
+- [x] Units of measurement for each type of medicine (individually, a list to choose from)
+
+### Build #8
+
+- [x] Fixed app crash in medicines section
+- [x] Added medicine form validation when creating an event in the scheduler
+- [x] Blocked tap on carousel in scroll lock mode
+
+### Build #9 (future)
 
 - [ ] Editing diaries
   - - [ ] Diary color
