@@ -32,15 +32,14 @@ const config = {
           editUrl: "https://github.com/EcoTrain/newmed_docs/tree/master/blog",
         },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css"), require.resolve("./src/css/font-awesome.min.css")],
+          customCss: [require.resolve("./src/css/custom.scss"), require.resolve("./src/css/font-awesome.min.css")],
         },
         sitemap: {},
       }),
     ],
   ],
-  plugins: [],
+  plugins: ["docusaurus-plugin-sass"],
   scripts: [
-    // { src: "https://snack.expo.dev/embed.js", defer: true, "data-domain": "yourdomain.com" },
     { src: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/fontawesome.min.js" },
   ],
   i18n: {

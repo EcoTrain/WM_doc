@@ -9,23 +9,28 @@ slug: /presentation/architecture
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+import LogoNodeJS from '@site/static/img/presentation/about/stack/nodejs_logo.svg';
+import LogoRN from '@site/static/img/presentation/about/stack/rn_logo.svg';
+import LogoMongo from '@site/static/img/presentation/about/stack/mongo_logo.svg';
+import LogoFirebase from '@site/static/img/presentation/about/stack/firebase_logo.svg';
+
 ## Technology stack {#tech_stack}
 
 <Tabs>
-  <TabItem value="1" label="NodeJS" default>
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/nodejs_logo.svg" style={{width: "10%",marginRight: 20}}/>
+  <TabItem value="1" label="NodeJS" default style={{display: 'flex'}}>
+    <LogoNodeJS className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     NodeJS + Express allows you to quickly process a large number of requests and cover a large audience of users
   </TabItem>
   <TabItem value="2" label="React Native">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/rn_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    <LogoRN className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     Our interface is written in React Native, which allows us to provide a cross-platform product and support for Web, iOS, Android
   </TabItem>
   <TabItem value="3" label="MongoDB">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/mongodb_logo_black.png" style={{width: "10%",marginRight: 20}}/>
+    <LogoMongo className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     MongoDB is used for data storage, it allows for greater scalability and high schema flexibility.
   </TabItem>
   <TabItem value="4" label="Firebase">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/firebase_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    <LogoFirebase className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     You will be notified of important events. Customize your notifications or receive them from other users. All interactions between users are accompanied by dynamic data updates on both devices
   </TabItem>
 </Tabs>
@@ -61,15 +66,6 @@ This allows the user to perform the following tasks:
 Thanks to synchronization, only relevant information is exchanged.
 
 When communicating with the server, the application sends the following data:
-<!-- 
-- Read
-  - url (path to the required data area in the database)
-  - devicetime (device time at the time the request was sent to the server)
-- Write
-  - url (path to the required data area in the database)
-  - data (data to write)
-  - time (time to read data on the device)
-  - devicetime (device time at the time the request was sent to the server) -->
 
 <Tabs>
   <TabItem value="1" label="Read" default>

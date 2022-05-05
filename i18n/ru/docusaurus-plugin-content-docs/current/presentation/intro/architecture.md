@@ -6,23 +6,31 @@ id: architecture
 slug: /presentation/architecture
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+import LogoNodeJS from '@site/static/img/presentation/about/stack/nodejs_logo.svg';
+import LogoRN from '@site/static/img/presentation/about/stack/rn_logo.svg';
+import LogoMongo from '@site/static/img/presentation/about/stack/rn_logo.svg';
+import LogoFirebase from '@site/static/img/presentation/about/stack/firebase_logo.svg';
+
 ## Стек технологий {#tech_stack}
 
 <Tabs>
   <TabItem value="1" label="NodeJS" default>
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/nodejs_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    <LogoNodeJS className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     NodeJS + Express позволяет быстро обрабатывать большое количество запросов и охватывать большую аудиторию пользователей
   </TabItem>
   <TabItem value="2" label="React Native">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/rn_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    <LogoRN className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     Наш интерфейс написан на React Native, что позволяет обеспечить кроссплатформенность продукта и поддержку Web, iOS, Android
   </TabItem>
   <TabItem value="3" label="MongoDB">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/mongodb_logo_black.png" style={{width: "10%",marginRight: 20}}/>
+    <LogoMongo className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     Для хранения данных используется MongoDB, что обеспечивает большую масштабируемость и высокую гибкость схемы.
   </TabItem>
   <TabItem value="4" label="Firebase">
-    <img align="left" src="/wellness_doc/img/presentation/about/stack/firebase_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    <LogoFirebase className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     Вы будете оповещены о важных событиях. Настраивайте свои уведомления или получайте их от других пользователей. Все взаимодействия между пользователями сопровождаются динамическим обновлениям данных на обоих устройствах
   </TabItem>
 </Tabs>
@@ -59,15 +67,6 @@ slug: /presentation/architecture
 Благодаря синхронизации присходит обмен только актуальной информацеий.
 
 При общении с сервером приложение отправляет следуюшие данные:
-
-<!-- - Чтение
-  - url (путь до области нужных данных в БД)
-  - devicetime (время устройства на момент отправки запроса к серверу)
-- Запись
-  - url (путь до области нужных данных в БД)
-  - data (данные для записи)
-  - time (время считывания данных на устройстве)
-  - devicetime (время устройства на момент отправки запроса к серверу) -->
 
 <Tabs>
   <TabItem value="1" label="Чтение" default>

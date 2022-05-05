@@ -7,70 +7,69 @@ slug: /presentation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+import LogoDiary from '@site/static/img/presentation/about/functional/diary_logo.svg';
+import LogoScheduler from '@site/static/img/presentation/about/functional/scheduler_logo.svg';
+import LogoChat from '@site/static/img/presentation/about/functional/chat_logo.svg';
+import LogoSync from '@site/static/img/presentation/about/functional/sync_logo.svg';
+import LogoOffiline from '@site/static/img/presentation/about/functional/offline_logo.svg';
+
+import LogoNutriology from '@site/static/img/presentation/about/plan/nutriciolory_logo.svg';
+import LogoMap from '@site/static/img/presentation/about/plan/map_logo.svg';
+import LogoAuth from '@site/static/img/presentation/about/plan/auth_logo.svg';
+import LogoChart from '@site/static/img/presentation/about/plan/chart_logo.svg';
+
 The assistant is designed to support and accompany users, as well as to maintain communication with other users. To use the assistant, you just need to register, which takes less than a minute. This assistant helps you monitor your health indicators, plan your treatment, nutrition and medication program, and communicate with other users.
 
 ## Functional
 
-<!-- - **[Health diaries](/docs/presentation/history)**: Monitor health indicators. The diary chart aggregates your data for the selected period and reflects the dynamics of changes in indicators. You can customize diary widgets for yourself and change both visual parameters and indicators that your diary takes into account.
-- **[Event Scheduler](/docs/presentation/schedule)**: Create single and recurring events with reminders. This will help you stick to your medication regimen, keep a diary, and keep track of personal things like doctor appointments.
-- **[Chat](/docs/presentation/chat)**: Exchange messages, both text and together with images and documents. Find a user using the search bar and write to him or create a group chat. You will be notified about all events in the chat by a push notification or an instant update of the information on the screen.
-- **[Offline mode](/docs/presentation/architecture#offline)**: If you do not have access to the Internet, all your data will be saved on the device and added to the queue for sending.
-- **[Synchronization](/docs/presentation/architecture#synchronization_mechanism)**: When access to the Internet appears, data is synchronized with the server and updated on the device. -->
-
 <Tabs className="unique-tabs" style={{}}>
     <TabItem label="Health diaries" value='1'>
-        <img align="left" src="/wellness_doc/img/presentation/about/functional/diary_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoDiary className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         <a href="/docs/presentation/history">Health diaries</a> allow you to monitor health indicators. The diary chart aggregates your data for the selected period and reflects the dynamics of changes in indicators. You can customize the diary widgets for yourself and change both the visual parameters and the indicators that your diary takes into account.
     </TabItem>
     <TabItem label="Event Scheduler" value='2'>
-        <img align="left" src="/wellness_doc/img/presentation/about/functional/scheduler_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoScheduler className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Create single and recurring events with reminders in <a href="/docs/presentation/schedule">Scheduler</a>. This will help you stick to your medication regimen, keep a diary, and keep track of personal things like doctor visits.
     </TabItem>
     <TabItem label="Chat" value='3'>
-        <img align="left" src="/wellness_doc/img/presentation/about/functional/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         You can exchange messages in a <a href="/docs/presentation/chat">chat</a>, attach images and documents. Find a user using the search bar and write to him or create a group chat. You will be notified about all the events in the chat by a push notification or an instant update of the information on the screen.
     </TabItem>
     <TabItem label="Offline mode" value='5'>
-        <img align="left" src="/wellness_doc/img/presentation/about/functional/offline_logo.png" style={{width: "10%",marginRight: 20}}/>
+        <LogoOffiline className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         If you do not have access to the Internet, all your data will be saved on the device and added to the queue for sending.
     </TabItem>
     <TabItem label="Synchronization" value='6'>
-        <img align="left" src="/wellness_doc/img/presentation/about/functional/sync_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoSync className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         When access to the Internet appears, data is synchronized with the server and updated on the device.
     </TabItem>
 </Tabs>
 
 ## Plan
 
-<!-- - **Nutriciology**: Monitoring of proteins, fats and carbohydrates. Compliance with the diet. Counting calories.
-- **Help map**: Displaying useful places on the map and building routes to them. Such as healthcare providers or insurance companies.
-- **Chat functionality extension**: Exchange of new types of attachments, such as medicines and diaries. Personal settings. Forwarding messages.
-- **Enhanced diaries**: New chart types (fluid balance, pie and column charts, etc.), reordering of widgets, data export.
-- **Advanced authorization options**: Use of third party services such as Google, Facebook, Apple -->
-
 <Tabs className="unique-tabs" style={{}}>
     <TabItem label="Nutriciology" value='1'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/nutriciolory_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoNutriology className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Monitoring of proteins, fats and carbohydrates. Compliance with the diet. Counting calories.
     </TabItem>
     <TabItem label="Help map" value='2'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/map_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoMap className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
        Displaying useful places on the map and building routes to them. Such as healthcare providers or insurance companies.
     </TabItem>
     <TabItem label="Chat" value='3'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Exchange of new types of attachments, such as medicines and diaries. Personal settings. Forwarding messages.
     </TabItem>
     <TabItem label="Diaries" value='4'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chart_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoChart className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         New chart types (fluid balance, pie and column charts, etc.), reordering of widgets, data export.
     </TabItem>
     <TabItem label="Scheduler" value='5'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Alerts for scheduled events and tasks, new types of tasks such as visiting a doctor or keeping a diary
     </TabItem>
     <TabItem label="Authorization" value='6'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/auth_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <LogoAuth className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Use of third party services such as Google, Facebook, Apple
     </TabItem>
 </Tabs>
