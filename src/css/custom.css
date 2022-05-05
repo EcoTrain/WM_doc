@@ -130,6 +130,7 @@ i.fa.d {
   justify-content: center;
   align-items: center;
 }
-.storeBtns > div:first-child{
-  /* transform: scale(0.67); */
+
+.tabs-container {
+  display: grid;
 }

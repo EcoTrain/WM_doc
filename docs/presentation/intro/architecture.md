@@ -6,12 +6,29 @@ id: architecture
 slug: /presentation/architecture
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Technology stack {#tech_stack}
 
-- **NodeJS + Express**: Fast processing of a large number of requests
-- **React Native**: Cross-platform user interface (Web, iOS, Android)
-- **MongoDB**: Database schema flexibility and scalability
-- **Firebase**: PUSH-notifications, synchronization, real-time information updates
+<Tabs>
+  <TabItem value="1" label="NodeJS" default>
+    <img align="left" src="/wellness_doc/img/presentation/about/stack/nodejs_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    NodeJS + Express allows you to quickly process a large number of requests and cover a large audience of users
+  </TabItem>
+  <TabItem value="2" label="React Native">
+    <img align="left" src="/wellness_doc/img/presentation/about/stack/rn_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    Our interface is written in React Native, which allows us to provide a cross-platform product and support for Web, iOS, Android
+  </TabItem>
+  <TabItem value="3" label="MongoDB">
+    <img align="left" src="/wellness_doc/img/presentation/about/stack/mongodb_logo_black.png" style={{width: "10%",marginRight: 20}}/>
+    MongoDB is used for data storage, it allows for greater scalability and high schema flexibility.
+  </TabItem>
+  <TabItem value="4" label="Firebase">
+    <img align="left" src="/wellness_doc/img/presentation/about/stack/firebase_logo.svg" style={{width: "10%",marginRight: 20}}/>
+    You will be notified of important events. Customize your notifications or receive them from other users. All interactions between users are accompanied by dynamic data updates on both devices
+  </TabItem>
+</Tabs>
 
 ## Architecture {#architecture}
 
@@ -20,12 +37,18 @@ The application has two layout modes:
 
 - Phone
 - Wide (web, tablet)
+  Both markups can also be applied across all devices.
 
-Both markups can also be applied across all devices.
+:::info Single code
+
 The application is based on a single code for all platforms with rare exceptions when:
 
 - The library is not adapted to all platforms (several are used)
 - Features of the perception of the interface require the implementation of different functionality / look for different platforms
+
+That allows you to implement a single logic and reduce the number of vulnerabilities
+
+:::
 
 ## Local storage {#local_storage}
 
@@ -38,15 +61,32 @@ This allows the user to perform the following tasks:
 Thanks to synchronization, only relevant information is exchanged.
 
 When communicating with the server, the application sends the following data:
-
-- Reading
+<!-- 
+- Read
   - url (path to the required data area in the database)
   - devicetime (device time at the time the request was sent to the server)
-- Recording
+- Write
   - url (path to the required data area in the database)
   - data (data to write)
   - time (time to read data on the device)
-  - devicetime (device time at the time the request was sent to the server)
+  - devicetime (device time at the time the request was sent to the server) -->
+
+<Tabs>
+  <TabItem value="1" label="Read" default>
+  <ul>
+    <li>url (path to the required data area in the database)</li>
+    <li>devicetime (device time at the time the request was sent to the server)</li>
+  </ul>
+  </TabItem>
+  <TabItem value="2" label="Write">
+  <ul>
+    <li>url (path to the required data area in the database)</li>
+    <li>devicetime (device time at the time the request was sent to the server)</li>
+    <li>data (data to write)</li>
+    <li>time (time to read data on the device)</li>
+  </ul>
+  </TabItem>
+</Tabs>
 
 How the server understands that the information is up-to-date is described in the **synchronization mechanism** section of this chapter.
 

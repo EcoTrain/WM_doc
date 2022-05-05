@@ -8,19 +8,69 @@ slug: /presentation
 
 ## Функционал
 
-- **[Дневники здоровья](/docs/presentation/history)**: Мониторьте показатели здоровья. График дневника агрегирует ваши данные по выбранному периоду и отражает динамику изменения показателей. Вы можете настроить виджеты дневника под себя и изменить как визуальные параметры, так и показатели которые учитывает ваш дневник.
+<!-- - **[Дневники здоровья](/docs/presentation/history)**: Мониторьте показатели здоровья. График дневника агрегирует ваши данные по выбранному периоду и отражает динамику изменения показателей. Вы можете настроить виджеты дневника под себя и изменить как визуальные параметры, так и показатели которые учитывает ваш дневник.
 - **[Планировщик событий](/docs/presentation/schedule)**: Создание одиночныех и повторяющихся событиях с напоминаниями. Это помогает соблюдать режимы приема медикаментов, ведения дневников, а также не забыть о личных делах, таких как приём у врача.
 - **[Чат](/docs/presentation/chat)**: Обменивайтесь сообщениями, как текстовыми так и вместе с изображениями и документами. Найдите пользователя с помощью строки поиска и напишите ему или создайте групповой чат. О всех событиях в чате вы будете уведомлены пуш-уведомлением или моментальным обновлением информации на экране.
 - **[Оффлайн режим](/docs/presentation/architecture#offline)**: При отсутствии доступа к сети интернет все ваши данные будут сохранены на устройстве и добавлены в очередь на отправку.
-- **[Синхронизация](/docs/presentation/architecture#synchronization_mechanism)**: При появлении доступа к сети интернет происходит синхронизация данных с сервером и обновление их на устройстве.
+- **[Синхронизация](/docs/presentation/architecture#synchronization_mechanism)**: При появлении доступа к сети интернет происходит синхронизация данных с сервером и обновление их на устройстве. -->
+
+<Tabs className="unique-tabs" style={{}}>
+    <TabItem label="Health diaries" value='1'>
+        <img align="left" src="/wellness_doc/img/presentation/about/functional/diary_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <a href="/docs/presentation/history">Дневники здоровья</a> позволяют следить за показателями здоровья. График дневника агрегирует ваши данные по выбранному периоду и отражает динамику изменения показателей. Вы можете настроить виджеты дневника под себя и изменить как визуальные параметры, так и показатели которые учитывает ваш дневник.
+    </TabItem>
+    <TabItem label="Event Scheduler" value='2'>
+        <img align="left" src="/wellness_doc/img/presentation/about/functional/scheduler_logo.svg" style={{width: "10%",marginRight: 20}}/>
+   Создавайте одиночные и повторяющиеся мероприятия с напоминаниями в <a href="/docs/presentation/schedule">планировщике</a>. Это поможет вам придерживаться режима приема лекарств, вести дневник и следить за личными вещами, такими как визиты к врачу.
+    </TabItem>
+    <TabItem label="Chat" value='3'>
+        <img align="left" src="/wellness_doc/img/presentation/about/functional/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Вы можете обмениваться сообщениями в <a href="/docs/presentation/chat">чате</a>, прикреплять изображения и документы. Найдите пользователя с помощью строки поиска и напишите ему или создайте групповой чат. Обо всех событиях в чате вы будете уведомлены push-уведомлением или мгновенным обновлением информации на экране.
+    </TabItem>
+    <TabItem label="Offline mode" value='5'>
+        <img align="left" src="/wellness_doc/img/presentation/about/functional/offline_logo.png" style={{width: "10%",marginRight: 20}}/>
+        Если у вас нет доступа к интернету, все ваши данные будут сохранены на устройстве и добавлены в очередь на отправку.
+    </TabItem>
+    <TabItem label="Synchronization" value='6'>
+        <img align="left" src="/wellness_doc/img/presentation/about/functional/sync_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        При появлении доступа в интернет данные синхронизируются с сервером и обновляются на устройстве.
+    </TabItem>
+</Tabs>
 
 ## Планы
 
-- **Нутрициология**: Мониторинг белков, жиров и углеводов. Соблюдение режима питания. Подсчёт калорий.
+<!-- - **Нутрициология**: Мониторинг белков, жиров и углеводов. Соблюдение режима питания. Подсчёт калорий.
 - **Карта помощи**: Отображение полезных мест на карте и построение маршрутов до них. Таких как места оказания медицинской помощи или страховые компании.
 - **Расширение функционала чата**: Обмен новыми типами вложений, таких как медикаменты и дневники. Персональные настройки. Пересылка сообщений.
 - **Дополненные дневники**: Новые типы диаграмм (баланс жидкости, круговая и столбчатая диаграммы и т. д.), изменение порядка виджетов, экспорт данных.
-- **Расширенные возможности авторизации**: Использование сторонних сервисов, таких как Google, Facebook, Apple
+- **Расширенные возможности авторизации**: Использование сторонних сервисов, таких как Google, Facebook, Apple -->
+
+<Tabs className="unique-tabs" style={{}}>
+    <TabItem label="Nutriciology" value='1'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/nutriciolory_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Мониторинг белков, жиров и углеводов. Соблюдение режима питания. Подсчёт калорий.
+    </TabItem>
+    <TabItem label="Help map" value='2'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/map_logo.svg" style={{width: "10%",marginRight: 20}}/>
+       Отображение полезных мест на карте и построение маршрутов до них. Таких как места оказания медицинской помощи или страховые компании.
+    </TabItem>
+    <TabItem label="Chat" value='3'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Обмен новыми типами вложений, таких как медикаменты и дневники. Персональные настройки. Пересылка сообщений.
+    </TabItem>
+    <TabItem label="Diaries" value='4'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/chart_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Новые типы диаграмм (баланс жидкости, круговая и столбчатая диаграммы и т. д.), изменение порядка виджетов, экспорт данных.
+    </TabItem>
+    <TabItem label="Scheduler" value='5'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Оповещения о запланированых событиях и задачах, новые типы задач, такие как посещение врача или ведение дневника
+    </TabItem>
+    <TabItem label="Authorization" value='6'>
+        <img align="left" src="/wellness_doc/img/presentation/about/plan/auth_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        Использование сторонних сервисов, таких как Google, Facebook, Apple
+    </TabItem>
+</Tabs>
 
 :::info Подробнее
 
