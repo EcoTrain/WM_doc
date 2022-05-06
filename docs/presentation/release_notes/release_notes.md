@@ -434,11 +434,15 @@ When there is no connection:
 
 ### Build #8
 
-- [x] Fixed app crash in medicines section
 - [x] Added medicine form validation when creating an event in the scheduler
 - [x] Blocked tap on carousel in scroll lock mode
 
-### Build #9 (future)
+### Build #9
+
+- [x] Added notifications about the need to consult with a specialist (in the medicines section)
+- [x] Fixed app crash in medicines section
+- [ ] 
+### Build #10 (future)
 
 - [ ] Editing diaries
   - - [ ] Diary color
