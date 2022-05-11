@@ -9,15 +9,15 @@ slug: /presentation/architecture
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import LogoNodeJS from '@site/wellness_doc/static/img/presentation/about/stack/nodejs_logo.svg';
-import LogoRN from '@site/wellness_doc/static/img/presentation/about/stack/rn_logo.svg';
-import LogoMongo from '@site/wellness_doc/static/img/presentation/about/stack/rn_logo.svg';
-import LogoFirebase from '@site/wellness_doc/static/img/presentation/about/stack/firebase_logo.svg';
+import LogoNodeJS from '@site/static/img/presentation/about/stack/nodejs_logo.svg';
+import LogoRN from '@site/static/img/presentation/about/stack/rn_logo.svg';
+import LogoMongo from '@site/static/img/presentation/about/stack/mongo_logo.svg';
+import LogoFirebase from '@site/static/img/presentation/about/stack/firebase_logo.svg';
 
 ## Стек технологий {#tech_stack}
 
 <Tabs>
-  <TabItem value="1" label="NodeJS" default>
+  <TabItem value="1" label="NodeJS" default style={{display: 'flex'}}>
     <LogoNodeJS className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
     NodeJS + Express позволяет быстро обрабатывать большое количество запросов и охватывать большую аудиторию пользователей
   </TabItem>

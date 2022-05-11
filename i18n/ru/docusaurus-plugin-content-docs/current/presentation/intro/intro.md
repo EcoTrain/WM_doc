@@ -7,11 +7,11 @@ slug: /presentation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import LogoDiary from '@site/wellness_doc/static/img/presentation/about/stack/diary_logo.svg';
-import LogoScheduler from '@site/wellness_doc/static/img/presentation/about/stack/scheduler_logo.svg';
-import LogoChat from '@site/wellness_doc/static/img/presentation/about/stack/chat_logo.svg';
-import LogoSync from '@site/wellness_doc/static/img/presentation/about/stack/sync_logo.svg';
-import LogoOffiline from '@site/wellness_doc/static/img/presentation/about/functional/offline_logo.svg';
+import LogoDiary from '@site/static/img/presentation/about/functional/diary_logo.svg';
+import LogoScheduler from '@site/static/img/presentation/about/functional/scheduler_logo.svg';
+import LogoChat from '@site/static/img/presentation/about/functional/chat_logo.svg';
+import LogoSync from '@site/static/img/presentation/about/functional/sync_logo.svg';
+import LogoOffiline from '@site/static/img/presentation/about/functional/offline_logo.svg';
 
 Ассистент предназначен для поддержки и сопровождения пользователей, а также поддержания связи с другими пользователями. Для пользования ассистентом достаточно лишь зарегистрироваться, что занимает меньше минуты. Данный ассистент, помогает мониторить показатели вашего здоровья, планировать программу лечения, питания и приёма медикаментов, общаться с другими пользователями.
 
