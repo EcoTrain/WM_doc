@@ -441,7 +441,7 @@ When there is no connection:
 
 - [x] Added notifications about the need to consult with a specialist (in the medicines section)
 - [x] Fixed app crash in medicines section
-- [ ] 
+
 ### Build #10 (future)
 
 - [ ] Editing diaries

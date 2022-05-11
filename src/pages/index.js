@@ -43,11 +43,6 @@ export default function Home() {
       <div className="storeBtns">
         {RDD.isAndroid && <MobileStoreButton store="ios" url={""} linkProps={{ title: "iOS Store Button" }} />}
         {RDD.isIOS && <MobileStoreButton store="android" url={""} linkProps={{ title: "Android Store Button" }} />}
-        {/* {RDD.isBrowser && (
-          <Link style={{ margin: 12 }} className="button button--secondary button--lg" to="https://wellness.a2rd.com">
-            Web App 💊
-          </Link>
-        )} */}
       </div>
     </Layout>
   );
