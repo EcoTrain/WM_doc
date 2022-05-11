@@ -17,6 +17,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
+  staticDirectories: ['public', 'static'],
 
   presets: [
     [
