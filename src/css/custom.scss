@@ -30,6 +30,12 @@
     }
   }
 }
+[data-theme="light"] {
+}
+
+.text--center {
+  color: var(--ifm-font-color-base);
+}
 
 .navbar__logo img {
   width: 100px;

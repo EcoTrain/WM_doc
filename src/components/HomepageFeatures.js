@@ -26,7 +26,7 @@ const FeatureList = [
 function Feature({ Svg, title, description, link }) {
   return (
     <div className={clsx("col col--4")}>
-      <a href={link} style={{ color: "black", textDecoration: "none" }}>
+      <a href={link} style={{ textDecoration: "none" }}>
         <div className="text--center">
           <Svg className={styles.featureSvg} alt={title} />
         </div>
