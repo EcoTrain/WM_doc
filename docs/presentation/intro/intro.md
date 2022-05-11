@@ -7,16 +7,16 @@ slug: /presentation
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import LogoDiary from '@site/static/img/presentation/about/functional/diary_logo.svg';
-import LogoScheduler from '@site/static/img/presentation/about/functional/scheduler_logo.svg';
-import LogoChat from '@site/static/img/presentation/about/functional/chat_logo.svg';
-import LogoSync from '@site/static/img/presentation/about/functional/sync_logo.svg';
-import LogoOffiline from '@site/static/img/presentation/about/functional/offline_logo.svg';
+import LogoDiary from '@site/wellness_doc/static/img/presentation/about/functional/diary_logo.svg';
+import LogoScheduler from '@site/wellness_doc/static/img/presentation/about/functional/scheduler_logo.svg';
+import LogoChat from '@site/wellness_doc/static/img/presentation/about/functional/chat_logo.svg';
+import LogoSync from '@site/wellness_doc/static/img/presentation/about/functional/sync_logo.svg';
+import LogoOffiline from '@site/wellness_doc/static/img/presentation/about/functional/offline_logo.svg';
 
-import LogoNutriology from '@site/static/img/presentation/about/plan/nutriciolory_logo.svg';
-import LogoMap from '@site/static/img/presentation/about/plan/map_logo.svg';
-import LogoAuth from '@site/static/img/presentation/about/plan/auth_logo.svg';
-import LogoChart from '@site/static/img/presentation/about/plan/chart_logo.svg';
+import LogoNutriology from '@site/wellness_doc/static/img/presentation/about/plan/nutriciolory_logo.svg';
+import LogoMap from '@site/wellness_doc/static/img/presentation/about/plan/map_logo.svg';
+import LogoAuth from '@site/wellness_doc/static/img/presentation/about/plan/auth_logo.svg';
+import LogoChart from '@site/wellness_doc/static/img/presentation/about/plan/chart_logo.svg';
 
 The assistant is designed to support and accompany users, as well as to maintain communication with other users. To use the assistant, you just need to register, which takes less than a minute. This assistant helps you monitor your health indicators, plan your treatment, nutrition and medication program, and communicate with other users.
 

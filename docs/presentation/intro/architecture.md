@@ -9,10 +9,10 @@ slug: /presentation/architecture
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-import LogoNodeJS from '@site/static/img/presentation/about/stack/nodejs_logo.svg';
-import LogoRN from '@site/static/img/presentation/about/stack/rn_logo.svg';
-import LogoMongo from '@site/static/img/presentation/about/stack/mongo_logo.svg';
-import LogoFirebase from '@site/static/img/presentation/about/stack/firebase_logo.svg';
+import LogoNodeJS from '@site/wellness_doc/static/img/presentation/about/stack/nodejs_logo.svg';
+import LogoRN from '@site/wellness_doc/static/img/presentation/about/stack/rn_logo.svg';
+import LogoMongo from '@site/wellness_doc/static/img/presentation/about/stack/mongo_logo.svg';
+import LogoFirebase from '@site/wellness_doc/static/img/presentation/about/stack/firebase_logo.svg';
 
 ## Technology stack {#tech_stack}
 
