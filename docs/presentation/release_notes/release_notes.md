@@ -444,15 +444,20 @@ When there is no connection:
 
 ### Build #11
 
-- [ ] i18n internationalization
-- [ ] Highlight the selected (active) element on the sliders (carousels)
+- [x] i18n internationalization
+- [x] Highlight the selected (active) element on the sliders (carousels)
 
-### Build #12 (future)
+### Build #12
 
-- [ ] Editing diaries
-  - - [ ] Diary color
-  - - [ ] Diary icon
-  - - [ ] Serial number
-  - - [ ] Data set colors
-  - - [ ] Diary type
-- [ ] ...
+- [x] Scheduler refactoring (decomposed constructors, different shapes and structure)
+- [x] Added translations
+- [x] Improved carousel component. Faster response, fewer bugs.
+- [x] Diaries and Variables
+  - - [x] Added units of measurement in the diary log
+  - - [x] Added color of expressions on the graph in the diary log
+  - - [x] Added units of measurement when creating a variable
+  - - [x] Added color for variable icons in diary section
+  - - [x] Changed output format of information on diary preview
+  - - [x] Fixed calculation of chart values ​​on diary preview
+  - - [x] Diary editing
+  - - [x] Create a copy of the diary
