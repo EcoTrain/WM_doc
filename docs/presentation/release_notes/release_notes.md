@@ -461,3 +461,10 @@ When there is no connection:
   - - [x] Fixed calculation of chart values ​​on diary preview
   - - [x] Diary editing
   - - [x] Create a copy of the diary
+  - 
+### Build #13
+
+- [x] Carousel: removed automatic scaling of the active tile
+- [x] Fixed crash when calling attachment slider in chat
+- [x] Added dark theme, assigned colors to components
+- [x] Improved chat creation mechanism
