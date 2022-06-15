@@ -461,10 +461,22 @@ When there is no connection:
   - - [x] Fixed calculation of chart values ​​on diary preview
   - - [x] Diary editing
   - - [x] Create a copy of the diary
-  - 
+
 ### Build #13
 
 - [x] Carousel: removed automatic scaling of the active tile
 - [x] Fixed crash when calling attachment slider in chat
 - [x] Added dark theme, assigned colors to components
 - [x] Improved chat creation mechanism
+
+### Build #14
+
+- [x] React v18. All libraries updated.
+- [x] New React architecture. Increased performance and code optimization.
+- [x] Diary Editing: Spacing and Aggregation Rule
+- [x] Hints in diary constructor
+- [x] Introduced time zone consideration when selecting a date (midnight issue)
+- [x] Consideration of the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
+- [ ] All timestamps are tied to UTC and adjusted to the time zone
+- [x] Edit event type in the scheduler (by date or by schedule per week)
+- [x] Localized dates, times and days of the week
