@@ -14,7 +14,7 @@ slug: /presentation/security
 
 После регистрации вам будет отправлено письмо на электронную почту для подтверждения регистрации.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/signup.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/auth/signup.png"/></div>
 
 # Вход {#login}
 
@@ -25,13 +25,13 @@ slug: /presentation/security
 - Имя пользователя / Почта
 - Пароль
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/login.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/auth/login.png"/></div>
 
 # Пинкод <span class="pin mobile"></span> {#pincode}
 
 В мобильных версиях после авторизвации требуется добавить пинкод. Далее, при каждом входе в приложение, необходимо вводить созданный ранее код. Если Вы забыли пинкод, вы можете сбросить данные и зайти заново, нажав на кнопку "Забыли пинкод"
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/auth/pin.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/auth/pin.png"/></div>
 
 > - Возможно добавление в Web версию в следующих релизах
 > - Возможно отключение через настройки в следующих релизах

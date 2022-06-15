@@ -44,27 +44,27 @@ import LogoOffiline from '@site/static/img/presentation/about/functional/offline
 
 <Tabs className="unique-tabs" style={{}}>
     <TabItem label="Nutriciology" value='1'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/nutriciolory_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/nutriciolory_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Мониторинг белков, жиров и углеводов. Соблюдение режима питания. Подсчёт калорий.
     </TabItem>
     <TabItem label="Help map" value='2'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/map_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/map_logo.svg" style={{width: "10%",marginRight: 20}}/>
        Отображение полезных мест на карте и построение маршрутов до них. Таких как места оказания медицинской помощи или страховые компании.
     </TabItem>
     <TabItem label="Chat" value='3'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Обмен новыми типами вложений, таких как медикаменты и дневники. Персональные настройки. Пересылка сообщений.
     </TabItem>
     <TabItem label="Diaries" value='4'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chart_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/chart_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Новые типы диаграмм (баланс жидкости, круговая и столбчатая диаграммы и т. д.), изменение порядка виджетов, экспорт данных.
     </TabItem>
     <TabItem label="Scheduler" value='5'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Оповещения о запланированых событиях и задачах, новые типы задач, такие как посещение врача или ведение дневника
     </TabItem>
     <TabItem label="Authorization" value='6'>
-        <img align="left" src="/wellness_doc/img/presentation/about/plan/auth_logo.svg" style={{width: "10%",marginRight: 20}}/>
+        <img align="left" src="/WM_doc/img/presentation/about/plan/auth_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Использование сторонних сервисов, таких как Google, Facebook, Apple
     </TabItem>
 </Tabs>

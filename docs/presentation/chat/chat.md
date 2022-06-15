@@ -24,18 +24,18 @@ At the heart of the chat, the selection window is the `SearchPanel` component, a
 Depending on the width of the screen, the chat window appears as a separate window or is displayed to the right of the chat list.
 
 <div align="center">
-    <img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatViewOpen.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/chat/chatViewOpen.png"/>
 </div>
 
 ### Attachments
 
 To send non-text data, a menu for selecting attachments is implemented under the text input field. To activate it, you need to click on the button <i class="fa fa-puzzle-piece d"></i>
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsMenu.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatAssetsMenu.png"/></div>
 
 In this menu, you can select attachments to send to your interlocutor.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsReady.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatAssetsReady.png"/></div>
 
 ## Chat settings
 
@@ -48,7 +48,7 @@ In the chat settings you can do:
 
 Various actions are available to you depending on your role (rights) in the chat.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatSettings.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatSettings.png"/></div>
 
 ## Create a group chat
 
@@ -56,4 +56,4 @@ Also in the user search window there is a button for creating a group chat. To c
 
 > Group chats are not unique and can be created with the same settings.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatCreate.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatCreate.png"/></div>

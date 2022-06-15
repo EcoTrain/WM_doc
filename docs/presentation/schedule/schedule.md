@@ -29,10 +29,10 @@ The calendar `pins` the days on which at least one task is scheduled
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerView.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerCalendar.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
     </div>
 </div>
 
@@ -45,16 +45,16 @@ After clicking, you get to the window for selecting the `type of event`. Current
 - `Reminder`
 - `Taking medication`
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerEventTypes.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerEventTypes.png"/></div>
 
 Depending on the selected event type, the event designer window that is opened next will contain a slightly different set of components, but in most cases, these sets overlap.
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent1.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent1.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent2.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent2.png"/>
     </div>
 </div>
 
@@ -71,4 +71,4 @@ If you decide to select the days of the week, then the `event` in the `calendar`
 
 After selecting the days, you can set the time for the `event` to appear in the `schedule for the day`. To do this, you can click on the already added time to delete it on the panel with the clock or on the + button to add a new time.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerTimeSelector.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerTimeSelector.png"/></div>

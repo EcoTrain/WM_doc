@@ -63,4 +63,4 @@ slug: /presentation/history
   - [ ] Цвета наборов данных
   - [ ] Тип дневника
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayout.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryLayout.png"/></div>

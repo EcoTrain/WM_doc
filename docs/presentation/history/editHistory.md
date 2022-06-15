@@ -11,4 +11,4 @@ History editing is done from the diary view window, which can be accessed by cli
 
 In the diary view window, it is possible to add data to the history. In this case, you will be required to enter the data that is specified in the diary configuration. The added data will be applied to other diaries if the above have overlaps in variables. If you enter weight and height in different diaries at different times, the BMI (body mass index) diary will show a value based on the values you specified earlier.s
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/historyAddForm.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/historyAddForm.png"/></div>

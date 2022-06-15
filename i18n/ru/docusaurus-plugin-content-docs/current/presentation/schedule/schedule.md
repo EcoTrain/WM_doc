@@ -28,10 +28,10 @@ slug: /presentation/schedule
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerView.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerCalendar.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
     </div>
 </div>
 
@@ -44,16 +44,16 @@ slug: /presentation/schedule
 - `Напоминание`
 - `Прием медикаментов`
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerEventTypes.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerEventTypes.png"/></div>
 
 В зависимости от выбранного типа события, открытое далее окно конструктор событий будет содержать в себе несколько разный набор компонетов, однако в большинстве случаев эти наборы пересекаются.
 
 <div align="center" display="flex">
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent1.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent1.png"/>
     </div>
     <div>
-        <img type="imgscreen" src="/wellness_doc/img/presentation/calendar/addEvent2.png"/>
+        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent2.png"/>
     </div>
 </div>
 
@@ -70,4 +70,4 @@ slug: /presentation/schedule
 
 После выбора дней, вы можете задать время для появления `события` в `расписании на день`. Для этого на панели с часами Вы можете кликнуть по уже добавленному времени, чтобы его удалить, или по кнопке `+`, чтобы добавить новое время.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/calendar/schedulerTimeSelectors.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerTimeSelectors.png"/></div>

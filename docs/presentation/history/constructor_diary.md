@@ -15,7 +15,7 @@ When creating a diary, you must set the following parameters:
 4. Dataset
 5. Unit of measurement
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructor.png"/></div>
 
 ## Charts {#diary_costructor_charts}
 
@@ -53,17 +53,17 @@ To the right of the expression is the **expression settings** button, where you 
 
 **Prefix and suffix** do not affect diary log values. They only change the visual shell of the value, for easier reading.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
 Form for creating a diary
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
 Diary view window
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
 Diary widget with prefixes and suffixes
 
 ## Variables {#diary_costructor_variables}
 
 `Variables` are used to identify history objects. A variable contains a name and limits. Variables are created via the `variable constructor`.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/variableConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/variableConstructor.png"/></div>

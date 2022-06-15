@@ -11,6 +11,6 @@ slug: /presentation/history/edit_history
 
 В окне просмотра дневника, есть возможность добавить данные в историю. При этом, от Вас потребуется ввести те данные, которые прописаны в конфигурации дневника. Добавленные данные будут применены и к другим дневникам, если вышеуказанные имеют пересечения в переменных. То есть, если Вы в разное время укажете свой вес и рост в разных дневниках, в дневнике ИМТ (индекс массы тела) появится значение, основанное на указанных Вами ранее значениях.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/historyAddForm.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/historyAddForm.png"/></div>
 
 

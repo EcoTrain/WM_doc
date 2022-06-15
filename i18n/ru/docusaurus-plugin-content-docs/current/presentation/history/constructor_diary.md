@@ -15,7 +15,7 @@ slug: /presentation/history/constructor_diary
 4. Наборы данных
 5. Единица измерения
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructor.png"/></div>
 
 ## Графики {#diary_costructor_charts}
 
@@ -53,17 +53,17 @@ slug: /presentation/history/constructor_diary
 
 **Префикс и суфикс** не влияют на значения лога дневника. Они изменяют лишь визуальную оболочку значения, для более удобного чтения.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
 Форма создания дневника
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
 Окно просмотра дневника
   
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
 Виджет дневника с префиксами и суфиксами
 
 ## Переменные {#diary_costructor_variables}
 
 `Переменные` используются для идентификации объектов истории. Переменная содержит в себе имя и пределы. Создание переменных осуществляется через `конструктор переменных`.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/variableConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/variableConstructor.png"/></div>

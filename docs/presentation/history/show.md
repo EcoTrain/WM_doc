@@ -10,4 +10,4 @@ After that, you will be transferred to the diary view window.
 
 > The graph displays the values of the variables involved in the diary configuration. Data is aggregated
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryFullView.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryFullView.png"/></div>

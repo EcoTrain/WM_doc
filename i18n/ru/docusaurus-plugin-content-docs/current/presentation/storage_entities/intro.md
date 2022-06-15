@@ -9,7 +9,7 @@ slug: /presentation/storage_entities/medicaments
 - Поиск в базе каталога
 - Конструктор медикаментов
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/med/medLayout.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/med/medLayout.png"/></div>
 
 ## Создание
 
@@ -21,4 +21,4 @@ slug: /presentation/storage_entities/medicaments
 - Наименование
 - Примечания
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/med/medConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/med/medConstructor.png"/></div>

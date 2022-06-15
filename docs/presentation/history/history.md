@@ -63,4 +63,4 @@ Editing added diaries is available through the context menu of the diary tile (l
   - [ ] Data set colors
   - [ ] Diary type
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayout.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryLayout.png"/></div>

@@ -25,18 +25,18 @@ slug: /presentation/chat
 Окно чата, в зависимоcти от ширины экрана, появляется отдельным окном или же отображается справа от списка чатов.
 
 <div align="center">
-    <img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatViewOpen.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/chat/chatViewOpen.png"/>
 </div>
 
 ### Вложения
 
 Для отправки нетекстовых данных, под полем для ввода текста реализовано меню выбора вложений. Для его активации нужно кликнуть по кнопке <i class="fa fa-puzzle-piece d"></i>
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsMenu.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatAssetsMenu.png"/></div>
 
 В данном меню Вы можете выбрать вложения для отправки Вашему собеседнику.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatAssetsReady.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatAssetsReady.png"/></div>
 
 ## Настройки чата
 
@@ -49,7 +49,7 @@ slug: /presentation/chat
 
 Вам доступны различные действия в зависимости от вашей роли (прав) в чате.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatSettings.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatSettings.png"/></div>
 
 ## Создание группового чата
 
@@ -57,4 +57,4 @@ slug: /presentation/chat
 
 > Групповые чаты не уникальны и могут быть созданы с одинаковыми параметрами.
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/chat/chatCreate.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatCreate.png"/></div>

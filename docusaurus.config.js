@@ -10,9 +10,9 @@ const config = {
   tagline: "User manual",
 
   url: "https://ecotrain.github.io", // Your website URL
-  baseUrl: "/wellness_doc/",
+  baseUrl: "/WM_doc/",
   organizationName: "EcoTrain", // Usually your GitHub org/user name.
-  projectName: "wellness_doc", // Usually your repo name.
+  projectName: "WM_doc", // Usually your repo name.
   trailingSlash: false,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -67,12 +67,12 @@ const config = {
       { name: "googlebot-news", content: "all" },
 
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://ecotrain.github.io/wellness_doc/" },
+      { property: "og:url", content: "https://ecotrain.github.io/WM_doc/" },
       { property: "og:title", content: "Wellness Monitor" },
       { property: "og:site_name", content: "User manual" },
       { property: "og:description", content: "Description of implemented functionality and plans for future releases" },
-      { property: "og:image", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
-      { property: "og:image:secure_url", content: "https://ecotrain.github.io/wellness_doc/img/logo.svg" },
+      { property: "og:image", content: "https://ecotrain.github.io/WM_doc/img/logo.svg" },
+      { property: "og:image:secure_url", content: "https://ecotrain.github.io/WM_doc/img/logo.svg" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "600" },
       { property: "og:image:alt", content: "Wellness Montor: user manual" },

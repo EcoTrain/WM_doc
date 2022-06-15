@@ -17,4 +17,4 @@ Available settings:
    2.2. A week  
    2.3. Month
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryLayoutEdit.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryLayoutEdit.png"/></div>

@@ -10,7 +10,7 @@ slug: /presentation/history/show
 
 > График отображает значения переменных, участвующих в конфигурации дневника. Данные аггрегируются
 
-<div align="center"><img type="imgscreen" src="/wellness_doc/img/presentation/diary/diaryFullView.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryFullView.png"/></div>
 
 
 
