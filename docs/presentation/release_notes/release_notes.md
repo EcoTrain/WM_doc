@@ -473,7 +473,7 @@ When there is no connection:
 
 - [x] React v18. All libraries updated.
 - [x] New React architecture. Increased performance and code optimization.
-- [x] Diary Editing: Spacing and Aggregation Rule
+- [x] Diary Editing + added spacing and aggregation rules
 - [x] Hints in diary constructor
 - [x] Introduced time zone consideration when selecting a date (midnight issue)
 - [x] Consideration of the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
