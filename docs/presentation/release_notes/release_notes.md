@@ -473,10 +473,16 @@ When there is no connection:
 
 - [x] React v18. All libraries updated.
 - [x] New React architecture. Increased performance and code optimization.
-- [x] Diary Editing + added spacing and aggregation rules
+- [x] Edit diary + added spacing and aggregation rule
 - [x] Hints in diary constructor
 - [x] Introduced time zone consideration when selecting a date (midnight issue)
 - [x] Consideration of the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
-- [ ] All timestamps are tied to UTC and adjusted to the time zone
+- [x] All timestamps are tied to UTC and adjusted to the timezone
 - [x] Edit event type in the scheduler (by date or by schedule per week)
 - [x] Localized dates, times and days of the week
+- [ ] Editing and deleting diary entries
+- [ ] Warning thresholds in variables and their designation on diary charts
+- [ ] Switching the type of graph in the diary view window
+- [ ] Tooltip with diary parameters on the viewport (aggregation parameters, period, etc.)
+- [ ] Fixed translations of EN texts in the diary constructor
+- [ ] Buttons on modal windows are bound to buttons on the keyboard
