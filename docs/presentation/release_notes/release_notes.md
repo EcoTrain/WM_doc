@@ -476,13 +476,13 @@ When there is no connection:
 - [x] Edit diary + added spacing and aggregation rule
 - [x] Hints in diary constructor
 - [x] Introduced time zone consideration when selecting a date (midnight issue)
-- [x] Consideration of the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
+- [x] Accounting for the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
 - [x] All timestamps are tied to UTC and adjusted to the timezone
-- [x] Edit event type in the scheduler (by date or by schedule per week)
+- [x] Edit event type in the scheduler (by date or by weekly schedule)
 - [x] Localized dates, times and days of the week
-- [ ] Editing and deleting diary entries
+- [x] Editing and deleting diary entries
+- [x] Diary log cleanup
+- [x] Tooltip with diary options on viewport
+- [x] Buttons on modal windows are bound to buttons on the keyboard
 - [ ] Warning thresholds in variables and their designation on diary charts
 - [ ] Switching the type of graph in the diary view window
-- [ ] Tooltip with diary parameters on the viewport (aggregation parameters, period, etc.)
-- [ ] Fixed translations of EN texts in the diary constructor
-- [ ] Buttons on modal windows are bound to buttons on the keyboard
