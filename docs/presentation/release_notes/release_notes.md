@@ -484,5 +484,28 @@ When there is no connection:
 - [x] Diary log cleanup
 - [x] Tooltip with diary options on viewport
 - [x] Buttons on modal windows are bound to buttons on the keyboard
+- [x] Toggle chart type in diary viewport
+- [x] Chart conversion when switching type
+
+### Build 15 (future)
+
+General:
+
+- [ ] Display on the graph of the diary the limits of the values ​​of variables
 - [ ] Warning thresholds in variables and their designation on diary charts
-- [ ] Switching the type of graph in the diary view window
+- [ ] Selecting multiple entries in the log in the diary to delete
+- [ ] Scroll to multi-line input fields when clicking on the field
+
+Scheduler:
+
+- [ ] Select the period of relevance of the event
+- [ ] Multi-period selection in drug mode
+- [ ] Grouping events (for the same time and date)
+- [ ] Event Notifications
+- [ ] Event mark
+- [ ] Link execution to history
+- [ ] Modal window for selecting event type
+- [ ] Filtering events by type
+- [ ] New event types
+  - - [ ] Making an appointment with a doctor
+  - - [ ] Diary reminder
