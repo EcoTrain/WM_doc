@@ -471,21 +471,35 @@ When there is no connection:
 
 ### Build #14
 
+General:
+
 - [x] React v18. All libraries updated.
 - [x] New React architecture. Increased performance and code optimization.
-- [x] Edit diary + added spacing and aggregation rule
-- [x] Hints in diary constructor
-- [x] Introduced time zone consideration when selecting a date (midnight issue)
-- [x] Accounting for the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
-- [x] All timestamps are tied to UTC and adjusted to the timezone
-- [x] Edit event type in the scheduler (by date or by weekly schedule)
-- [x] Localized dates, times and days of the week
-- [x] Editing and deleting diary entries
-- [x] Diary log cleanup
-- [x] Tooltip with diary options on viewport
 - [x] Buttons on modal windows are bound to buttons on the keyboard
+
+Scheduler:
+
+- [x] Edit event type in the scheduler (by date or by weekly schedule)
+
+Time:
+
+- [x] Introduced time zone consideration when selecting a date (midnight issue)
+- [x] Consideration of the time zone when choosing the time (local time is displayed taking into account the time zone, when the zone changes, the event will occur at the same time)
+- [x] All timestamps are tied to UTC and adjusted to the timezone
+- [x] Localized dates, times and days of the week
+
+Diaries:
+
+- [x] Edit diary options via constructor
+- [x] Tooltips in Diary Builder Sections
+- [x] Added aggregation setting fields to diary constructor
+- [x] Added editing and deleting entries in diaries
+- [x] Added complete cleaning of the diary log
+- [x] Tooltip with diary options on viewport
 - [x] Toggle chart type in diary viewport
-- [x] Chart conversion when switching type
+- [x] Tooltips on charts showing aggregation range and value (on line charts, tooltips appear simultaneously along the vertical slice)
+- [x] Data of all diaries are given in 1 format for easy conversion
+- [x] Removed data recalculations for drawing the chart when switching to the diary view and changing the chart type (increased performance)
 
 ### Build 15 (future)
 
