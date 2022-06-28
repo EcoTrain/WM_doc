@@ -500,15 +500,18 @@ Diaries:
 - [x] Tooltips on charts showing aggregation range and value (on line charts, tooltips appear simultaneously along the vertical slice)
 - [x] Data of all diaries are given in 1 format for easy conversion
 - [x] Removed data recalculations for drawing the chart when switching to the diary view and changing the chart type (increased performance)
+### Build 15
 
-### Build 15 (future)
+- [x] Checking for data availability before diary dataset conversion
+- [x] Extend lines on diary preview if there is only 1 value
+### Build 16 (future)
 
 General:
 
 - [ ] Display on the graph of the diary the limits of the values ​​of variables
 - [ ] Warning thresholds in variables and their designation on diary charts
 - [ ] Selecting multiple entries in the log in the diary to delete
-- [ ] Scroll to multi-line input fields when clicking on the field
+- [ ] (iOS) Scroll to multi-line input fields when clicking on the field
 
 Scheduler:
 
