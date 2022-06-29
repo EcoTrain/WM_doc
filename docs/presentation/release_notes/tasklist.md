@@ -8,10 +8,7 @@ slug: /presentation/release_notes/tasklist
 ## [Diaries](/docs/presentation/history)
 
 - [ ] Search in the catalog databases
-- [ ] Removing a value from the log
-- [ ] Unit. id = select list
-- [ ] Log editing
-- [ ] Removing a value from the log
+- [ ] Unit = select list
 - [ ] Nutriology
 - - [ ] Data structure
 - - [ ] Create product catalog
