@@ -389,7 +389,7 @@ When there is no connection:
   - - [x] PIN Screen: IPhone pin/TouchID/FaceID unlock available
 - [x] Fixed a bug with the last date in the diary in the absence of data
 
-### Build #64
+### Build №64
 
 - [x] Changed color palette in themes
 - [x] Delete profile button highlighted
@@ -397,7 +397,7 @@ When there is no connection:
 
 ## v1.1
 
-### Build #2
+### Build №2
 
 - [x] The application has been renamed, now in the file system it has an identifier and the name "Wellness Monitor"
 - [x] Changed colors of placeholders in dark theme
@@ -413,41 +413,41 @@ When there is no connection:
 - [x] Calendar localized
 - [x] Autofocus on input field in chat
 
-### Build #3
+### Build №3
 
 - [x] User roles and permissions
 - [x] Administrator cabinet and user management
 - [x] Fixed cascading deletion of user data
 
-### Build #4
+### Build №4
 
 - [x] Dialog styles changed
 - [x] Changed web calendar style
 - [x] Consolidated styles of components used multiple times (such as input fields)
 - [x] Autocomplete diaries available to admins (for testing and demonstration purposes)
 
-### Build #7
+### Build №7
 
 - [x] Stub on medicines about disclaiming responsibility from developers
 - [x] Medication dosage added to the scheduler (in the task creation window)
 - [x] Units of measurement for each type of medicine (individually, a list to choose from)
 
-### Build #8
+### Build №8
 
 - [x] Added medicine form validation when creating an event in the scheduler
 - [x] Blocked tap on carousel in scroll lock mode
 
-### Build #9
+### Build №9
 
 - [x] Added notifications about the need to consult with a specialist (in the medicines section)
 - [x] Fixed app crash in medicines section
 
-### Build #11
+### Build №11
 
 - [x] i18n internationalization
 - [x] Highlight the selected (active) element on the sliders (carousels)
 
-### Build #12
+### Build №12
 
 - [x] Scheduler refactoring (decomposed constructors, different shapes and structure)
 - [x] Added translations
@@ -462,14 +462,14 @@ When there is no connection:
   - - [x] Diary editing
   - - [x] Create a copy of the diary
 
-### Build #13
+### Build №13
 
 - [x] Carousel: removed automatic scaling of the active tile
 - [x] Fixed crash when calling attachment slider in chat
 - [x] Added dark theme, assigned colors to components
 - [x] Improved chat creation mechanism
 
-### Build #14
+### Build №14
 
 General:
 
@@ -500,11 +500,18 @@ Diaries:
 - [x] Tooltips on charts showing aggregation range and value (on line charts, tooltips appear simultaneously along the vertical slice)
 - [x] Data of all diaries are given in 1 format for easy conversion
 - [x] Removed data recalculations for drawing the chart when switching to the diary view and changing the chart type (increased performance)
-### Build #15
+
+### Build №15
 
 - [x] Checking for data availability before diary dataset conversion
 - [x] Extend lines on diary preview if there is only 1 value
-### Build #16 (future)
+
+### Build #16
+
+- [x] Change navigation header dynamically
+- [x] Rounding of the fractional part in the labels on the axes of the diary graph
+
+### Build №17 (future)
 
 General:
 
