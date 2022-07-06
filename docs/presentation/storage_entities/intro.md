@@ -15,10 +15,8 @@ slug: /presentation/storage_entities/medicaments
 
 In this case, the configuration includes:
 
+- Name of the drug
 - Type (form) of the drug
 - Color of preparation
-- Dosage
-- Name
-- Notes
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/med/medConstructor.png"/></div>

@@ -27,13 +27,9 @@ If a task is scheduled for the current day, it will be displayed next to the hou
 
 The calendar `pins` the days on which at least one task is scheduled
 
-<div align="center" display="flex">
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
-    </div>
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
-    </div>
+<div align="center">
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
 </div>
 
 ## Creating events {#schedule_event_add}
@@ -49,13 +45,9 @@ After clicking, you get to the window for selecting the `type of event`. Current
 
 Depending on the selected event type, the event designer window that is opened next will contain a slightly different set of components, but in most cases, these sets overlap.
 
-<div align="center" display="flex">
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent1.png"/>
-    </div>
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent2.png"/>
-    </div>
+<div align="center">
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent_default.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent_med.png"/>
 </div>
 
 ### Event Timings

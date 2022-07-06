@@ -15,10 +15,8 @@ slug: /presentation/storage_entities/medicaments
 
 В данном случае, конфигурация включает в себя:
 
+- Наименование препарата
 - Тип (форма) препарата
 - Цвет препарата
-- Дозировка
-- Наименование
-- Примечания
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/med/medConstructor.png"/></div>

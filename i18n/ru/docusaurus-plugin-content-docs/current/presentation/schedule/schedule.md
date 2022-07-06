@@ -26,13 +26,9 @@ slug: /presentation/schedule
 
 `Календарь` помечает `pin`-ами те дни, в которые запланирована хотя бы одна задача
 
-<div align="center" display="flex">
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
-    </div>
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
-    </div>
+<div align="center">
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerView.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/schedulerCalendar.png"/>
 </div>
 
 ## Создание событий {#schedule_event_add}
@@ -48,13 +44,9 @@ slug: /presentation/schedule
 
 В зависимости от выбранного типа события, открытое далее окно конструктор событий будет содержать в себе несколько разный набор компонетов, однако в большинстве случаев эти наборы пересекаются.
 
-<div align="center" display="flex">
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent1.png"/>
-    </div>
-    <div>
-        <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent2.png"/>
-    </div>
+<div align="center">
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent_default.png"/>
+    <img type="imgscreen" src="/WM_doc/img/presentation/calendar/addEvent_med.png"/>
 </div>
 
 ### Выбор времени события
