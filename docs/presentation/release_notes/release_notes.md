@@ -511,14 +511,24 @@ Diaries:
 - [x] Change navigation header dynamically
 - [x] Rounding of the fractional part in the labels on the axes of the diary graph
 
-### Build №17
+### Build №17-18
 
 PIN screen
 
 - [x] Fixed PIN reset
 - [x] App close button removed
 
-### Build №18 (future)
+Diary constructor:
+
+- [x] Update aggregation interval based on period
+
+General:
+
+- [x] Changed the styles of medicines and events in the scheduler
+- [x] Blur text when out of container bounds
+- [x] Added field headers in profile settings
+
+### Build №19 (future)
 
 General:
 
