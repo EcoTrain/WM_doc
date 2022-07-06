@@ -1,13 +1,19 @@
 ---
 sidebar_position: 2
 id: diary_viewing
-title: Viewing the diary
+title: Diary view window
 slug: /presentation/history/show
 ---
 
-You can view the complete information about the diary by clicking on the desired widget on the diary panel.
-After that, you will be transferred to the diary view window.
+You can go to the diary view window by clicking on the desired widget on the diary panel.
 
-> The graph displays the values of the variables involved in the diary configuration. Data is aggregated
+## Chart
+
+The graph displays the values of the variables involved in the diary configuration.  
+Chart type is selected in [diary constructor](/docs/presentation/history/constructor_diary#diary_costructor_charts)  
+The data on the chart is [aggregated](/docs//presentation/history/constructor_diary#diary_costructor_aggregation) depending on the diary parameters
+## Log
+
+The data in the log is displayed in its original form and displays all added values
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryFullView.png"/></div>
