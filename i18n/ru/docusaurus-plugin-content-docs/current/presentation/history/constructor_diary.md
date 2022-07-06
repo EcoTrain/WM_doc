@@ -7,28 +7,26 @@ slug: /presentation/history/constructor_diary
 
 ## Общее {#diary_costructor_general}
 
-При создании дневника необходимо задать следующие параметры:
+При создании дневника можно задать следующие параметры:
 
 1. Название дневника
 2. Тип графика
 3. Цвет иконки
 4. Наборы данных
 5. Единица измерения
+6. Временной интервал отображения данных
+7. Правило агрегации данных
 
-<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructor.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/constructor/view.png"/></div>
 
 ## Графики {#diary_costructor_charts}
 
 `Дневники` представляют собой конфигурации, собирающие набор переменных в одном месте, и стилизующие их для удобного представления. Реализованные `типы дневников`:
 
 - [x] Линейные графики
-- [x] Прогресс бар (круг)
-- [x] Прогресс бар (линия)
+- [x] Круг прогресса
+- [x] Столб прогресса
 - [x] Простое число
-- [ ] WaterFall
-- [ ] Bar Chart
-- [ ] Pie Chart
-- [ ] Combine Chart
 
 ## Наборы данных {#diary_costructor_datasets}
 
@@ -49,21 +47,43 @@ slug: /presentation/history/constructor_diary
 
 - Цвет элемента на графике
 - Включение выражения в статистику по виджету (итоговое значение на панели виджетов)
-- Префикс и суфикс при подсчете статистики
+- Префикс и суфикс при подсчете итогового значения на панели виджета дневника
 
 **Префикс и суфикс** не влияют на значения лога дневника. Они изменяют лишь визуальную оболочку значения, для более удобного чтения.
 
-<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryConstructorWithPrefAndSuf.png"/></div>
 Форма создания дневника
 
-<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryViewWithPrefAndSuf.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/constructor/datasets.png"/></div>
+
 Окно просмотра дневника
-  
-<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryWidgetWithPrefAndSuf.png"/></div>
+
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryFullView.png"/></div>
+
 Виджет дневника с префиксами и суфиксами
+
+<div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryWidget.png"/></div>
 
 ## Переменные {#diary_costructor_variables}
 
 `Переменные` используются для идентификации объектов истории. Переменная содержит в себе имя и пределы. Создание переменных осуществляется через `конструктор переменных`.
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/variableConstructor.png"/></div>
+
+## Агрегация {#diary_costructor_aggregation}
+
+Все собраные данные в дневниках агрегируются по заданным интервалам в зависимости от периода дневника:
+
+- Период 1 день: интервал агрегации - 3 часа
+- Период 1 неделя: интервал агрегации - 1 день
+- Период 1 месяц: интервал агрегации - 3 дня
+
+Итоговое значение определяет правило агрегации:
+
+- последнее значение
+- среднее значение
+- сумарное значение
+
+Агрегирование применяется для читаемости графиков при большом объеме данных.
+Изменить период дневника, интервал и правило агрегации можно в настройках дневника при его редактировании
+
+> При этом в логе дневника отображаются абсолютно все замеры без агрегации

@@ -51,16 +51,14 @@ Widget **settings** are described in the corresponding [section](/docs/presentat
 
 - In the diary panel, graphs display the last 10 measurements without aggregation by time.
 
-Editing added diaries is available through the context menu of the diary tile (long press | right mouse click):
+## Creating a diary
 
-- [x] Resize 0.5 | one
-- [x] Period change
-- [x] Delete
-- [ ] Other settings:
-  - [ ] Diary color
-  - [ ] Diary Icon
-  - [ ] Serial number
-  - [ ] Data set colors
-  - [ ] Diary type
+Creating a new diary is done through its **[constructor](/docs/presentation/history/constructor_diary)**  
+To add a diary, click on the [+] button at the bottom of the diary panel at the end of the list of widgets
+
+## Editing diaries
+
+Some of the settings are in **[diary tile context menu](/docs/presentation/history/edit_diary)**  
+The full list of parameters is edited in the window **[detailed diary settings](/docs/presentation/history/edit_diary)**
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/diary/diaryLayout.png"/></div>

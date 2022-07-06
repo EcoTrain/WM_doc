@@ -511,7 +511,14 @@ Diaries:
 - [x] Change navigation header dynamically
 - [x] Rounding of the fractional part in the labels on the axes of the diary graph
 
-### Build №17 (future)
+### Build №17
+
+PIN screen
+
+- [x] Fixed PIN reset
+- [x] App close button removed
+
+### Build №18 (future)
 
 General:
 
