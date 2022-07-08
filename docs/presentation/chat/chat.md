@@ -10,13 +10,6 @@ Chat is the main method of interaction between users. Here, users can exchange v
 - `Image`
 - `Document`
 
-Planned:
-
-- [ ] diaries
-- [ ] medicines
-- [ ] audio
-- [ ] video
-
 ### Chat window interface
 
 At the heart of the chat, the selection window is the `SearchPanel` component, as in the Diaries. This allows both local searches for chats by users and global searches for all users.
@@ -36,6 +29,14 @@ To send non-text data, a menu for selecting attachments is implemented under the
 In this menu, you can select attachments to send to your interlocutor.
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/presentation/chat/chatAssetsReady.png"/></div>
+
+**Images** are limited to 2MB.
+Sending methods: selecting a file from the storage, using the camera
+Formats: .png, .jpg, .jpeg
+
+**Documents**
+Sending methods: selecting a file from storage
+Formats: .doc, .docx, .pdf
 
 ## Chat settings
 

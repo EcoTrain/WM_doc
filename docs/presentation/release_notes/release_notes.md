@@ -538,6 +538,7 @@ General:
 - [x] Changed the style of medicines, made a note on the widget
 - [x] Added text length limits in constructors
 - [x] Increased the amount of text on the event panels in the scheduler
+
 ### Build №20 (future)
 
 General:
@@ -560,3 +561,8 @@ Scheduler:
 - [ ] New event types
   - - [ ] Making an appointment with a doctor
   - - [ ] Diary reminder
+
+Chat:
+
+- [ ] Extended list of document formats
+- [ ] Extended list of image formats

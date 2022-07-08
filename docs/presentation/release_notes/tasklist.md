@@ -148,6 +148,6 @@ Analyzes should include fields such as:
 
 - [ ] Тёмная тема
 - [ ] 3 размера картинок
-  - - [ ] Thumbnail 128px (фон)
-  - - [ ] Resize 320px (Просмотр)
+  - - [x] Thumbnail 128px (фон)
+  - - [x] Resize 320px (Просмотр)
   - - [ ] Full (скачивается отдельно по ссылке)
