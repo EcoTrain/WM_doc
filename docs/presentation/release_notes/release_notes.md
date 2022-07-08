@@ -528,7 +528,17 @@ General:
 - [x] Blur text when out of container bounds
 - [x] Added field headers in profile settings
 
-### Build №19 (future)
+### Build #19
+
+- [x] Increased the area of the eye button on the password input field
+- [x] Fixed switching to line chart view by clicking on the chart
+- [x] Progress line orientation tied to screen orientation
+- [x] Fixed updating data in the database (diaries/medicines)
+- [x] Fixed updating data on devices (merging local and shared database data)
+- [x] Changed the style of medicines, made a note on the widget
+- [x] Added text length limits in constructors
+- [x] Increased the amount of text on the event panels in the scheduler
+### Build №20 (future)
 
 General:
 
