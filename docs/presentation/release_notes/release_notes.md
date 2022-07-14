@@ -541,6 +541,24 @@ General:
 
 ### Build №20 (future)
 
+QR codes:
+
+- [x] Generating QR and viewing information on them (diary/scheduler)
+- [x] Changed calendar style in browser
+- [x] Added header with window title to main sections
+- [ ] Opening links through the application (home page and QR)
+- [ ] Save QR code as a picture
+- [ ] QR code access settings
+   - - [ ] QR code lifetime
+   - - [ ] Opening/closing access to information on it
+   - - [ ] Share via other applications
+
+```info QR generation
+QR links are generated on the server for information security purposes. To receive a QR, you need to connect to the server (connection to the network).
+```
+
+### Build №21 (future)
+
 General:
 
 - [ ] Display on the graph of the diary the limits of the values ​​of variables
