@@ -138,16 +138,17 @@ Analyzes should include fields such as:
 - [ ] View labels (click on the marker)
 - [ ] Building routes to points
 
+### QR codes
+
+- [ ] Opening links through the application (home page and QR)
+- [ ] QR code access settings
+  - - [ ] QR code lifetime
+  - - [ ] Opening/closing access to information on it
+  - - [ ] Share via other applications
+
 ## General
 
-- [ ] Dark theme
 - [ ] 3 picture sizes
 - - [ ] Thumbnail 128px (background)
 - - [ ] Resize 320px (View)
 - - [ ] Full (downloaded separately from the link)
-
-- [ ] Тёмная тема
-- [ ] 3 размера картинок
-  - - [x] Thumbnail 128px (фон)
-  - - [x] Resize 320px (Просмотр)
-  - - [ ] Full (скачивается отдельно по ссылке)

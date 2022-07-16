@@ -546,12 +546,13 @@ QR codes:
 - [x] Generating QR and viewing information on them (diary/scheduler)
 - [x] Changed calendar style in browser
 - [x] Added header with window title to main sections
-- [ ] Opening links through the application (home page and QR)
-- [ ] Save QR code as a picture
-- [ ] QR code access settings
-   - - [ ] QR code lifetime
-   - - [ ] Opening/closing access to information on it
-   - - [ ] Share via other applications
+
+Authorization
+
+- [x] Password hashing on the client, encrypted transmission
+- [x] Password repeat on registration
+- [x] Removed authorization immediately after registration (bug fixed)
+- [x] Changed authorization messages (notifications)
 
 ```info QR generation
 QR links are generated on the server for information security purposes. To receive a QR, you need to connect to the server (connection to the network).
@@ -565,6 +566,13 @@ General:
 - [ ] Warning thresholds in variables and their designation on diary charts
 - [ ] Selecting multiple entries in the log in the diary to delete
 - [ ] (iOS) Scroll to multi-line input fields when clicking on the field
+
+QR:
+
+- [ ] QR code access settings
+  - - [ ] QR code lifetime
+  - - [ ] Opening/closing access to information on it
+  - - [ ] Share via other applications
 
 Scheduler:
 

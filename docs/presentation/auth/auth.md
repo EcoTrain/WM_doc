@@ -45,5 +45,6 @@ iOS users can unlock using TouchID or FaceID instead of entering a PIN code
 ## Protection
 
 - User data is transmitted via the HTTPS protocol
+- Passwords are transmitted and stored only in encrypted form (without the possibility of decryption)
 - Confidential data is encrypted on the client and decrypted on the server using the private key
 - Personal data is stored in the database in encrypted form
