@@ -69,6 +69,7 @@ Analyzes should include fields such as:
 - [ ] Login via VK
 - [ ] Login with TouchID / FaceID
 - [ ] Registration form
+- [ ] Per-device token login and 'Logout on all devices' option
 
 ## [Scheduler](/docs/presentation/schedule)
 

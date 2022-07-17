@@ -566,6 +566,11 @@ General:
 - [ ] Warning thresholds in variables and their designation on diary charts
 - [ ] Selecting multiple entries in the log in the diary to delete
 - [ ] (iOS) Scroll to multi-line input fields when clicking on the field
+- [ ] Remove website frame on mobile browsers (look like app)
+
+Authorization
+
+- [ ] Per-device token login and 'Logout on all devices' option
 
 QR:
 
