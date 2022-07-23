@@ -558,7 +558,45 @@ Authorization
 QR links are generated on the server for information security purposes. To receive a QR, you need to connect to the server (connection to the network).
 ```
 
-### Build №21 (future)
+### Build №21 
+
+Chat:
+
+- [x] Change chat view
+- [x] Message selection and editing are independent of each other
+- [x] Add/remove files on the server when editing posts
+- [x] Check changes when editing. If there are no changes, the message is not sent again
+- [x] Edit notes panel
+- [x] Jump to a message from the editing panel
+- [x] Restored and debugged work with the camera (web/mobile)
+- [x] Restored and debugged work with documents (web/mobile)
+- [ ] Extended list of document formats
+- [ ] Extended list of image formats
+
+### Build №22 (future)
+
+Authorization:
+
+- [ ] Per-device token login and 'Logout on all devices' option
+
+Chat:
+
+- [ ] Send diary in chat
+- [ ] Send event in chat
+- [ ] (web) Extended list of document formats
+- [ ] (web) Extended list of image formats
+  
+QR:
+
+- [ ] Medicine link (and list of medicines)
+- [ ] Link to one event in the scheduler
+- [ ] Save QR code as a picture
+- [ ] QR code access settings
+   - - [ ] QR code lifetime
+   - - [ ] Opening/closing access to information on it
+   - - [ ] Share via other applications
+
+### Build №23 (future)
 
 General:
 
@@ -567,17 +605,6 @@ General:
 - [ ] Selecting multiple entries in the log in the diary to delete
 - [ ] (iOS) Scroll to multi-line input fields when clicking on the field
 - [ ] Remove website frame on mobile browsers (look like app)
-
-Authorization
-
-- [ ] Per-device token login and 'Logout on all devices' option
-
-QR:
-
-- [ ] QR code access settings
-  - - [ ] QR code lifetime
-  - - [ ] Opening/closing access to information on it
-  - - [ ] Share via other applications
 
 Scheduler:
 
@@ -592,8 +619,3 @@ Scheduler:
 - [ ] New event types
   - - [ ] Making an appointment with a doctor
   - - [ ] Diary reminder
-
-Chat:
-
-- [ ] Extended list of document formats
-- [ ] Extended list of image formats
