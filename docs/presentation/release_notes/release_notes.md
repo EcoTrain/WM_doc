@@ -575,26 +575,27 @@ Chat:
 
 ### Build №22 (future)
 
-Authorization:
-
-- [ ] Per-device token login and 'Logout on all devices' option
-
 Chat:
 
 - [ ] Send diary in chat
 - [ ] Send event in chat
-- [ ] (web) Extended list of document formats
-- [ ] (web) Extended list of image formats
-  
+- [x] (web) Extended list of document formats
+- [x] (web) Extended list of image formats
+- [x] Validation of file type, size check and prohibition of sending executable files
+
 QR:
 
-- [ ] Medicine link (and list of medicines)
-- [ ] Link to one event in the scheduler
+- [x] View individual events in the scheduler
+- [x] View Medicine
 - [ ] Save QR code as a picture
 - [ ] QR code access settings
-   - - [ ] QR code lifetime
-   - - [ ] Opening/closing access to information on it
-   - - [ ] Share via other applications
+  - - [ ] QR code lifetime
+  - - [ ] Opening/closing access to information on it
+  - - [ ] Share via other apps
+
+Authorization:
+
+- [ ] Per-device token login and 'Logout on all devices' option
 
 ### Build №23 (future)
 
