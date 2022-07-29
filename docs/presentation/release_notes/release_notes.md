@@ -558,11 +558,12 @@ Authorization
 QR links are generated on the server for information security purposes. To receive a QR, you need to connect to the server (connection to the network).
 ```
 
-### Build №21 
+### Build №21
 
 Chat:
 
 - [x] Change chat view
+- [x] Select messages with one tap
 - [x] Message selection and editing are independent of each other
 - [x] Add/remove files on the server when editing posts
 - [x] Check changes when editing. If there are no changes, the message is not sent again
@@ -570,34 +571,39 @@ Chat:
 - [x] Jump to a message from the editing panel
 - [x] Restored and debugged work with the camera (web/mobile)
 - [x] Restored and debugged work with documents (web/mobile)
-- [ ] Extended list of document formats
-- [ ] Extended list of image formats
 
-### Build №22 (future)
+### Build #22 (future)
+
+General:
+
+- [x] Added pop-up notifications (toasts)
+- [x] Navigation buttons reverted to standard view (OS template)
 
 Chat:
 
-- [ ] Send diary in chat
-- [ ] Send event in chat
 - [x] (web) Extended list of document formats
 - [x] (web) Extended list of image formats
 - [x] Validation of file type, size check and prohibition of sending executable files
+- [x] Improved calculation of time in message separators by days (dates)
+- [x] Optimized list rendering. Removed redrawing of messages. One active message is redrawn (new or editable)
+- [x] Optimized time calculation (recalculation and rendering interval varies)
+- [x] Save state of all chats
+- [ ] Send diary in chat
+- [ ] Send event in chat
 
 QR:
 
 - [x] View individual events in the scheduler
 - [x] View Medicine
-- [ ] Save QR code as a picture
-- [ ] QR code access settings
-  - - [ ] QR code lifetime
-  - - [ ] Opening/closing access to information on it
-  - - [ ] Share via other apps
+- [x] Copy link to clipboard
+- [ ] "Share" option through other apps
+  - - [x] Mobile application
+  - - [ ] Web browser
+- [ ] Save QR code image to file
+  - - [x] Mobile application
+  - - [ ] Web browser
 
-Authorization:
-
-- [ ] Per-device token login and 'Logout on all devices' option
-
-### Build №23 (future)
+### Build #23 (future)
 
 General:
 
@@ -606,6 +612,18 @@ General:
 - [ ] Selecting multiple entries in the log in the diary to delete
 - [ ] (iOS) Scroll to multi-line input fields when clicking on the field
 - [ ] Remove website frame on mobile browsers (look like app)
+
+QR:
+
+- [ ] Access settings
+  - - [ ] QR code lifetime
+  - - [ ] Opening/closing access to information on it
+  - - [ ] Share via other apps
+
+Authorization:
+
+- [ ] Per-device token login and 'Logout on all devices' option
+### Build #24 (future)
 
 Scheduler:
 

@@ -44,7 +44,6 @@ slug: /presentation/release_notes/tasklist
 
 [Constructor](/docs/presentation/storage_entities/medicaments#creation)
 
-- [ ] Collection of data by reference
 - [ ] Sending in chat
 
 ### Documentation

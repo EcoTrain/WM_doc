@@ -31,7 +31,6 @@ slug: /presentation/release_notes/tasklist
 
 [Конструктор](/docs/presentation/storage_entities/medicaments#creation)
 
-- [ ] Сбор данных по ссылке
 - [ ] Отправка в чате
 
 ### Документы
