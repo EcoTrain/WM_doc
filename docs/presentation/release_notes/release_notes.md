@@ -572,7 +572,7 @@ Chat:
 - [x] Restored and debugged work with the camera (web/mobile)
 - [x] Restored and debugged work with documents (web/mobile)
 
-### Build #22 (future)
+## Build #22
 
 General:
 
@@ -588,21 +588,14 @@ Chat:
 - [x] Optimized list rendering. Removed redrawing of messages. One active message is redrawn (new or editable)
 - [x] Optimized time calculation (recalculation and rendering interval varies)
 - [x] Save state of all chats
-- [ ] Send diary in chat
-- [ ] Send event in chat
 
 QR:
 
 - [x] View individual events in the scheduler
 - [x] View Medicine
 - [x] Copy link to clipboard
-- [ ] "Share" option through other apps
-  - - [x] Mobile application
-  - - [ ] Web browser
-- [ ] Save QR code image to file
-  - - [x] Mobile application
-  - - [ ] Web browser
-
+- [x] "Share" option via other apps (Mobile app)
+- [x] Save QR code image to file (Mobile app)
 ### Build #23 (future)
 
 General:
@@ -615,6 +608,8 @@ General:
 
 QR:
 
+- [ ] "Share" option via other applications (Web browser)
+- [ ] Save QR code image to file (Web browser)
 - [ ] Access settings
   - - [ ] QR code lifetime
   - - [ ] Opening/closing access to information on it
@@ -623,6 +618,7 @@ QR:
 Authorization:
 
 - [ ] Per-device token login and 'Logout on all devices' option
+
 ### Build #24 (future)
 
 Scheduler:
@@ -634,7 +630,7 @@ Scheduler:
 - [ ] Event mark
 - [ ] Link execution to history
 - [ ] Modal window for selecting event type
-- [ ] Filtering events by type
+- [ ] Filtering events by types
 - [ ] New event types
   - - [ ] Making an appointment with a doctor
   - - [ ] Diary reminder
