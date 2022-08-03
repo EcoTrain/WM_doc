@@ -1,7 +1,7 @@
 {
-  "item.label.Presentation": {
-    "message": "Presentation",
-    "description": "Navbar item with label Presentation"
+  "item.label.Guide": {
+    "message": "Guide",
+    "description": "Navbar item with label Guide"
   },
   "item.label.GitHub": {
     "message": "GitHub",

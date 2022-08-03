@@ -98,9 +98,15 @@ const config = {
       items: [
         {
           type: "doc",
-          docId: "presentation/intro/presentation_intro",
+          docId: "guide/intro/guide_intro",
           position: "left",
-          label: "Presentation",
+          label: "Guide",
+        },
+        {
+          type: "doc",
+          docId: "releases/notes/release_notes",
+          position: "left",
+          label: "Releases",
         },
         // { to: "/blog", label: "Blog", position: "left" },
         {
@@ -109,11 +115,6 @@ const config = {
         },
         {
           type: "localeDropdown",
-          position: "right",
-        },
-        {
-          href: "https://github.com/EcoTrain/newmed_docs",
-          label: "GitHub",
           position: "right",
         },
       ],
@@ -125,8 +126,12 @@ const config = {
           title: "Docs",
           items: [
             {
-              label: "Presentation",
-              to: "/docs/presentation",
+              label: "Guide",
+              to: "/docs/guide",
+            },
+            {
+              label: "Releases",
+              to: "/docs/releases/notes",
             },
           ],
         },
@@ -134,7 +139,7 @@ const config = {
           title: "Contacts",
           items: [
             {
-              label: "A2RD site",
+              label: "A2RD website",
               href: "https://www.a2rd.com",
             },
             {
@@ -148,11 +153,11 @@ const config = {
           ],
         },
         {
-          title: "More",
+          title: "Apps",
           items: [
             {
-              label: "GitHub",
-              href: "https://github.com/EcoTrain/newmed_docs",
+              label: "Web App",
+              href: "https://wellness.a2rd.com/",
             },
           ],
         },

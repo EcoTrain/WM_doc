@@ -1,30 +1,34 @@
 {
-  "sidebar.presentation.category.Introduction": {
+  "sidebar.guide.category.Introduction": {
     "message": "Введение",
-    "description": "The label for category Introduction in sidebar presentation"
+    "description": "The label for category Introduction in sidebar guide"
   },
-  "sidebar.presentation.category.Auth": {
+  "sidebar.guide.category.Auth": {
     "message": "Авторизация",
-    "description": "The label for category Auth in sidebar presentation"
+    "description": "The label for category Auth in sidebar guide"
   },
-  "sidebar.presentation.category.Keeping a diary": {
+  "sidebar.guide.category.Keeping a diary": {
     "message": "Ведение дневника",
-    "description": "The label for category Ведение дневника in sidebar presentation"
+    "description": "The label for category Ведение дневника in sidebar guide"
   },
-  "sidebar.presentation.category.Planning": {
+  "sidebar.guide.category.Planning": {
     "message": "Планирование",
-    "description": "The label for category Планирование in sidebar presentation"
+    "description": "The label for category Планирование in sidebar guide"
   },
-  "sidebar.presentation.category.Chat": {
+  "sidebar.guide.category.Chat": {
     "message": "Чат",
-    "description": "The label for category Чат in sidebar presentation"
+    "description": "The label for category Чат in sidebar guide"
   },
-  "sidebar.presentation.category.Entity storage": {
+  "sidebar.guide.category.Entity storage": {
     "message": "Хранение сущностей",
-    "description": "The label for category Хранение сущностей in sidebar presentation"
+    "description": "The label for category Хранение сущностей in sidebar guide"
   },
-  "sidebar.presentation.category.Release notes": {
+  "sidebar.releases.category.Release notes": {
     "message": "Заметки релизов",
-    "description": "The label for category Список задач in sidebar presentation"
+    "description": "The label for category Список задач in sidebar guide"
+  },
+  "sidebar.releases.category.Feature announcement": {
+    "message": "Анонс функций",
+    "description": "The label for category Список задач in sidebar guide"
   }
 }

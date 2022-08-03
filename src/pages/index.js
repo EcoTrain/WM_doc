@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link style={{ margin: 12 }} className="button button--secondary button--lg" to="https://wellness.a2rd.com">
             Web App 💊
           </Link>
-          <Link className="button button--primary button--lg" to="/docs/presentation">
+          <Link className="button button--primary button--lg" to="/docs/guide">
             Get started ⏱️
           </Link>
         </div>

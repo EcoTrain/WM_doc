@@ -7,19 +7,19 @@ const FeatureList = [
     title: "Keep a diary",
     Svg: require("/img/main_diary.svg").default,
     description: <>Monitor health indicators.</>,
-    link: "/WM_doc/docs/presentation/history",
+    link: "/WM_doc/docs/guide/history",
   },
   {
     title: "Plan your events",
     Svg: require("/img/main_calendar.svg").default,
     description: <>Schedule events and receive notifications. Create a themed or custom reminder</>,
-    link: "/WM_doc/docs/presentation/schedule",
+    link: "/WM_doc/docs/guide/schedule",
   },
   {
     title: "Chat",
     Svg: require("/img/main_chat.svg").default,
     description: <>Chat with other users</>,
-    link: "/WM_doc/docs/presentation/chat",
+    link: "/WM_doc/docs/guide/chat",
   },
 ];
 
