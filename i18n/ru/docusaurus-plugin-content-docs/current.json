@@ -1,7 +1,7 @@
 {
-  "sidebar.guide.category.Introduction": {
+  "sidebar.guide.category.About project": {
     "message": "Введение",
-    "description": "The label for category Introduction in sidebar guide"
+    "description": "The label for category About project in sidebar guide"
   },
   "sidebar.guide.category.Auth": {
     "message": "Авторизация",
@@ -9,26 +9,26 @@
   },
   "sidebar.guide.category.Keeping a diary": {
     "message": "Ведение дневника",
-    "description": "The label for category Ведение дневника in sidebar guide"
+    "description": "The label for category Keeping a diary in sidebar guide"
   },
   "sidebar.guide.category.Planning": {
     "message": "Планирование",
-    "description": "The label for category Планирование in sidebar guide"
+    "description": "The label for category Planning in sidebar guide"
   },
   "sidebar.guide.category.Chat": {
     "message": "Чат",
-    "description": "The label for category Чат in sidebar guide"
+    "description": "The label for category Chat in sidebar guide"
   },
   "sidebar.guide.category.Entity storage": {
     "message": "Хранение сущностей",
-    "description": "The label for category Хранение сущностей in sidebar guide"
+    "description": "The label for category Entity storage in sidebar guide"
   },
   "sidebar.releases.category.Release notes": {
     "message": "Заметки релизов",
-    "description": "The label for category Список задач in sidebar guide"
+    "description": "The label for category Release note in sidebar guide"
   },
   "sidebar.releases.category.Feature announcement": {
     "message": "Анонс функций",
-    "description": "The label for category Список задач in sidebar guide"
+    "description": "The label for category Feature announcement in sidebar guide"
   }
 }

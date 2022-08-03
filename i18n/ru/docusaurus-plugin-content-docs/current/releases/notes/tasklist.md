@@ -1,7 +1,7 @@
 ---
-title: Список задач
+id: tasklist
+title: Анонс функций
 slug: /releases/tasklist
-sidebar_label: Анонс функций
 ---
 
 ## [Дневники](/docs/guide/history)
