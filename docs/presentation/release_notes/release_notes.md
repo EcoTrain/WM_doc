@@ -578,6 +578,7 @@ General:
 
 - [x] Added pop-up notifications (toasts)
 - [x] Navigation buttons reverted to standard view (OS template)
+- [x] Removed website frame on mobile browsers (look like app)
 
 Chat:
 
@@ -596,6 +597,7 @@ QR:
 - [x] Copy link to clipboard
 - [x] "Share" option via other apps (Mobile app)
 - [x] Save QR code image to file (Mobile app)
+
 ### Build #23 (future)
 
 General:
@@ -604,12 +606,13 @@ General:
 - [ ] Warning thresholds in variables and their designation on diary charts
 - [ ] Selecting multiple entries in the log in the diary to delete
 - [ ] (iOS) Scroll to multi-line input fields when clicking on the field
-- [ ] Remove website frame on mobile browsers (look like app)
 
 QR:
 
-- [ ] "Share" option via other applications (Web browser)
-- [ ] Save QR code image to file (Web browser)
+- [x] Unique and friendly names of saved QR images
+- [x] Save QR code image to file (Web browser)
+- [x] Copy image and link (separately, 2 buttons)
+- [x] "Share" option via other applications (Web browser)
 - [ ] Access settings
   - - [ ] QR code lifetime
   - - [ ] Opening/closing access to information on it
