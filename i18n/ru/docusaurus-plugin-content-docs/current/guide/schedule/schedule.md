@@ -63,4 +63,4 @@ slug: /guide/schedule
 
 После выбора дней, вы можете задать время для появления `события` в `расписании на день`. Для этого на панели с часами Вы можете кликнуть по уже добавленному времени, чтобы его удалить, или по кнопке `+`, чтобы добавить новое время.
 
-<div align="center"><img type="imgscreen" src="/WM_doc/img/guide/calendar/schedulerTimeSelectors.png"/></div>
+<div align="center"><img type="imgscreen" src="/WM_doc/img/guide/calendar/schedulerTimeSelector.png"/></div>
