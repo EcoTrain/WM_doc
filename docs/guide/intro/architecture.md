@@ -63,39 +63,18 @@ This allows the user to perform the following tasks:
 
 ### Data relevance {#data_relevance}
 
-Thanks to synchronization, only relevant information is exchanged.
+Thanks to synchronization, only relevant information is exchanged.  
+When acting with the database, the data is sent to the server (if there is a network), otherwise the transaction is added to the `synchronization queue`.  
 
-When communicating with the server, the application sends the following data:
+When a request is received, the server compares the last data modification time in the database and the time specified in the request data.
+If the data is up to date, the server overwrites it in the database and returns the current time at the time of writing to the database.
 
-<Tabs>
-  <TabItem value="1" label="Read" default>
-  <ul>
-    <li>url (path to the required data area in the database)</li>
-    <li>devicetime (device time at the time the request was sent to the server)</li>
-  </ul>
-  </TabItem>
-  <TabItem value="2" label="Write">
-  <ul>
-    <li>url (path to the required data area in the database)</li>
-    <li>devicetime (device time at the time the request was sent to the server)</li>
-    <li>data (data to write)</li>
-    <li>time (time to read data on the device)</li>
-  </ul>
-  </TabItem>
-</Tabs>
-
-How the server understands that the information is up-to-date is described in the **synchronization mechanism** section of this chapter.
+:::info All data is timestamped.
+Upon receipt of information, it is cut off to the desired period.  
+When sending data, they supplement (or replace) the changes already existing with the update of the time.  
+:::
 
 ### Offline {#offline}
 
-Local database on devices allows continuous filling of logs even without network access thanks to **synchronization mechanism**
-
-### Synchronization mechanism {#synchronization_mechanism}
-
-When acting with the database, the data is sent to the server (if there is a network). Otherwise, the transaction is added to the synchronization queue. When a request is received, the server compares the last data modification time in the database and the time specified in the request data.
-
-Data is considered relevant if:  
-**Read**: if the time per request is less than the last time the data was changed in the database.  
-**Write**: if the time at the time of writing the data is less than the last time the data was changed in the database. This means that newer data has already been recorded. If the data is up to date, the server overwrites it in the database and returns the current time when writing to the database. (Actual time = req.devicetime - servertime + req.time)
-
-After unloading all the data from the queue, the actual data from the server database is requested to the server.
+A local database on devices allows for continuous data changes even without network access.  
+Thanks to the **sync queue**, your data is stored until the network appears and sent to the server. (in case of an error, it will also be stored for re-sending)

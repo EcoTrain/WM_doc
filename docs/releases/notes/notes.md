@@ -554,9 +554,9 @@ Authorization
 - [x] Removed authorization immediately after registration (bug fixed)
 - [x] Changed authorization messages (notifications)
 
-```info QR generation
+:::info QR generation
 QR links are generated on the server for information security purposes. To receive a QR, you need to connect to the server (connection to the network).
-```
+:::
 
 ### Build №21
 
