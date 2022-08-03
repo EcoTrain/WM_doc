@@ -1,6 +1,7 @@
 ---
 id: scheduler
 title: Планирование задач
+sidebar_label: Планирование задач
 slug: /guide/schedule
 ---
 

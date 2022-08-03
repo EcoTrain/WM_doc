@@ -1,6 +1,7 @@
 ---
 id: auth
 title: Авторизация
+sidebar_label: Авторизация
 slug: /guide/security
 ---
 

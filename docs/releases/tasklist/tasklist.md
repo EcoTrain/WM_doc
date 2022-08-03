@@ -39,9 +39,9 @@ slug: /releases/tasklist
 - [ ] Additional limits (warning thresholds) for variables
 - [ ] Personal icons for variables
 
-### [Medicines](/docs/guide/storage_entities/medicaments)
+### [Medicines](/docs/guide/medicines)
 
-[Constructor](/docs/guide/storage_entities/medicaments#creation)
+[Constructor](/docs/guide/medicines#creation)
 
 - [ ] Sending in chat
 

@@ -1,6 +1,7 @@
 ---
 id: chat
 title: Чат
+sidebar_label: Чат
 slug: /guide/chat
 ---
 

@@ -26,9 +26,9 @@ slug: /releases/tasklist
 
 - [ ] Дополнительные пределы (пороги предупреждений) для переменных
 
-### [Медикаменты](/docs/guide/storage_entities/medicaments)
+### [Медикаменты](/docs/guide/medicines)
 
-[Конструктор](/docs/guide/storage_entities/medicaments#creation)
+[Конструктор](/docs/guide/medicines#creation)
 
 - [ ] Отправка в чате
 

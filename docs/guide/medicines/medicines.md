@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Medicines
-slug: /guide/storage_entities/medicaments
+slug: /guide/medicines
 ---
 
 `Medicines` are added to the profile in the same way as diaries.

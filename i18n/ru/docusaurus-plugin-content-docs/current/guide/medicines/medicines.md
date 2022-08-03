@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
 title: Медикаменты
-slug: /guide/storage_entities/medicaments
+sidebar_label: Медикаменты
+slug: /guide/medicines
 ---
 
 `Медикаменты` добавляются в профиль теми же способами, что и дневники.
