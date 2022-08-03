@@ -6,8 +6,8 @@ slug: /guide/medicines
 
 `Medicines` are added to the profile in the same way as diaries.
 
-- Search in the catalog database
 - Medication constructor
+- Search for a template in the catalog (general database section)
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/guide/med/medLayout.png"/></div>
 

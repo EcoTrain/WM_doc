@@ -7,10 +7,10 @@ slug: /guide/schedule
 
 An important element of the system is task scheduling. In this case, the tasks are divided into
 
-- `reminders`,
-- `taking medications`,
-- `an appointment with a doctor` and
-- `keeping diaries`
+- `Reminders`, (simple text reminder)
+- `Taking medications`,
+- `Doctor's appointment`
+- `Keeping diaries`
 
 ## Scheduler Interface {#schedule_interface}
 
@@ -43,7 +43,7 @@ After clicking, you get to the window for selecting the `type of event`. Current
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/guide/calendar/schedulerEventTypes.png"/></div>
 
-Depending on the selected event type, the event designer window that is opened next will contain a slightly different set of components, but in most cases, these sets overlap.
+Depending on the selected type of event, the event creation form will have the corresponding fields for entering parameters.
 
 <div align="center">
     <img type="imgscreen" src="/WM_doc/img/guide/calendar/addEvent_default.png"/>

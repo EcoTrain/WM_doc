@@ -7,8 +7,8 @@ slug: /guide/medicines
 
 `Медикаменты` добавляются в профиль теми же способами, что и дневники.
 
-- Поиск в базе каталога
 - Конструктор медикаментов
+- Поиск шаблона в каталоге (общий раздел базы данных)
 
 <div align="center"><img type="imgscreen" src="/WM_doc/img/guide/med/medLayout.png"/></div>
 

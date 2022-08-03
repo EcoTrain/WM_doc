@@ -17,6 +17,9 @@
   "sidebar.guide.category.Medicines": {
     "message": "Медикаменты"
   },
+  "sidebar.guide.category.QR code": {
+    "message": "QR код"
+  },
   "sidebar.releases.category.Release notes": {
     "message": "Заметки релизов"
   },
