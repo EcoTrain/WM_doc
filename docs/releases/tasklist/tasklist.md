@@ -14,6 +14,9 @@ slug: /releases/tasklist
 - - [ ] Adding new products to the database
 - - [ ] Graph = progress (calorie limit)
 - - [ ] Log = per day
+- [ ] Display on the graph of the diary the limits of the values ​​of variables
+- [ ] Warning thresholds in variables and their designation on diary charts
+- [ ] Selecting multiple entries in the log in the diary to delete
 
 ### Types of diaries:
 
@@ -105,13 +108,7 @@ Analyzes should include fields such as:
   - - [ ] In case of failure, hang a button with (!)
   - - [ ] By the button to offer to send again. Collect data and resend.
 - [ ] Fast diary sending
-  - - [ ] Collection of all data into one object
-  - - [ ] Getting information about the diary from the link
-  - - [ ] Send data in chat
 - [ ] Fast medication sending
-  - - [ ] Collection of all data into one object
-  - - [ ] Obtaining information about the drug by reference
-  - - [ ] Send data in chat
 - [ ] Implementation of the exchange of other [`types of information`](/docs/guide/chat)
 - [ ] Search by messages
 - [ ] Improved user search (more search options)
@@ -139,7 +136,6 @@ Analyzes should include fields such as:
 
 ### QR codes
 
-- [ ] Opening links through the application (home page and QR)
 - [ ] QR code access settings
   - - [ ] QR code lifetime
   - - [ ] Opening/closing access to information on it

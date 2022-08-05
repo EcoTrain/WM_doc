@@ -598,14 +598,11 @@ QR:
 - [x] "Share" option via other apps (Mobile app)
 - [x] Save QR code image to file (Mobile app)
 
-### Build #23 (future)
+### Build #23
 
 General:
 
-- [ ] Display on the graph of the diary the limits of the values ​​of variables
-- [ ] Warning thresholds in variables and their designation on diary charts
-- [ ] Selecting multiple entries in the log in the diary to delete
-- [ ] (iOS) Scroll to multi-line input fields when clicking on the field
+- [x] (iOS) Scroll to multi-line input fields when clicking on the field
 
 QR:
 
@@ -613,16 +610,15 @@ QR:
 - [x] Save QR code image to file (Web browser)
 - [x] Copy image and link (separately, 2 buttons)
 - [x] "Share" option via other applications (Web browser)
+
+### Build #24 (future)
+
+QR:
+
 - [ ] Access settings
   - - [ ] QR code lifetime
   - - [ ] Opening/closing access to information on it
   - - [ ] Share via other apps
-
-Authorization:
-
-- [ ] Per-device token login and 'Logout on all devices' option
-
-### Build #24 (future)
 
 Scheduler:
 
@@ -637,3 +633,7 @@ Scheduler:
 - [ ] New event types
   - - [ ] Making an appointment with a doctor
   - - [ ] Diary reminder
+
+Authorization:
+
+- [ ] Per-device token login and 'Logout on all devices' option
