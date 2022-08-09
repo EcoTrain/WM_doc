@@ -613,6 +613,18 @@ QR:
 
 ### Build #24 (future)
 
+Profile:
+
+- [x] Fixed editing profile info
+- [x] Switching the size of the application window (2 modes - windowed / full screen)
+- [x] Changed the full-screen view of the application in the web version
+
+Diaries:
+
+- [x] Fixed deletion of variables. When deleted, they are marked in the diary logs as deleted.
+
+### Build #25 (future)
+
 QR:
 
 - [ ] Access settings
