@@ -131,3 +131,4 @@ slug: /releases/tasklist
   - - [x] Thumbnail 128px (фон)
   - - [x] Resize 320px (Просмотр)
   - - [ ] Full (скачивается отдельно по ссылке)
+

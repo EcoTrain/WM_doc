@@ -613,15 +613,25 @@ QR:
 
 ### Build #24 (future)
 
+General:
+
+- [x] Dynamically change the height of multi-line input fields
+
 Profile:
 
-- [x] Fixed editing profile info
+- [x] Fixed editing profile information
 - [x] Switching the size of the application window (2 modes - windowed / full screen)
 - [x] Changed the full-screen view of the application in the web version
 
 Diaries:
 
 - [x] Fixed deletion of variables. When deleted, they are marked in the diary logs as deleted.
+- [x] Entering multiple variables is presented as a form
+- [x] Added option not to fill in all fields (last log values ​​are supplied)
+
+Scheduler:
+
+- [x] Calendar Popup
 
 ### Build #25 (future)
 
