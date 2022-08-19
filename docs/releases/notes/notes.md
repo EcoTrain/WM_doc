@@ -611,7 +611,7 @@ QR:
 - [x] Copy image and link (separately, 2 buttons)
 - [x] "Share" option via other applications (Web browser)
 
-### Build #24 (future)
+### Build #24
 
 General:
 
@@ -619,7 +619,7 @@ General:
 
 Profile:
 
-- [x] Fixed editing profile information
+- [x] Fixed editing profile info
 - [x] Switching the size of the application window (2 modes - windowed / full screen)
 - [x] Changed the full-screen view of the application in the web version
 
@@ -633,14 +633,29 @@ Scheduler:
 
 - [x] Calendar Popup
 
-### Build #25 (future)
+### Build #25
+
+Offline:
+
+- [x] Restored offline mode (substitution of local data in the absence of a network)
+- [x] Local data substitution before server response (application cache, no wait delay)
+
+Scheduler:
+
+- [x] Change the color theme of the calendar to the theme of the application
+
+PIN:
+
+- [x] Increased the maximum number of input attempts to 4
+
+### Build #26 (future)
 
 QR:
 
 - [ ] Access settings
   - - [ ] QR code lifetime
   - - [ ] Opening/closing access to information on it
-  - - [ ] Share via other apps
+  - - [ ] Share via other applications
 
 Scheduler:
 
@@ -651,7 +666,7 @@ Scheduler:
 - [ ] Event mark
 - [ ] Link execution to history
 - [ ] Modal window for selecting event type
-- [ ] Filtering events by types
+- [ ] Filtering events by type
 - [ ] New event types
   - - [ ] Making an appointment with a doctor
   - - [ ] Diary reminder
