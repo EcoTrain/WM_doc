@@ -44,8 +44,6 @@ slug: /releases/tasklist
 
 ### [Medicines](/docs/guide/medicines)
 
-[Constructor](/docs/guide/medicines#creation)
-
 - [ ] Sending in chat
 
 ### Documentation

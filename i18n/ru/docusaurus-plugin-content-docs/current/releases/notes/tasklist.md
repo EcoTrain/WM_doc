@@ -31,8 +31,6 @@ slug: /releases/tasklist
 
 ### [Медикаменты](/docs/guide/medicines)
 
-[Конструктор](/docs/guide/medicines#creation)
-
 - [ ] Отправка в чате
 
 ### Документы
@@ -131,4 +129,5 @@ slug: /releases/tasklist
   - - [x] Thumbnail 128px (фон)
   - - [x] Resize 320px (Просмотр)
   - - [ ] Full (скачивается отдельно по ссылке)
-
+- [ ] Скелетон на анимацию загрузки виджетов
+- [ ] ...
