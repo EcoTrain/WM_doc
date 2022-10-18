@@ -1,7 +1,7 @@
 ---
-id: release_notes
-title: Заметки релизов
-slug: /releases/notes
+id: newArch_dev
+title: Разработка
+slug: /releases/newArch/forDevs
 ---
 
 # WM v2.0. Разработка

@@ -25,5 +25,8 @@
   },
   "sidebar.releases.category.Feature announcement": {
     "message": "Анонс функций"
+  },
+  "sidebar.releases.category.WM v2.0": {
+    "message": "Новая архитектура"
   }
 }
