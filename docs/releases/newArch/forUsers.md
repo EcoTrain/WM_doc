@@ -16,20 +16,31 @@ slug: /releases/newArch/forUsers
 
 - [ ] Text editor for formulas in LaTeX format with substitution of mathematical operators and selected variables
 - [ ] Search for a diary in the catalog database
-
+- [ ] Select units of measurement from the general list
+- [ ] Unit conversion
+   > Recalculation of values when changing the unit of measure
+- [ ] Change the order of widgets on the dashboard
+- [ ] Export dashboard and diary data
+- [ ] New diary types
+   - - [ ] WaterFall
+   - - [ ] Bar Chart
+   - - [ ] Pie Chart
+   - - [ ] Combine Chart
 ## Medicines
 
-- [ ] Search for a drug in the catalog database
+- [ ] Search for a medicine in the catalog database
 
 ## Task Manager
 
+- [ ] Converting a Task Board to a Task List View
+- [ ] Marks on the calendar about the tasks for the day
 - [ ] Add a general type event
   - Choice of geolocation of the event location
   - Invite other users
-  - Notification in advance and regularly (selection of time and frequency)
   - Email notification
+- [ ] Event notification in advance and regularly (selection of time and frequency)
 - [ ] Select the period of activity for the event (for regular execution of tasks)
-- [ ] Event mark
+- [ ] Mark "completed"
 
 ## Chats
 
