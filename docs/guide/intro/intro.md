@@ -27,7 +27,7 @@ The assistant is designed to support and accompany users, as well as to maintain
         <LogoDiary className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         <a href="/docs/guide/history">Health diaries</a> allow you to monitor health indicators. The diary chart aggregates your data for the selected period and reflects the dynamics of changes in indicators. You can customize the diary widgets for yourself and change both the visual parameters and the indicators that your diary takes into account.
     </TabItem>
-    <TabItem label="Event Scheduler" value='2'>
+    <TabItem label="Scheduler" value='2'>
         <LogoScheduler className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Create single and recurring events with reminders in <a href="/docs/guide/schedule">Scheduler</a>. This will help you stick to your medication regimen, keep a diary, and keep track of personal things like doctor visits.
     </TabItem>
@@ -35,7 +35,7 @@ The assistant is designed to support and accompany users, as well as to maintain
         <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         You can exchange messages in a <a href="/docs/guide/messenger">messenger</a>, attach images and documents. Find a user using the search bar and write to him or create a group chat. You will be notified about all the events in the messenger by a push notification or an instant update of the information on the screen.
     </TabItem>
-    <TabItem label="Offline mode" value='5'>
+    <TabItem label="Offline" value='5'>
         <LogoOffiline className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         If you do not have access to the Internet, all your data will be saved on the device and added to the queue for sending.
     </TabItem>

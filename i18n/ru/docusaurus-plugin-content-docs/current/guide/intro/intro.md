@@ -18,23 +18,23 @@ import LogoOffiline from '@site/static/img/guide/about/functional/offline_logo.s
 ## Функционал
 
 <Tabs className="unique-tabs" style={{}}>
-    <TabItem label="Health diaries" value='1'>
+    <TabItem label="Дневники здоровья" value='1'>
         <LogoDiary className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         <a href="/docs/guide/history">Дневники здоровья</a> позволяют следить за показателями здоровья. График дневника агрегирует ваши данные по выбранному периоду и отражает динамику изменения показателей. Вы можете настроить виджеты дневника под себя и изменить как визуальные параметры, так и показатели которые учитывает ваш дневник.
     </TabItem>
-    <TabItem label="Event Scheduler" value='2'>
+    <TabItem label="Планировщик" value='2'>
         <LogoScheduler className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Создавайте одиночные и повторяющиеся мероприятия с напоминаниями в <a href="/docs/guide/schedule">планировщике</a>. Это поможет вам придерживаться режима приема лекарств, вести дневник и следить за личными вещами, такими как визиты к врачу.
     </TabItem>
-    <TabItem label="Messenger" value='3'>
+    <TabItem label="Мессенджер" value='3'>
         <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Вы можете обмениваться сообщениями в <a href="/docs/guide/messenger">мессенджере</a>, прикреплять изображения и документы. Найдите пользователя с помощью строки поиска и напишите ему или создайте групповой чат. Обо всех событиях в чате вы будете уведомлены push-уведомлением или мгновенным обновлением информации на экране.
     </TabItem>
-    <TabItem label="Offline mode" value='5'>
+    <TabItem label="Оффлайн" value='5'>
         <LogoOffiline className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Если у вас нет доступа к интернету, все ваши данные будут сохранены на устройстве и добавлены в очередь на отправку.
     </TabItem>
-    <TabItem label="Synchronization" value='6'>
+    <TabItem label="Синхронизация" value='6'>
         <LogoSync className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         При появлении доступа в интернет данные синхронизируются с сервером и обновляются на устройстве.
     </TabItem>
