@@ -19,9 +19,9 @@
     "message": "Planning",
     "description": "The label for category Planning in sidebar guide"
   },
-  "sidebar.guide.category.Chat": {
-    "message": "Chat",
-    "description": "The label for category Chat in sidebar guide"
+  "sidebar.guide.category.Messenger": {
+    "message": "Messenger",
+    "description": "The label for category Messenger in sidebar guide"
   },
   "sidebar.guide.category.Хранение сущностей": {
     "message": "Хранение сущностей",

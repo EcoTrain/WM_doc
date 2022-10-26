@@ -16,10 +16,10 @@ const FeatureList = [
     link: "/WM_doc/docs/guide/schedule",
   },
   {
-    title: "Chat",
+    title: "Messenger",
     Svg: require("/img/main_chat.svg").default,
     description: <>Chat with other users</>,
-    link: "/WM_doc/docs/guide/chat",
+    link: "/WM_doc/docs/guide/messenger",
   },
 ];
 

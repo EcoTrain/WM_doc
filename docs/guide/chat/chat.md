@@ -1,20 +1,20 @@
 ---
-id: chat
-title: Chat
-slug: /guide/chat
+id: messenger
+title: Messenger
+slug: /guide/messenger
 ---
 
-Chat is the main method of interaction between users. Here, users can exchange various types of information. Currently, among the `types of information` available:
+Messenger is the main tool for interaction between users. Here, users can exchange various types of information. Currently, among the `types of information` available:
 
 - `Text`
 - `Image`
 - `Document`
 
-### Chat window interface
+### Messenger interface
 
-At the heart of the chat, the selection window is the `SearchPanel` component, as in the Diaries. This allows both local searches for chats by users and global searches for all users.
+At the heart of the messenger, the selection window is the `SearchPanel` component, as in the Diaries. This allows both local searches for chats by users and global searches for all users.
 
-Depending on the width of the screen, the chat window appears as a separate window or is displayed to the right of the chat list.
+Depending on the width of the screen, the messenger window appears as a separate window or is displayed to the right of the chat list.
 
 <div align="center">
     <img type="imgscreen" src="/WM_doc/img/guide/chat/chatViewOpen.png"/>
@@ -41,7 +41,7 @@ Formats: .doc, .docx, .pdf
 ## Chat settings
 
 In the chat header there is a button to go to the settings window.
-In the chat settings you can do:
+In the settings you can do:
 
 - Hide chat (all messages are available when you return to the chat)
 - Clear chat (deletes all old messages)

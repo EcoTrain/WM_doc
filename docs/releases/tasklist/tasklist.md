@@ -97,7 +97,7 @@ Analyzes should include fields such as:
   - - [ ] Editing
 - [ ] More personal information (optional)
 
-## [Chat](/docs/guide/chat)
+## [Messenger](/docs/guide/messenger)
 
 - [ ] Checking if a message has been sent
   - - [ ] In case of failure, cache the message
@@ -105,7 +105,7 @@ Analyzes should include fields such as:
   - - [ ] By the button to offer to send again. Collect data and resend.
 - [ ] Fast diary sending
 - [ ] Fast medication sending
-- [ ] Implementation of the exchange of other [`types of information`](/docs/guide/chat)
+- [ ] Implementation of the exchange of other [`types of information`](/docs/guide/messenger)
 - [ ] Search by messages
 - [ ] Improved user search (more search options)
 - [ ] Personal chat settings

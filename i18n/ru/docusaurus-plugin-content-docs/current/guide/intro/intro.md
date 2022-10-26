@@ -26,9 +26,9 @@ import LogoOffiline from '@site/static/img/guide/about/functional/offline_logo.s
         <LogoScheduler className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
         Создавайте одиночные и повторяющиеся мероприятия с напоминаниями в <a href="/docs/guide/schedule">планировщике</a>. Это поможет вам придерживаться режима приема лекарств, вести дневник и следить за личными вещами, такими как визиты к врачу.
     </TabItem>
-    <TabItem label="Chat" value='3'>
+    <TabItem label="Messenger" value='3'>
         <LogoChat className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
-        Вы можете обмениваться сообщениями в <a href="/docs/guide/chat">чате</a>, прикреплять изображения и документы. Найдите пользователя с помощью строки поиска и напишите ему или создайте групповой чат. Обо всех событиях в чате вы будете уведомлены push-уведомлением или мгновенным обновлением информации на экране.
+        Вы можете обмениваться сообщениями в <a href="/docs/guide/messenger">мессенджере</a>, прикреплять изображения и документы. Найдите пользователя с помощью строки поиска и напишите ему или создайте групповой чат. Обо всех событиях в чате вы будете уведомлены push-уведомлением или мгновенным обновлением информации на экране.
     </TabItem>
     <TabItem label="Offline mode" value='5'>
         <LogoOffiline className="blackSvgIcon"  style={{width: "10%",height: '100%',marginRight: 20, float: 'left'}}/>
@@ -51,7 +51,7 @@ import LogoOffiline from '@site/static/img/guide/about/functional/offline_logo.s
         <img align="left" src="/WM_doc/img/guide/about/plan/map_logo.svg" style={{width: "10%",marginRight: 20}}/>
        Отображение полезных мест на карте и построение маршрутов до них. Таких как места оказания медицинской помощи или страховые компании.
     </TabItem>
-    <TabItem label="Chat" value='3'>
+    <TabItem label="Messenger" value='3'>
         <img align="left" src="/WM_doc/img/guide/about/plan/chat_logo.svg" style={{width: "10%",marginRight: 20}}/>
         Обмен новыми типами вложений, таких как медикаменты и дневники. Персональные настройки. Пересылка сообщений.
     </TabItem>

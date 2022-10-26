@@ -11,8 +11,8 @@
   "sidebar.guide.category.Planning": {
     "message": "Планирование"
   },
-  "sidebar.guide.category.Chat": {
-    "message": "Чат"
+  "sidebar.guide.category.Messenger": {
+    "message": "Мессенджер"
   },
   "sidebar.guide.category.Medicines": {
     "message": "Медикаменты"
@@ -20,13 +20,13 @@
   "sidebar.guide.category.QR code": {
     "message": "QR код"
   },
-  "sidebar.releases.category.Release notes": {
+  "sidebar.releases.tasklist.category.Release notes": {
     "message": "Заметки релизов"
   },
-  "sidebar.releases.category.Feature announcement": {
+  "sidebar.releases.notes.category.Feature announcement": {
     "message": "Анонс функций"
   },
-  "sidebar.releases.category.WM v2.0": {
-    "message": "Новая архитектура"
+  "sidebar.releases.newArch.category.WM v2.0": {
+    "message": "WM v2.0"
   }
 }

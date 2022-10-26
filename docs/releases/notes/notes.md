@@ -91,7 +91,7 @@ General:
 - [x] Navigation buttons reverted to standard view (OS template)
 - [x] Removed website frame on mobile browsers (look like app)
 
-Chat:
+Messenger:
 
 - [x] (web) Extended list of document formats
 - [x] (web) Extended list of image formats
@@ -111,9 +111,9 @@ QR:
 
 ### Build №21
 
-Chat:
+Messenger:
 
-- [x] Change chat view
+- [x] Change messenger view
 - [x] Select messages with one tap
 - [x] Message selection and editing are independent of each other
 - [x] Add/remove files on the server when editing posts
@@ -346,7 +346,7 @@ Diaries:
 - [x] Messages and users as arrays
 - [x] Creating a server-side chat
 - [x] Adding a chat to users after 1 message in it
-- [x] Exit chat
+- [x] Leave chat
 - [x] When the last user logs out, the chat is deleted.
 
 ### Build №52
