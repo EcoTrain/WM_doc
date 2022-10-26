@@ -20,13 +20,13 @@
   "sidebar.guide.category.QR code": {
     "message": "QR код"
   },
-  "sidebar.releases.tasklist.category.Release notes": {
+  "sidebar.releases.category.Release notes": {
     "message": "Заметки релизов"
   },
-  "sidebar.releases.notes.category.Feature announcement": {
+  "sidebar.releases.category.Feature announcement": {
     "message": "Анонс функций"
   },
-  "sidebar.releases.newArch.category.WM v2.0": {
+  "sidebar.releases.category.WM v2.0": {
     "message": "WM v2.0"
   }
 }
