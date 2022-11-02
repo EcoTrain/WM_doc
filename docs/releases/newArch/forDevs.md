@@ -15,6 +15,10 @@ import LogoFirebase from '@site/static/img/guide/about/stack/firebase_logo.svg';
 
 # WM v2.0. Development
 
+:::info
+Version 2.0 is under development and is being implemented in parallel with the main application.
+:::
+
 ## Convenience
 
 ### API 2.0: Enhanced user experience

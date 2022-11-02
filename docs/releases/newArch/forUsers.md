@@ -6,6 +6,10 @@ slug: /releases/newArch/forUsers
 
 # WM v2.0. Functional
 
+:::info
+Version 2.0 is under development and is being implemented in parallel with the main application.
+:::
+
 ## Authorization
 
 - [ ] Register/Login with Google
@@ -18,14 +22,15 @@ slug: /releases/newArch/forUsers
 - [ ] Search for a diary in the catalog database
 - [ ] Select units of measurement from the general list
 - [ ] Unit conversion
-   > Recalculation of values when changing the unit of measure
+  > Recalculation of values when changing the unit of measure
 - [ ] Change the order of widgets on the dashboard
 - [ ] Export dashboard and diary data
 - [ ] New diary types
-   - - [ ] WaterFall
-   - - [ ] Bar Chart
-   - - [ ] Pie Chart
-   - - [ ] Combine Chart
+  - - [ ] WaterFall
+  - - [ ] Bar Chart
+  - - [ ] Pie Chart
+  - - [ ] Combine Chart
+
 ## Medicines
 
 - [ ] Search for a medicine in the catalog database
