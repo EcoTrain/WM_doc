@@ -17,10 +17,18 @@ function HomepageHeader() {
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons} style={{ flexFlow: "wrap" }}>
-          <Link style={{ margin: 12 }} className="button button--secondary button--lg" to="https://wellness.a2rd.com">
+          <Link
+            style={{ margin: 12 }}
+            className="button button--secondary button--lg"
+            to="https://wellness.a2rd.com"
+          >
             Web App 💊
           </Link>
-          <Link className="button button--primary button--lg" to="/docs/guide">
+          <Link
+            className="button button--primary button--lg"
+            to="/docs/guide"
+            style={{ color: "white" }}
+          >
             Get started ⏱️
           </Link>
         </div>
@@ -35,14 +43,28 @@ export default function Home() {
     // title={`${siteConfig.title}`}
     // description="Description of implemented functionality and plans for future releases"
     >
-      <Head prefix="og: http://ogp.me/ns#">{/* <meta property="og:image" content="image.png" /> */}</Head>
+      <Head prefix="og: http://ogp.me/ns#">
+        {/* <meta property="og:image" content="image.png" /> */}
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
       <div className="storeBtns">
-        {RDD.isAndroid && <MobileStoreButton store="ios" url={""} linkProps={{ title: "iOS Store Button" }} />}
-        {RDD.isIOS && <MobileStoreButton store="android" url={""} linkProps={{ title: "Android Store Button" }} />}
+        {RDD.isAndroid && (
+          <MobileStoreButton
+            store="ios"
+            url={""}
+            linkProps={{ title: "iOS Store Button" }}
+          />
+        )}
+        {RDD.isIOS && (
+          <MobileStoreButton
+            store="android"
+            url={""}
+            linkProps={{ title: "Android Store Button" }}
+          />
+        )}
       </div>
     </Layout>
   );

@@ -9,6 +9,10 @@
   --ifm-code-font-size: 95%;
   --ifm-color-white: hsl(210, 33%, 98%);
 }
+:root[data-theme="dark"] {
+  --ifm-color-primary: #598484;
+
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
